@@ -1,0 +1,370 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2005-11 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2547                
+POS_VISITOR 6848                
+POS_DAY 9144                
+POS_DOMAIN 3180                
+POS_LOGIN 3514                
+POS_ROBOT 3669                
+POS_WORMS 3936                
+POS_EMAILSENDER 4067                
+POS_EMAILRECEIVER 4210                
+POS_SESSION 9720                
+POS_SIDER 9917                
+POS_FILETYPES 4345                
+POS_OS 4507                
+POS_BROWSER 4596                
+POS_SCREENSIZE 4719                
+POS_UNKNOWNREFERER 4793                
+POS_UNKNOWNREFERERBROWSER 4980                
+POS_ORIGIN 5079                
+POS_SEREFERRALS 5219                
+POS_PAGEREFS 5406                
+POS_SEARCHWORDS 5587                
+POS_KEYWORDS 6154                
+POS_MISC 2211                
+POS_ERRORS 6426                
+POS_CLUSTER 3370                
+POS_SIDER_404 6522                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20051201093100 267 55309 11948637345803
+FirstTime 20051101110005
+LastTime 20051130160714
+LastUpdate 20051202133116 267 0 266 0 0
+TotalVisits 45                  
+TotalUnique 41                  
+MonthHostsKnown 30                  
+MonthHostsUnknown 11                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 4 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 1 0
+1 2 2 19108 5 8 0
+2 1 1 9554 0 0 0
+3 0 0 0 2 3 0
+4 0 0 0 0 0 0
+5 12 40 561351 8 8 19108
+6 9 72 1074335 2 2 0
+7 0 0 0 2 2 0
+8 11 75 1215739 6 6 28662
+9 12 74 1163404 0 0 0
+10 0 0 0 0 0 0
+11 18 82 1451727 0 0 0
+12 7 49 659395 0 0 0
+13 9 74 1079769 0 1 2605
+14 38 231 4243155 1 2 2484
+15 21 164 1942358 6 8 67725
+16 17 130 1911740 4 4 19108
+17 15 84 984711 5 5 27170
+18 0 0 0 4 4 9554
+19 6 6 58715 0 0 0
+20 16 115 1303557 2 4 9007
+21 0 0 0 6 8 20987
+22 0 0 0 4 6 43452
+23 14 72 824457 7 9 47321
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+us 168 1050 15091768
+ip 17 113 1995976
+es 11 39 561351
+gt 4 37 490471
+mx 3 27 315739
+ca 2 2 19108
+nl 2 2 19108
+gb 1 1 9554
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+googlebot 15 104711 20051129225410 0
+slurp 13 19108 20051130051820 0
+crawl 8 83098 20051126031223 0
+linkwalker 6 9554 20051123234853 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+html 44 353498 0 0
+jpg 501 11659902 0 0
+js 72 279217 0 0
+htm 96 921253 0 0
+gif 490 1279357 0 0
+swf 68 4009848 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 5
+winxp 1126
+winnt 2
+win2000 2
+win98 128
+Unknown 13
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 6
+msie6.0 1229
+firefox1.0.7 25
+mozilla 3
+firefox1.0 2
+Unknown 10
+msie3.0 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+- 20051129053800
+Mozilla/4.0_(compatible;) 20051105231443
+Mozilla/3.01_(compatible;) 20051127202340
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+- 20051129053800
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 89 111
+From1 0 0
+From2 28 31
+From3 1 27
+From4 90 1102
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+altavista 6 6
+google_image 6 9
+yahoo 16 16
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://66.249.93.104/search 1 27
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 15
+equipo+para+perforar+pozos+de+agua 3
+metodos+de+perforacion+de+pozos 3
+pozos+a+tierra 2
+pozos+de+agua 2
+perforacion+de+pozos 2
+pozos+en+rehabilitacion 1
+bentonita+en+la+perforacion 1
+pozos+mecanicos 1
+tecnicas+en+perforacion+de+pozos 1
+perforacion+pozos+de+agua 1
+metodos+de+perforaci%c3%b3n+de+pozos 1
+pozos+a+tierra+electricos 1
+perforacion+de+tierra 1
+inmobiliaria+tierra+segura 1
+perforacion+de+pozo+de+agua 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 21
+de 20
+pozos 18
+perforacion 10
+agua 7
+tierra 5
+metodos 4
+equipo 3
+a 3
+para 3
+perforar 3
+en 3
+perforaci%c3%b3n 1
+bentonita 1
+electricos 1
+rehabilitacion 1
+la 1
+pozo 1
+inmobiliaria 1
+tecnicas 1
+segura 1
+mecanicos 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 7 80712
+404 32 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 1
+/robots.txt 32 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 41
+ip-61-091.guate.net.gt 19 114 1957705 20051110154556
+dup-200-65-9-185.prodigy.net.mx 13 82 965603 20051108172923
+dsl-201-144-210-240.prod-infinitum.com.mx 9 54 1060043 20051103143854
+dsl-201-138-162-251.prod-infinitum.com.mx 8 49 798907 20051129204428
+200.106.130.232 8 48 900000 20051120083701
+207.158.intelnet.net.gt 8 38 608861 20051107231757
+201.242.139.133 8 47 903468 20051130064319
+62-15-156-26.inversas.jazztel.es 8 10 133258 20051129053800
+dsl-201-138-191-77.prod-infinitum.com.mx 7 44 723750 20051126144139
+200-90-29-82.genericrev.cantv.net 7 39 723750 20051129091958
+dsl-201-128-246-200.prod-infinitum.com.mx 6 39 508844 20051130121116
+209.124.97.112 6 38 695884 20051123152026
+dsl-200-95-90-73.prod-infinitum.com.mx 6 38 780237 20051130160714
+201-249-7-47.genericrev.cantv.net 6 40 780546 20051107115017
+client-200.60.217.171.speedy.net.pe 6 54 315739 20051116151919
+dpc691922050.direcpc.com 6 36 612466 20051101112152
+66.148.67.104 6 6 58715 20051115114304
+63.148.99.234 6 6 58715 20051110194835
+client-200.121.45.209.speedy.net.pe 5 35 439654 20051116090826
+dsl-201-138-184-218.prod-infinitum.com.mx 5 38 499290 20051130150113
+dsl-201-133-110-14.prod-infinitum.com.mx 5 35 603987 20051109155753
+172-6-175-62.user.auna.net 5 35 603987 20051118131355
+168.234.218.5 4 37 490471 20051102163529
+247.158.intelnet.net.gt 4 33 108883 20051125203526
+na-200-34-91-250.na.avantel.net.mx 4 32 489158 20051121141417
+dsl-201-128-123-133.prod-infinitum.com.mx 1 5 80028 20051122200937
+ip-sv.66.249.200.3.telefonica-ca.net 3 27 315739 20051105085000
+200.119.108.204 3 27 315739 20051111163706
+206.158.intelnet.net.gt 2 6 215596 20051107231743
+62-15-45-154.inversas.jazztel.es 3 29 428093 20051106051107
+red-corp-200.38.11.93.telnor.net 3 27 315739 20051108160905
+230.142.intelnet.net.gt 1 1 0 20051105231443
+201-248-37-236.genericrev.cantv.net 3 27 315739 20051102142940
+cliente-17408.iberbanda.es 1 25 170867 20051115060837
+lager.netcraft.com 1 1 9554 20051110015337
+64.71.167.63 1 1 9554 20051120011613
+na-212-194.na.avantel.net.mx 3 27 315739 20051103203740
+169.139.222.5 1 10 150551 20051101124946
+64.114.199.1 2 2 19108 20051127162630
+200.158.intelnet.net.gt 3 27 0 20051107232346
+213.222.11.18 2 2 19108 20051115024709
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 22
+20051101 7 46 763017 2
+20051102 7 64 806210 2
+20051103 12 81 1375782 2
+20051105 5 29 325293 3
+20051106 3 29 428093 1
+20051107 20 112 1605003 5
+20051108 16 109 1281342 2
+20051109 20 120 2409676 2
+20051110 10 34 220285 3
+20051111 4 28 325293 2
+20051115 8 32 239136 3
+20051116 11 89 755393 2
+20051118 5 35 603987 1
+20051120 9 49 909554 2
+20051121 4 32 489158 1
+20051122 1 5 80028 1
+20051123 6 38 695884 1
+20051125 4 33 108883 1
+20051126 7 44 723750 1
+20051127 1 2 9554 1
+20051129 23 98 1655915 3
+20051130 25 162 2691839 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 1
+5mn-15mn 5
+2mn-5mn 3
+15mn-30mn 2
+0s-30s 21
+30s-2mn 13
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 14
+/ 44 353498 41 12
+/images/rotativasgrande.swf 34 2330485 0 5
+/images/rotativas2.swf 34 1679363 1 4
+/profundizacion.htm 20 172634 1 4
+/perforacion.htm 20 258115 0 3
+/rehabilitacion.htm 11 102135 0 4
+/equipo.htm 11 87260 0 5
+/sellamiento.htm 9 76311 0 2
+/entrenamiento.htm 8 85728 0 3
+/its.htm 5 53170 0 0
+/contactenos.htm 4 26457 1 2
+/index.htm 4 38216 1 1
+/quienes_somos.htm 3 20704 0 0
+/mapa.htm 1 523 0 0
+END_SIDER

@@ -1,0 +1,351 @@
+AWSTATS DATA FILE 6.1 (build 1.751)
+# If you remove this file, all statistics for date 2004-12 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2508                
+POS_VISITOR 6240                
+POS_DAY 8689                
+POS_DOMAIN 3131                
+POS_LOGIN 3420                
+POS_ROBOT 3610                
+POS_WORMS 3781                
+POS_EMAILSENDER 3912                
+POS_EMAILRECEIVER 4055                
+POS_SESSION 9382                
+POS_SIDER 9589                
+POS_FILETYPES 4190                
+POS_OS 4389                
+POS_BROWSER 4498                
+POS_SCREENSIZE 4613                
+POS_UNKNOWNREFERER 4687                
+POS_UNKNOWNREFERERBROWSER 4970                
+POS_ORIGIN 5083                
+POS_SEREFERRALS 5224                
+POS_PAGEREFS 5368                
+POS_SEARCHWORDS 5582                
+POS_KEYWORDS 5734                
+POS_MISC 2198                
+POS_ERRORS 5793                
+POS_CLUSTER 3276                
+POS_SIDER_404 5896                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20050102034336 1 0 25550795468
+FirstTime 20041201000046
+LastTime 20041231113057
+LastUpdate 20050102231402 1 0 0 0 0
+TotalVisits 87                  
+TotalUnique 48                  
+MonthHostsKnown 45                  
+MonthHostsUnknown 4                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 9
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 18 0 0 0 0
+1 1 1 0 4 5 32008
+2 4 4 8668 0 0 0
+3 1 2 8668 3 4 31390
+4 1 4 0 0 0 0
+5 0 11 0 2 2 8668
+6 2 5 0 3 3 30739
+7 2 3 0 1 1 8624
+8 82 259 1239656 1 1 0
+9 37 98 1559278 4 4 6144
+10 38 162 1302506 0 0 0
+11 37 150 674359 5 5 6144
+12 33 114 1168528 0 0 0
+13 5 9 0 0 0 0
+14 10 40 350567 0 0 0
+15 18 75 771572 0 1 52151
+16 19 131 692861 3 3 16832
+17 6 30 0 1 1 7919
+18 37 179 685625 0 0 0
+19 23 65 8668 0 1 3455
+20 8 17 219 0 0 0
+21 3 6 0 0 0 0
+22 3 27 276391 0 1 22652
+23 35 128 962296 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+ca 371 1353 7696565
+us 22 72 862814
+de 8 54 685625
+ip 6 58 456190
+gb 1 1 8668
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+tierra 44 44 111152 20041206092020
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+ia_archiver 16 136180 20041212034640 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+htm 185 842277 0 0
+swf 111 2622399 0 0
+html 66 246644 0 0
+js 123 142557 0 0
+jpg 420 5575724 0 0
+Unknown 2 447 0 0
+gif 587 168662 0 0
+exe 44 111152 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 7
+winme 26
+winxp 1052
+winnt 25
+win2000 31
+Unknown 210
+win98 193
+linux 1
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 6
+msie6.0 1195
+mozilla 165
+curl 1
+firefox 51
+msie5.5 81
+Unknown 45
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/2.0_(compatible;_MS_FrontPage_4.0) 20041206085802
+Mozilla/4.0_(compatible;_T-H-U-N-D-E-R-S-T-O-N-E) 20041215114017
+Mozilla/3.01_(compatible;) 20041230080445
+MSFrontPage/4.0 20041206092020
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+MSFrontPage/4.0 20041206092020
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 261 377
+From1 0 0
+From2 0 0
+From3 11 11
+From4 136 1150
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://www.paginasamarillas.com/pagamanet/procesos/web.aspx 11 11
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+401 1 0
+206 7 90546
+404 8 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 1
+/robots.txt 8 http://www.whois.sc/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 49
+extproxy2.guate.net.gt 140 414 1243396 20041228045541
+208.158.intelnet.net.gt 25 71 771091 20041214184800
+151.158.intelnet.net.gt 20 86 714506 20041227120828
+141.158.intelnet.net.gt 19 55 350567 20041208180830
+ip-147-222.newcomamericas.net 16 105 635623 20041209082957
+163.158.intelnet.net.gt 12 42 49923 20041207152800
+210.158.intelnet.net.gt 12 45 715597 20041208195508
+ip-cust11067.telefonica-ca.net 10 56 683396 20041224103258
+147.158.intelnet.net.gt 8 37 606355 20041228233046
+212.158.intelnet.net.gt 8 19 0 20041208195253
+209.158.intelnet.net.gt 8 20 64612 20041205230147
+186.158.intelnet.net.gt 8 18 96817 20041208122241
+pd9e6099f.dip.t-dialin.net 8 54 685625 20041208180445
+cdm-208-180-231-216.bcst.cox-internet.com 6 31 452938 20041220094616
+66.201.171.81 6 58 456190 20041231113057
+247.158.intelnet.net.gt 6 32 0 20041207190759
+copilot.thunderstone.com 6 8 63398 20041215114017
+242.158.intelnet.net.gt 6 14 0 20041218112137
+ip-cust-sv28100.telefonica-ca.net 6 51 559779 20041209221828
+63.148.99.234 6 6 54391 20041221230633
+232.158.intelnet.net.gt 6 35 110623 20041229103255
+190.158.intelnet.net.gt 5 9 118402 20041208121756
+144.158.intelnet.net.gt 5 8 0 20041208180220
+240.158.intelnet.net.gt 4 27 55960 20041206115730
+206.158.intelnet.net.gt 4 6 8383 20041208200339
+162.158.intelnet.net.gt 1 2 12937 20041206102834
+192.158.intelnet.net.gt 1 3 114172 20041203125441
+154.158.intelnet.net.gt 3 25 11121 20041202161203
+143.158.intelnet.net.gt 2 8 0 20041208180436
+207.158.intelnet.net.gt 1 2 0 20041205230324
+213.158.intelnet.net.gt 4 26 0 20041203172604
+166.158.intelnet.net.gt 4 8 0 20041203132117
+158.158.intelnet.net.gt 3 25 0 20041203180335
+189.158.intelnet.net.gt 3 8 60548 20041208121825
+lager.netcraft.com 1 1 8668 20041211024133
+12.175.0.44 1 1 8668 20041215033422
+239.158.intelnet.net.gt 2 3 51795 20041206115812
+194.158.intelnet.net.gt 1 5 0 20041203125247
+204.158.intelnet.net.gt 3 25 0 20041203124512
+157.158.intelnet.net.gt 1 1 0 20041203180356
+240.136.intelnet.net.gt 3 26 287498 20041206084337
+198.108.215.252 3 25 283419 20041207095615
+131.158.intelnet.net.gt 1 1 0 20041208154019
+132.158.intelnet.net.gt 2 4 0 20041208153958
+p130u60.terra.com.gt 3 25 283419 20041228104255
+211.158.intelnet.net.gt 2 2 8668 20041208195343
+188.158.intelnet.net.gt 0 1 37767 
+187.158.intelnet.net.gt 2 3 43610 20041203125857
+133.158.intelnet.net.gt 1 1 0 20041208153845
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20041201 5 28 47016 2
+20041202 3 25 11121 1
+20041203 35 148 1170651 13
+20041204 6 9 0 2
+20041205 16 54 292025 5
+20041206 139 397 1860188 9
+20041207 32 112 1062674 10
+20041208 71 239 1402372 18
+20041209 7 52 276391 3
+20041210 1 1 0 1
+20041211 2 3 8668 2
+20041212 5 34 9525 1
+20041213 1 1 0 1
+20041214 8 66 144872 3
+20041215 7 9 72066 2
+20041216 5 12 0 1
+20041217 1 1 0 1
+20041218 6 15 0 1
+20041220 6 31 452938 1
+20041221 7 7 54391 2
+20041222 0 15 0 0
+20041223 0 9 0 0
+20041224 10 56 683396 1
+20041225 0 1 0 0
+20041226 1 1 0 1
+20041227 10 42 704981 1
+20041228 12 76 889774 3
+20041229 6 35 110623 1
+20041230 0 1 0 0
+20041231 6 58 456190 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 1
+15mn-30mn 3
+2mn-5mn 3
+30s-2mn 14
+0s-30s 63
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 17
+/ 65 244890 53 16
+/images/rotativas2.swf 57 1116535 2 16
+/images/rotativasgrande.swf 54 1505864 0 6
+/_vti_bin/_vti_aut/author.exe 44 111152 0 0
+/rehabilitacion.htm 38 128020 3 8
+/index.htm 27 77966 10 1
+/perforacion.htm 26 136675 6 9
+/sellamiento.htm 16 78169 1 6
+/contactenos.htm 15 77062 4 8
+/equipo.htm 15 82841 2 5
+/quienes_somos.htm 14 89329 1 5
+/entrenamiento.htm 14 59241 1 2
+/profundizacion.htm 11 67412 1 2
+/its.htm 7 45039 2 1
+/_vti_bin/shtml.exe/_vti_rpc 2 447 1 1
+/mapa.htm 2 523 0 1
+/_vti_inf.html 1 1754 0 0
+END_SIDER

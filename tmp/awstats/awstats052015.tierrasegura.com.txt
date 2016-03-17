@@ -1,0 +1,981 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201505 will be lost/reset.
+# Last config file used to build this data file was /home/tierra/tmp/awstats/awstats.tierrasegura.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2008                
+POS_TIME 2686                
+POS_VISITOR 24744               
+POS_DAY 31921               
+POS_DOMAIN 3503                
+POS_LOGIN 4234                
+POS_ROBOT 4389                
+POS_WORMS 4780                
+POS_EMAILSENDER 4911                
+POS_EMAILRECEIVER 5054                
+POS_SESSION 32722               
+POS_SIDER 32912               
+POS_FILETYPES 5189                
+POS_DOWNLOADS 5423                
+POS_OS 5581                
+POS_BROWSER 5733                
+POS_SCREENSIZE 6592                
+POS_UNKNOWNREFERER 6666                
+POS_UNKNOWNREFERERBROWSER 7179                
+POS_ORIGIN 7502                
+POS_SEREFERRALS 7644                
+POS_PAGEREFS 7801                
+POS_SEARCHWORDS 8160                
+POS_KEYWORDS 8331                
+POS_MISC 2349                
+POS_ERRORS 8409                
+POS_CLUSTER 4090                
+POS_SIDER_404 8525                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150601000501 19 3495 9471984836180
+FirstTime 20150501011357
+LastTime 20150531220916
+LastUpdate 20150601051724 19 0 18 0 0
+TotalVisits 211                 
+TotalUnique 175                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 182                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 50 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 3 34723 22 32 128004
+1 7 15 783112 19 45 109560
+2 2 6 383963 14 16 211040
+3 4 8 394087 12 22 109598
+4 13 36 1664931 86 104 168813
+5 10 22 1364190 16 30 1443639
+6 16 38 1384512 10 19 144309
+7 19 63 11484418 15 26 172710
+8 31 77 3369900 26 44 454643
+9 48 80 3126984 7 20 576343
+10 15 25 1107215 39 50 312135
+11 24 44 1783145 225 368 291991
+12 22 95 7719737 18 32 111779
+13 8 58 2821902 17 25 69500
+14 11 31 2425740 14 24 99986
+15 15 32 1926741 12 22 110719
+16 26 57 2632406 36 51 1314443
+17 19 40 2168539 18 38 549142
+18 14 23 821107 13 16 79285
+19 15 45 3928764 28 45 722529
+20 6 14 774109 15 24 366106
+21 5 9 486727 13 16 79775
+22 9 16 1031750 13 20 725781
+23 4 12 767926 22 53 1240179
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 36
+gt 115 346 26284898
+us 82 137 7169084
+ph 19 27 843856
+br 19 95 7199119
+cn 14 14 70674
+ua 8 8 40496
+pa 8 23 972250
+ec 8 14 707475
+sa 8 16 788174
+ca 7 17 965212
+ru 4 4 20248
+hk 4 4 20151
+it 4 12 767926
+pe 4 8 481665
+es 3 11 782401
+fr 3 3 15186
+eu 3 3 15186
+nl 3 3 15186
+ar 3 15 1136703
+id 2 10 757802
+co 2 6 695802
+cz 2 2 10027
+fi 2 2 5062
+lt 2 2 10027
+be 2 6 383963
+pt 1 5 378901
+ro 1 5 378901
+ie 1 5 378901
+hr 1 5 378901
+jp 2 2 10124
+cl 1 5 378901
+gr 2 10 757802
+ee 1 5 378901
+sv 2 6 380022
+ai 1 5 378901
+ve 2 8 427800
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+bot[\s_+:,\.\;\/\\-] 197 4952386 20150531134941 0
+googlebot 125 3546232 20150531225627 0
+spider 42 240995 20150531020218 0
+robot 19 45316 20150530165257 0
+no_user_agent 11 55682 20150530114427 0
+crawl 8 40302 20150530144442 0
+netcraft 1 5062 20150506200422 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 10 19285 0 0
+png 247 4570867 0 0
+swf 70 5348857 0 0
+php 40 1137811 0 0
+flv 3 11333618 0 0
+html 236 1114691 0 0
+jpg 207 30343848 0 0
+js 8 154118 0 0
+gif 28 363533 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 3
+/Secc/001.flv 2 0 6325896
+/bienesraices.gt/ingresovirtual/ingresosts.xls 2 0 925696
+/Secc/002.flv 1 0 5007722
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 11
+linuxandroid 1
+winlong 13
+winxp 54
+java 2
+winnt 1
+linux 15
+winvista 55
+win7 506
+macosx 147
+win2003 6
+Unknown 49
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 49
+safari7.0 5
+msie6.0 10
+firefox5.0 2
+chrome40.0.2214.115 1
+chrome11.0.672.2 1
+firefox20.0 1
+chrome34.0.1847.137 1
+android 1
+chrome39.0.2171.95 2
+chrome7.0.517.44 2
+lynx 2
+chrome36.0.1985.125 4
+firefox31.0 3
+firefox2.0.0.13 2
+msie8.0 12
+firefox13.0.1 1
+chrome42.0.2311.90 6
+firefox6.0.2 2
+chrome43.0.2357.81 94
+chrome39.0.2171.65 19
+msie7.0 10
+chrome37.0.2062.120 3
+firefox23.0 1
+chrome10.0.648.204 20
+safari8.0 95
+msie9.0 1
+chrome42.0.2311.152 29
+Unknown 44
+chrome43.0.2357.65 37
+safari8.0.5 6
+chrome17.0.963.66 1
+chrome27.0.1453.110 1
+safari7.1.4 17
+firefox38.0 14
+chrome32.0.1700.107 10
+firefox2.0.0.11 1
+firefox33.0 1
+chrome36.0.1985.143 203
+mozilla 78
+firefox37.0 26
+netscape5.0 1
+chrome35.0.1916.153 6
+chrome42.0.2311.135 45
+firefox14.0.1 3
+msie10.0 15
+firefox6.0 2
+firefox3.6.3 1
+firefox36.0 1
+safari 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Mozilla/5.0 20150516124439
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20150525202812
+Opera 20150517010753
+Mozilla/5.0_(compatible;_PageAnalyzer/1.5;) 20150522030107
+Mozilla/5.0_(compatible;_Yahoo_Link_Preview;_https://help.yahoo.com/kb/mail/yahoo-link-preview-SLN23615.html) 20150525092439
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20150513061924
+NerdyBot 20150531090224
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+python-requests/2.2.1_CPython/2.7.6_Linux/2.6.32-042stab085.17 20150514082428
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20150525202812
+Opera 20150517010753
+NerdyBot 20150531090224
+Java/1.7.0_09 20150504222223
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 145 163
+From1 2 2
+From2 27 27
+From3 48 48
+From4 124 609
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 27 27
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://best-seo-offer.com/try.php 26 26
+http://buttons-for-your-website.com 18 18
+http://www.paginasamarillas.com.gt/busqueda/pozos-guatemala 2 2
+http://hvd-store.com 1 1
+http://www.dejachthoornbvba.be/dnn/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+tierrasegura.com 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+tierrasegura.com 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 8 0
+206 9 30736
+301 6 1348
+404 661 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 390
+/old/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/editors/fckeditor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/wordpress/ 1 -
+/admin.php 1 -
+/includes/fckeditor/editor/filemanager/connectors/php/connector.php 1 -
+/images/2_11.gif 1 -
+/uploads/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/Editor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/phpcms/ 1 -
+/admin/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/KEdit/ 1 -
+/CuteSoft_Client/CuteEditor/Images/log.gif 1 -
+/new_gb/help/images/usage/3.3.gif 1 -
+/webmail/Images/login/mainlogo.gif 1 -
+/fckeditor/fckeditor.js 3 http://www.tierrasegura.com
+/common/common.js 1 -
+/Admin/Images/LoginImages/admin_top.gif 1 -
+/API/DW/Dwplugin/TemplateManage/manage_site.htm 1 -
+/Images/login/lefttu.jpg 1 -
+/Images/login/mainlogo.gif 1 -
+/old/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/member/space/company/info.txt 1 -
+/siteserver/upgrade/default.aspx 1 -
+/v2/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/administrator/manifests/files/joomla.xml 1 -
+/_fckeditor/fckeditor.js 2 http://www.tierrasegura.com
+/html/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/index.cgi 1 -
+/cms/wp-login.php 1 -
+/images/fondo_tabla_tierra.jpg 12 http://www.tierrasegura.com/app/index.php
+/moadmin.php 1 http://www.tierrasegura.com
+/doku.php 1 -
+/wp-config.php.bak 2 -
+/js/transport.js 1 http://www.tierrasegura.com
+/biz/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/webmail/Images/login/lefttu.jpg 1 -
+/v1/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/docs.css 1 -
+/webadmin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/webmail/tpl/login/user/images/login_bg_1.jpg 1 -
+/admin/inc/xml.xslt 1 -
+/inc/rsd.php 1 -
+/wp-login.php 4 -
+/system/ 2 -
+/webmail/tpl/user/tpl1/css/skins/blue.css 1 -
+/User/Login.aspx 1 -
+/administrator/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/libs/ 1 -
+/UserCenter/css/admin/bgimg/admin_all_bg.png 1 -
+/bencandy.php 1 -
+/webmail/auth/login 2 -
+/jcms/index_jcms.jsp 1 -
+/includes/fckeditor/editor/filemanager/connectors/asp/chnuconnector.asp 1 -
+/images/zh-CN/logo.ico 1 -
+/shop/ 3 -
+/admin/SouthidcEditor/ButtonImage/standard/componentmenu.gif 1 -
+/Images/login/biaoti.jpg 1 -
+/system/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/webeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/system/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/license.txt 1 -
+/catalog/view/javascript/common.js 1 http://www.tierrasegura.com
+/verycms/ 1 -
+/archiver/ 1 -
+/includes/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/plug/publish 1 -
+/editor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/cmseasy/ 1 -
+/cgi/index.cgi 1 -
+/history.txt 1 -
+/webmail/next/img/logo.gif 1 -
+/addons/theme/stv1/_static/ts2/layout.css 1 -
+/fck/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/tpl/login/user/images/login_bg_1.jpg 1 -
+/admin/fckeditor/fckeditor.js 2 http://www.tierrasegura.com
+/deptWebsiteAction.do 1 -
+/plus/sitemap.html 1 -
+/configuration.php~ 2 -
+/dede/ 1 -
+/readme.html 1 -
+/rss.aspx 1 -
+/webmail/default/css/em_css.css 1 -
+/system/language/zh-cn.xml 1 -
+/includes/general.js 3 http://www.tierrasegura.com
+/dedecms/ 1 -
+/addons/theme/stv2/_static/ts2/layout.css 1 -
+/kindeditor-min.js 1 -
+/manager/status 2 -
+/default/css/em_css.css 1 -
+/includes/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/jcms/index.jsp 1 -
+/system/skins/default/system.login.htm 1 -
+/app/images/login/toplogo.gif 1 -
+/editor/js/fckeditorcode_ie.js 1 -
+/Template/Default/Skin/user/images/login_back.jpg 1 -
+/mail/ 3 -
+/administrator/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/robots.txt 180 -
+/app/home/skins/default/style.css 1 -
+/archive/archive.css 1 -
+/admin/fckeditor/editor/filemanager/upload/php/upload.php 1 TIERRASEGURA.com/admin/fckeditor/editor/filemanager/upload/php/upload.php
+/fckeditor/editor/dtd/fck_dtd_test.html 1 -
+/OLD/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/manage/ 2 -
+/images/hwem.css 1 -
+/forum/ 3 -
+/fckeditor/editor/filemanager/upload/php/upload.php 1 TIERRASEGURA.com/fckeditor/editor/filemanager/upload/php/upload.php
+/webmail/images/hwem.css 1 -
+/alimail/ 1 -
+/webmail/maintlogin.jsp 1 -
+/wordpress/wp-login.php 1 -
+/console/js/CWCMDialogHead.js 1 -
+/dvbbs/ 1 -
+/zcms/ 1 -
+/home.html 4 -
+/plugins/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/include/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/wordpress 1 http://tierrasegura.com/wordpress
+/ids/admin/userhome/forgetPwd.jsp 1 -
+/editor/dtd/ 2 -
+/ckfinder/install.txt 1 -
+/Search.html 1 -
+/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/webmanage/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/Admin/Login.aspx 1 -
+/Prompt/images/P_Wrong.gif 1 -
+/phpmoadmin/moadmin.php 1 http://www.tierrasegura.com
+/v3/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/template/home.htm 1 -
+/default/images/logo.gif 1 -
+/admin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/FCKeditor/fckeditor.js 2 http://www.tierrasegura.com
+/m 2 -
+/js/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/plus/rssmap.html 1 -
+/sys/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/Admin/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/v3/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/manage/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/fangmail/ 1 -
+/docs/ 1 -
+/leadbbs/ 1 -
+/moadmin/moadmin.php 1 http://www.tierrasegura.com
+/adm/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/images/zh-CN/winisp.gif 1 -
+/admin/ 3 -
+/issmall 1 -
+/FCKeditor/editor/filemanager/upload/php/upload.php 1 TIERRASEGURA.com/FCKeditor/editor/filemanager/upload/php/upload.php
+/js/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/js/tools.js 1 http://www.tierrasegura.com
+/apple-touch-icon.png 6 -
+/images/login/eyoumail.gif 1 -
+/wp-includes/css/buttons.css 1 http://www.tierrasegura.com
+/webmail/images/login/icon-up.gif 1 -
+/ckeditor/ckeditor.js 1 -
+/webmail/helpnew/faq/faq_simple_zh_CN.jsp 1 -
+/Install/logo.gif 1 -
+/blog/ 4 -
+/upload/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/next/img/logo.gif 1 -
+/wp/ 1 -
+/digg.php 1 -
+/archiver 3 -
+/maintlogin.jsp 1 -
+/Administrator/FCKeditor/fckeditor.js 2 http://www.tierrasegura.com
+/adminsoft/templates/images/login_bg_top.jpg 1 -
+/inc/Templates/rss.xslt 1 -
+/apple-touch-icon-precomposed.png 6 -
+/includes/fckeditor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/API/DW/Dwplugin/SystemLabel/SiteConfig.htm 1 -
+/biz/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/include/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/API/DW/Dwplugin/ThirdPartyTags/SiteFactory.xml 1 -
+/extman/default/images/logo.gif 2 -
+/admin 1 -
+/cgi-mod/header_logo.cgi 1 -
+/admin/fckeditor/editor/filemanager/upload/php/upload.phpindex.php 1 TIERRASEGURA.com/admin/fckeditor/editor/filemanager/upload/php/upload.phpindex.php
+/master/login.aspx 1 -
+/extern.php 1 -
+/admin/login.aspx 1 -
+/javascript:popupwin%28%29 1 -
+/console/include/not_login.htm 1 -
+/tools/rss.aspx 1 -
+/fckeditor/editor/js/fckeditorcode_ie.js 2 -
+/ewebeditor/ 1 -
+/apps/admin/_static/image/login_box_bg.png 1 -
+/admin/includes/ 1 -
+/admin/eWebEditor/ 1 -
+/stylesheet.css 1 -
+/editors/fckeditor/editor/filemanager/connectors/php/connector.php 1 -
+/Help 1 -
+/webedit/ 1 -
+/feed.asp 1 -
+/bienesraices.gt/index_archivos/Page445.htm 1 -
+/shops/ 3 -
+/Admin/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/coremail/common/help/images/helplogo.gif 2 -
+/CuteSoft_Client/CuteEditor/ImageEditor/listfiles.aspx 1 -
+/drupal/ 1 -
+/ckfinder/core/connector/aspx/connector.aspx 1 -
+/webmail/images/login/logo.gif 1 -
+/ckeditor/ckfinder/install.txt 1 -
+/siteserver/login.aspx 1 -
+/images/login/logo.gif 1 -
+/templates/cn/template.xml 1 http://www.tierrasegura.com
+/help/ch_gb/images/help-title.gif 1 -
+/Fckeditorold/fckeditor.js 1 http://www.tierrasegura.com
+/API/DW/Dwplugin/TemplateManage/login_site.htm 1 -
+/editors/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/examples/readonly.html 1 -
+/Editor.js 1 -
+/Admin/Common/HelpLinks.xml 1 -
+/Administrator/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/ids/admin/login.jsp 1 -
+/admin/wp-login.php 1 -
+/wcm/ 1 -
+/admin/start/index.php 1 -
+/FCK/fckeditor.js 1 -
+/statics/ 1 -
+/CuteSoft_Client/CuteEditor/Style/IE.css 1 -
+/admin/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/wp-content 1 -
+/wp/xmlrpc.php 1 -
+/joomla/ 1 -
+/Administrator/fckeditor/fckeditor.js 2 http://www.tierrasegura.com
+/Fckeditornew/fckeditor.js 1 http://www.tierrasegura.com
+/dialog/dialog.js 1 -
+/sys/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/whir_system/login.aspx 1 -
+/ch/ 1 -
+/eWebEditor/ 1 -
+/extmail/ 1 -
+/plugins/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/6kbbs/ 1 -
+/images/branding/logo.gif 1 -
+/ecshop/ 1 -
+/admin/FCKeditor/editor/filemanager/upload/php/upload.php 1 TIERRASEGURA.com/admin/FCKeditor/editor/filemanager/upload/php/upload.php
+/app/js/source/wcmlib/WCMConstants.js 1 -
+/jxcms/ 1 -
+/Admin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/__fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/eshop/ 3 -
+/_fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/kindeditor/ 1 -
+/v2/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/wp-login/ 1 -
+/API/DW/Dwplugin/TemplateManage/save_template.htm 1 -
+/webmail/index.cgi 1 -
+/data/admin/ver.txt 1 -
+/CuteSoft_Client/CuteEditor/Help/default.htm 1 -
+/coremail/common/help/images/helplogo_zh.gif 2 -
+/admin/js/fckeditor/fckeditor.js 2 http://www.tierrasegura.com
+/wp-includes/wlwmanifest.xml 1 http://www.tierrasegura.com
+/webmail/web2/login_template/1.files/Logo1.jpg 1 -
+/wp-admin/admin-ajax.php 1 -
+/js/fckeditor/fckeditor.js 2 http://www.tierrasegura.com
+/admin/js/IdSUtil.js 1 -
+/e/master/login.aspx 1 -
+/js/mage/cookies.js 1 http://www.tierrasegura.com
+/skin/frontend/default/modern/css/styles.css 1 -
+/metinfo/ 1 -
+/ckfinder/core/connector/php/connector.php 1 -
+/admin-console 1 -
+/eweb/ 1 -
+/FCKEditorV2/fckeditor.js 2 http://www.tierrasegura.com
+/kesion/ 1 -
+/section/wp-login.php 1 -
+/mall/ 3 -
+/images/login/icon-up.gif 1 -
+/weblog/ 3 -
+/bienesraices.gt/index_archivos/Page381.htm 1 -
+/webmail/help/ch_gb/images/help-title.gif 1 -
+/admin/SouthidcEditor/ewebeditor.asp 1 -
+/webmail/new_gb/help/images/usage/3.3.gif 1 -
+/FCK/editor/js/fckeditorcode_ie.js 1 -
+/plug-ins/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/kingcms/ 1 -
+/html/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/js/ajax_x.js 1 -
+/install 1 -
+/images/default/post_bt.gif 1 -
+/empirecms/ 1 -
+/images/powered_by.gif 1 -
+/fckeditor.js 2 http://www.tierrasegura.com
+/wp-cron.php 1 -
+/fckeditor/license.txt 1 -
+/webmail/default/images/logo.gif 1 -
+/Fckeditor/fckeditor.js 1 http://www.tierrasegura.com
+/phpmyadmin/docs.css 1 -
+/fckeditor/fckconfig.js 1 -
+/ycportal/webpublish/module.main 1 -
+/whir_system/module/security/login.aspx 1 -
+/plug-ins/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/webmail/admin/index.php 1 -
+/old/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/aspcms/ 1 -
+/webmail/cgi/index.cgi 1 -
+/licence.txt 1 -
+/web-console 1 -
+/admin/SouthidcEditor/Dialog/dialog.js 1 -
+/console/js/CTRSRequestParam.js 1 -
+/admin/index.php 1 -
+/max-templates/classic/styles/app.css 1 -
+/changelog.txt 1 -
+/app/images/login/logo.png 1 -
+/includes/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/inc/playerKinds.xml 1 -
+/Admin/Images/LoginImages/admin_text.gif 1 -
+/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/fluxbb/ 1 -
+/wp-admin/wp-login.php 1 -
+/include/fckeditor/fckeditor.js 2 http://www.tierrasegura.com
+/ckfinder/core/connector/asp/connector.asp 1 -
+/phpmyadmin/ 1 -
+/list.php 1 -
+/webmanage/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/phpwind/ 1 -
+/login/Jeecms.do 1 -
+/api/api_user.xml 1 -
+/templets/default/style/dedecms.css 1 http://www.tierrasegura.com
+/webmail/common/help/images/helplogo_zh.gif 1 -
+/OLD/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/includes/ 1 -
+/template/default/common/footer.htm 1 http://www.tierrasegura.com
+/fckeditor/editor/filemanager/upload/php/upload.phpindex.php 1 TIERRASEGURA.com/fckeditor/editor/filemanager/upload/php/upload.phpindex.php
+/phpbb/ 1 -
+/blog/wp-login.php 1 -
+/ycportal/js/wbTextBox/showimg.jsp 1 -
+/bbsmax/ 1 -
+/admin/editor/fckeditor.js 2 http://www.tierrasegura.com
+/ckfinder/ckfinder.html 1 -
+/ymail/images/index_r1_c4.jpg 1 -
+/webmail/images/login/eyoumail.gif 1 -
+/oecms/ 1 -
+/Administrator/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/discuz/ 2 -
+/admin/fck/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/site/wp-login.php 1 -
+/web2/login_template/1.files/Logo1.jpg 1 -
+/console/auth/reg_newuser.jsp 1 -
+/editor/fckeditor.js 2 http://www.tierrasegura.com
+/v1/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/images/login_03.gif 1 -
+/rss.php 2 -
+/text/javascript 1 -
+/backend/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/WebAdmin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/administrator/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/editors/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/Error.aspx 1 -
+/manage/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/backend/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/Administrator/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/maxcms/ 1 -
+/images/login9/login_33.jpg 1 -
+/webmail/common/help/images/helplogo.gif 1 -
+/helpnew/faq/faq_simple_zh_CN.jsp 1 -
+/bbs/ 3 -
+/clientscript/vbulletin_ajax_htmlloader.js 1 -
+/admin/template/article_more/config.htm 1 -
+/adm/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/wp/wp-login.php 1 -
+/common/help/images/helplogo.gif 1 -
+/admin/FCKeditor/editor/filemanager/upload/php/upload.phpindex.php 1 TIERRASEGURA.com/admin/FCKeditor/editor/filemanager/upload/php/upload.phpindex.php
+/zblog/ 1 -
+/foosun/ 1 -
+/FCKeditor/editor/filemanager/upload/php/upload.phpindex.php 1 TIERRASEGURA.com/FCKeditor/editor/filemanager/upload/php/upload.phpindex.php
+/OLD/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/CHANGELOG.txt 1 -
+/fck/fckeditor.js 2 http://www.tierrasegura.com
+/lazycms/ 1 -
+/common/fckeditor/fckeditor.js 2 http://www.tierrasegura.com
+/License.txt 3 -
+/ckeditor/ckfinder/ckfinder.html 1 -
+/app/login.jsp 1 -
+/editor/ 3 -
+/common/help/images/helplogo_zh.gif 1 -
+/coremail/ 1 -
+/system/Login.aspx 1 -
+/plus/heightsearch.php 1 -
+/tpl/user/tpl1/css/skins/blue.css 1 -
+/manager/html 1 -
+/cms/ 3 -
+/plug// 1 -
+/index.php 4 -
+/auth/login 2 -
+/webmail/ymail/images/index_r1_c4.jpg 1 -
+/js/buttons.js 1 -
+/webmail/Images/login/biaoti.jpg 1 -
+/Ntalker/lawfirm.aspx 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 182
+198.252.44.4 14 14 70868 20150522170031
+216.230.137.74 14 41 974687 20150502083921
+190.149.159.191 9 40 4965825 20150529122128
+190.152.178.115 8 14 707475 20150507161906
+190.56.109.102 8 23 9334478 20150506112508
+201.216.163.185 7 28 1382014 20150526073138
+190.148.164.30 7 13 661359 20150525092030
+5.189.144.88 6 6 30372 20150522030107
+184.175.2.3 6 12 586311 20150502062327
+186.151.61.86 6 6 30372 20150525174140
+97.95.214.58 6 17 508077 20150529044119
+67.213.118.194 6 6 30372 20150531220916
+181.209.153.92 6 17 508077 20150504163439
+190.149.105.79 5 9 490613 20150528080819
+190.148.103.36 5 31 1222001 20150529124532
+107.188.4.162 5 9 566937 20150524151408
+190.143.148.161 5 8 188953 20150507115634
+190.143.148.233 5 5 188953 20150527163854
+186.151.60.202 5 9 566937 20150519104159
+200.35.180.154 5 41 1614249 20150513130940
+190.149.39.203 5 9 566937 20150519173346
+186.151.104.219 5 18 761465 20150501095911
+186.151.60.39 4 16 1141765 20150513200749
+190.56.253.186 4 16 394087 20150518061808
+190.234.28.87 4 8 481665 20150528212239
+23.251.148.68 1 1 5062 20150524090239
+185.66.250.120 1 1 5062 20150513102245
+188.164.128.77 1 1 5062 20150502102358
+109.96.21.53 1 5 378901 20150505103325
+69.58.178.58 3 3 15089 20150515055712
+130.211.156.19 1 1 5062 20150530090150
+187.35.102.247 1 5 378901 20150512171837
+185.58.204.15 1 1 5062 20150509154335
+52.7.245.43 1 1 5062 20150514042745
+27.210.44.86 3 3 15089 20150517193655
+78.17.140.146 1 5 378901 20150502123118
+186.38.1.24 1 5 378901 20150521184015
+199.30.25.246 1 4 732463 20150529084859
+104.197.74.197 1 1 5062 20150510090014
+23.95.43.108 1 1 5062 20150522033720
+220.181.108.179 1 1 5062 20150525092320
+186.109.91.186 1 5 378901 20150529112404
+201.75.59.29 1 5 378901 20150501020810
+217.12.24.132 1 1 24599 20150526000638
+188.164.131.250 1 1 5062 20150502102159
+141.138.50.187 1 5 378901 20150518234249
+104.197.51.14 1 1 5062 20150503090123
+74.6.254.125 1 1 5062 20150525092439
+104.155.44.36 1 1 5062 20150501101030
+201.37.160.19 1 5 378901 20150508051720
+104.197.111.87 1 1 5062 20150515090038
+130.211.136.166 1 1 5062 20150531090224
+36.71.146.58 1 5 378901 20150507070313
+95.94.11.62 1 5 378901 20150514015824
+191.102.196.11 1 1 316901 20150530095905
+187.57.192.161 1 5 378901 20150512042945
+112.198.83.188 1 5 378901 20150507171537
+187.3.164.172 1 5 378901 20150501195600
+104.197.27.85 1 1 5062 20150528090439
+186.151.61.150 1 1 5062 20150508112830
+54.237.140.136 1 1 5062 20150530181319
+93.171.205.23 2 2 10027 20150521041050
+177.189.111.139 1 5 378901 20150513192757
+189.115.109.33 1 5 378901 20150528120910
+95.141.35.157 1 1 5062 20150506151429
+190.148.92.230 1 1 85272 20150519153113
+192.99.208.196 1 1 0 20150514082428
+200.114.119.250 1 5 378901 20150504141542
+38.100.21.62 2 3 12782 20150501111243
+177.183.75.31 1 5 378901 20150526170400
+113.10.201.71 4 4 20151 20150521173315
+181.209.231.43 1 1 85272 20150528092122
+130.43.49.92 1 5 378901 20150513054702
+190.203.1.220 1 3 48899 20150520101924
+122.52.115.22 1 5 378901 20150504190127
+130.211.118.175 1 1 5062 20150504090347
+109.120.183.23 4 4 20248 20150517010753
+217.73.208.27 1 1 5062 20150503055724
+5.170.59.19 1 5 378901 20150503072020
+181.114.26.67 1 5 378901 20150529143503
+64.79.100.26 4 4 20054 20150504222223
+36.74.36.79 1 5 378901 20150512140257
+190.53.126.172 2 6 380022 20150529124738
+199.30.16.182 0 1 151652 
+185.61.138.143 1 1 5062 20150524003025
+69.171.227.114 1 1 5062 20150511041906
+189.59.6.2 1 5 378901 20150512090008
+98.138.219.13 0 1 8362 
+8.28.16.254 1 1 5062 20150504190127
+94.225.39.28 1 5 378901 20150510032515
+66.249.84.191 1 1 5062 20150512080425
+200.141.176.191 1 5 378901 20150518063208
+146.148.87.238 1 1 5062 20150506090149
+201.69.50.101 1 5 378901 20150516083653
+2.236.79.190 1 5 378901 20150507114600
+146.148.43.65 1 1 5062 20150511090641
+113.35.251.98 2 2 10124 20150514062842
+200.6.250.74 1 5 378901 20150515152922
+199.30.24.249 1 4 732178 20150510142758
+90.191.115.179 1 5 378901 20150530010625
+112.255.162.235 1 1 5062 20150516052213
+195.154.146.225 2 2 10124 20150516203914
+104.197.60.248 1 1 5062 20150507090304
+104.154.62.208 1 1 5062 20150509090034
+178.128.181.137 1 5 378901 20150530042753
+146.148.91.39 1 1 5062 20150525090311
+46.119.123.165 1 1 5062 20150506070400
+186.151.61.214 2 2 10124 20150529175147
+104.197.26.188 1 1 5062 20150514090115
+123.125.71.18 1 1 5062 20150525091334
+190.56.19.162 1 1 24599 20150504140732
+191.179.226.179 1 5 378901 20150523084302
+67.189.212.181 2 6 380022 20150510201642
+69.171.227.115 1 1 5062 20150518215451
+5.90.110.186 1 5 378901 20150522093227
+52.25.179.116 1 1 5062 20150521103441
+65.55.210.121 1 4 802632 20150512190717
+46.229.170.197 2 2 10124 20150530171226
+217.12.206.140 1 1 5062 20150504100918
+195.154.241.109 1 1 5062 20150501164902
+201.248.68.245 1 5 378901 20150529095506
+104.197.105.223 1 1 5062 20150513090023
+189.53.146.21 1 5 378901 20150514151850
+54.211.225.34 1 1 5062 20150521094402
+173.252.110.115 0 1 35475 
+216.108.227.23 1 1 5062 20150513103217
+81.202.227.217 1 5 378901 20150506040021
+199.30.25.131 1 1 77044 20150508151452
+212.231.40.186 1 5 378901 20150518145506
+69.171.227.113 2 2 10124 20150525202812
+177.41.144.150 1 5 378901 20150508131304
+173.252.110.117 0 2 70950 
+186.151.63.60 1 5 378901 20150528082420
+96.89.114.202 1 1 5062 20150504150225
+78.158.11.226 2 2 10027 20150513061924
+104.154.76.230 1 1 5062 20150501090141
+183.60.243.190 4 4 20248 20150519110603
+104.154.84.95 1 1 5062 20150502085946
+189.6.209.118 1 5 378901 20150516190058
+199.30.25.161 1 1 77044 20150528102850
+190.141.172.65 1 5 378901 20150517182357
+130.211.154.129 1 1 5062 20150519090235
+186.151.60.214 2 2 10124 20150504112609
+52.5.84.150 1 1 5062 20150514042852
+181.174.106.76 1 5 378901 20150527160514
+94.131.14.16 2 2 10124 20150524004413
+177.180.120.48 1 5 378901 20150527115259
+190.115.3.8 2 6 380022 20150529195735
+173.252.110.113 0 2 70950 
+38.100.21.63 2 3 12782 20150527181627
+199.30.24.214 1 4 617609 20150517225947
+151.26.78.139 1 5 378901 20150514122255
+208.66.54.224 1 5 378901 20150518151627
+187.104.159.4 1 5 378901 20150519194034
+173.252.110.116 0 1 35475 
+52.5.149.182 1 1 5062 20150526071543
+199.30.24.232 1 4 419399 20150501051031
+146.148.76.130 1 1 5062 20150522090227
+95.211.162.27 1 1 5062 20150516124439
+104.197.2.193 1 1 5062 20150518090036
+178.94.49.239 1 1 5062 20150508114941
+189.63.135.159 1 5 378901 20150520130408
+104.197.20.123 1 1 5062 20150516085941
+104.197.93.237 1 1 5062 20150512090022
+177.59.121.150 1 5 378901 20150531170928
+104.154.50.125 1 1 5062 20150526090239
+66.249.83.197 1 1 5062 20150501095523
+104.197.38.36 1 1 5062 20150517090103
+70.54.203.65 1 5 378901 20150513075558
+199.30.24.5 0 4 373839 
+186.213.228.59 1 5 378901 20150520132647
+107.178.215.143 1 1 5062 20150523090200
+190.143.190.44 4 5 148297 20150512144324
+60.163.64.181 4 4 20151 20150519185857
+91.226.212.50 1 1 5062 20150525231031
+65.55.210.54 1 4 821330 20150514193037
+198.17.42.4 1 5 378901 20150518160925
+192.99.9.164 1 1 5062 20150529084135
+104.197.6.247 1 1 5062 20150529090508
+193.105.73.152 1 1 5062 20150515232259
+146.148.84.5 1 1 5062 20150520090303
+50.18.232.57 1 1 5062 20150521234808
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20150501 15 41 2012233 10
+20150502 27 64 1970271 9
+20150503 3 7 389025 3
+20150504 23 42 1361152 14
+20150505 2 6 383963 2
+20150506 13 32 9733627 7
+20150507 17 42 2412032 6
+20150508 6 14 850032 6
+20150509 3 7 389025 3
+20150510 8 24 1920663 7
+20150511 2 2 10124 2
+20150512 15 36 2532380 11
+20150513 15 67 3160128 10
+20150514 12 27 1993467 11
+20150515 7 13 596303 5
+20150516 9 17 793236 7
+20150517 10 17 1036909 7
+20150518 12 44 2303778 9
+20150519 22 35 1684045 8
+20150520 6 16 821887 6
+20150521 9 13 419203 6
+20150522 10 18 889762 6
+20150523 2 7 419438 2
+20150524 9 13 587185 5
+20150525 15 22 710217 8
+20150526 7 28 1310087 6
+20150527 9 18 959537 4
+20150528 15 31 1902520 8
+20150529 33 124 9350423 13
+20150530 6 14 1089889 6
+20150531 4 8 394087 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 2
+2mn-5mn 6
+30s-2mn 10
+0s-30s 192
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 17
+/ 217 1093392 193 166
+/app/index.php 21 1048084 0 4
+/Home.html 19 21299 0 3
+/Secc/000.swf 17 418183 2 3
+/app/login.php 17 84405 4 11
+/Home.swf 17 1309748 2 2
+/Secc/001a.swf 8 682176 2 5
+/Secc/004.swf 8 71584 0 4
+/bienesraices.gt/banner_top/banner.swf 6 1744278 6 6
+/Secc/005.swf 5 32740 1 3
+/app/templates/abc_proyectos_addComments.php 2 5322 0 0
+/Secc/002.swf 2 137480 0 1
+/Secc/003.swf 2 633802 1 2
+/Secc/006.swf 2 215510 0 0
+/Secc/001c.swf 1 35892 0 0
+/Secc/001b.swf 1 25172 0 0
+/Secc/001b1.swf 1 42292 0 1
+END_SIDER

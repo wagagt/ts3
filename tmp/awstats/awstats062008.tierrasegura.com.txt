@@ -1,0 +1,419 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 200806 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2540                
+POS_VISITOR 7024                
+POS_DAY 10014               
+POS_DOMAIN 3217                
+POS_LOGIN 3513                
+POS_ROBOT 3668                
+POS_WORMS 3929                
+POS_EMAILSENDER 4060                
+POS_EMAILRECEIVER 4203                
+POS_SESSION 10801               
+POS_SIDER 11010               
+POS_FILETYPES 4338                
+POS_OS 4557                
+POS_BROWSER 4669                
+POS_SCREENSIZE 4860                
+POS_UNKNOWNREFERER 4934                
+POS_UNKNOWNREFERERBROWSER 5107                
+POS_ORIGIN 5247                
+POS_SEREFERRALS 5388                
+POS_PAGEREFS 5585                
+POS_SEARCHWORDS 5912                
+POS_KEYWORDS 6284                
+POS_MISC 2203                
+POS_ERRORS 6493                
+POS_CLUSTER 3369                
+POS_SIDER_404 6604                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20080701015126 12 1984 71405228648
+FirstTime 20080601103848
+LastTime 20080630134832
+LastUpdate 20080701092324 12 0 11 0 0
+TotalVisits 92                  
+TotalUnique 72                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 72                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 14 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 3097 0 0 0
+1 2 2 6194 2 2 0
+2 0 0 0 0 0 0
+3 5 5 121443 1 1 0
+4 1 3 125120 0 0 0
+5 9 12 360204 1 1 3097
+6 0 0 0 2 2 3097
+7 1 1 3097 2 2 705
+8 4 4 12388 0 0 0
+9 20 24 3014037 2 2 3097
+10 69 191 15563952 5 17 3107
+11 158 392 3836174 18 88 3177
+12 221 437 7823023 15 101 37424
+13 89 155 2992559 14 63 70
+14 66 143 1235695 6 30 30
+15 18 30 12151462 0 0 0
+16 38 74 13877890 6 6 6204
+17 96 176 11855397 6 44 30
+18 57 109 5907012 5 25 37369
+19 61 118 1057171 16 49 46689
+20 2 2 6194 4 4 3097
+21 1 1 3097 2 2 3097
+22 2 2 6194 3 3 0
+23 2 2 8087 2 2 3097
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+ip 791 1672 46219245
+us 115 187 31719614
+es 7 11 471385
+mx 5 7 337317
+ar 5 7 1221926
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+googlebot 7 12388 20080625050759 0
+slurp 3 9291 20080626101959 0
+ia_archiver 2 3802 20080624193004 0
+msnbot 1 0 20080604012354 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 237 35815 0 0
+pdf 5 71745 0 0
+swf 160 22014162 0 0
+php 577 13251456 0 0
+flv 13 39086306 0 0
+html 168 219184 0 0
+jpg 334 5227234 0 0
+js 182 23942 0 0
+gif 208 39643 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 7
+winlong 24
+winxp 1784
+win2003 4
+Unknown 8
+win98 60
+linux 3
+linuxfedora 1
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 10
+msie6.0 134
+firefox2.0.0.11 19
+firefox2.0.0.14 35
+firefox1.0.7 1
+msie5.01 59
+konqueror 1
+firefox1.0 2
+msie7.0 1625
+netscape4.51 2
+Unknown 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/4.51 20080627133241
+Java/1.5.0_11 20080605102736
+panscient.com 20080617033231
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Java/1.5.0_11 20080605102736
+panscient.com 20080617033231
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 421 432
+From1 0 0
+From2 16 28
+From3 9 9
+From4 477 1415
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+altavista 1 1
+search 2 6
+live 4 4
+yahoo 8 16
+msn 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://www.paginasamarillas.com/pagamanet/web/procesos/link.aspx 7 7
+http://us.mc574.mail.yahoo.com/mc/showMessage 1 1
+http://www.hi5.com/friend/profile/displaySameProfile.do 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 9
+perforacion+pozos 4
+utf-8 2
+tierrasegura.com 1
+pozos+y+maquinas+de+perforaci%c3%b3n 1
+maquinas+de+perforacion+de+agua 1
+perforaci%c3%b3n+de+pozos+de+agua 1
+ingresar 1
+equipo+sumergible 1
+maquinas+de+perforaci\xc3\xb3n 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 13
+pozos 6
+de 6
+perforacion 5
+maquinas 3
+utf-8 2
+perforaci%c3%b3n 2
+agua 2
+equipo 1
+tierrasegura.com 1
+sumergible 1
+perforaci\xc3\xb3n 1
+y 1
+ingresar 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 76 112421
+206 5 15485
+404 350 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 3
+/content.doc 1 -
+/robots.txt 18 -
+/images/fondo_tabla_tierra.jpg 331 http://www.tierrasegura.com/app/index.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 72
+190.57.113.8 62 83 10857399 20080625141946
+190.57.83.212 53 105 804199 20080618133614
+190.57.85.230 45 88 973525 20080605191834
+190.57.85.185 42 144 882407 20080604121233
+190.57.80.105 36 62 782880 20080623172333
+190.57.85.54 36 72 711181 20080628144027
+190.57.80.71 34 63 952515 20080620123237
+190.57.83.250 32 69 479056 20080626123935
+190.57.84.201 31 54 794372 20080609114820
+190.57.80.189 29 115 584998 20080602185234
+190.57.86.41 29 60 568446 20080607121147
+190.57.83.221 25 112 714542 20080601105717
+190.57.87.163 23 46 375807 20080614120256
+190.57.87.130 20 35 381878 20080609194108
+190.57.83.223 20 48 385367 20080611195537
+201.216.146.25 19 29 3089977 20080624121658
+190.57.84.119 19 29 539262 20080610130750
+190.57.85.228 19 37 424299 20080612132557
+190.57.83.33 18 33 387995 20080613131814
+190.57.84.132 18 33 483281 20080619124345
+190.57.86.245 18 35 406949 20080627172759
+67.230.24.134 17 30 10013026 20080603164929
+190.56.12.172 16 29 3027369 20080605092915
+190.57.85.243 16 26 347235 20080616195521
+200.6.242.36 15 24 4448229 20080604190319
+38.100.41.102 2 3 10842 20080609053621
+201.202.182.46 8 20 1232526 20080605163606
+190.53.30.224 5 7 260993 20080604122557
+208.80.193.55 1 1 3097 20080624201531
+190.57.80.187 12 17 308103 20080616115326
+87.6.45.254 7 9 1497414 20080629172306
+190.57.81.136 12 23 208596 20080621140606
+69.36.158.17 1 1 3097 20080608221109
+208.80.193.47 1 1 3097 20080616083033
+74.52.245.146 2 2 6194 20080625150520
+200.49.164.54 5 7 1221926 20080610150002
+190.57.86.157 2 7 4990 20080618115056
+67.230.8.166 6 8 577894 20080626181933
+200.6.237.99 6 15 986978 20080623162852
+190.57.80.47 11 30 216909 20080605113514
+64.219.133.131 7 16 1324687 20080620153236
+201.216.146.63 7 9 679390 20080624111322
+190.0.199.222 5 7 260993 20080611095817
+208.80.193.35 2 2 6194 20080626235500
+65.55.110.51 1 1 3097 20080604012444
+208.80.193.43 1 1 3097 20080626054517
+87.2.179.67 1 1 3097 20080608213919
+190.57.80.180 5 7 281455 20080630130235
+209.157.64.171 2 2 6194 20080627133241
+201.234.133.57 14 20 11113490 20080616134656
+190.57.81.12 15 29 314954 20080606120328
+208.80.193.40 1 1 3097 20080627194720
+208.80.193.54 2 2 6194 20080629122755
+200.58.188.116 4 6 252045 20080615171611
+190.57.87.90 1 1 3097 20080629031546
+208.80.193.30 1 1 3097 20080621012240
+67.230.4.95 10 19 1656665 20080626230749
+190.98.130.23 6 15 278482 20080617125057
+217.126.4.97 7 11 471385 20080625043151
+190.57.84.123 15 59 313795 20080602145649
+190.98.130.166 8 17 2339791 20080610102211
+209.190.154.194 2 2 6194 20080605102736
+190.56.0.232 9 11 9816030 20080627170234
+208.80.193.44 1 1 3097 20080610085740
+208.80.193.33 1 1 3097 20080628145841
+207.249.183.2 5 7 337317 20080609111049
+208.80.193.39 3 3 9291 20080614093951
+201.207.7.82 1 4 87672 20080619111351
+88.26.133.254 4 7 289812 20080616124948
+38.104.58.118 4 4 118346 20080617033231
+208.80.193.37 3 3 9291 20080630134832
+208.80.193.41 2 2 6194 20080619080040
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20080601 34 124 10568339 2
+20080602 44 174 898793 3
+20080603 25 49 10299739 3
+20080604 63 176 5594726 4
+20080605 75 151 5172907 6
+20080606 16 30 318051 2
+20080607 30 61 571543 2
+20080608 3 3 9291 3
+20080609 58 99 1524409 4
+20080610 33 54 4104076 4
+20080611 26 56 649457 3
+20080612 19 37 424299 1
+20080613 18 33 387995 1
+20080614 24 47 378904 2
+20080615 4 6 252045 1
+20080616 39 60 2211037 6
+20080617 10 19 396828 2
+20080618 55 112 809189 2
+20080619 26 46 920315 4
+20080620 41 79 2277202 2
+20080621 13 24 211693 2
+20080622 1 1 3097 1
+20080623 42 77 1769858 2
+20080624 42 65 4163845 7
+20080625 50 62 10597332 5
+20080626 50 98 2719809 6
+20080627 30 49 10232270 4
+20080628 37 73 714278 3
+20080629 9 11 1503608 3
+20080630 6 8 284552 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 21
+30s-2mn 14
+2mn-5mn 10
+15mn-30mn 5
+0s-30s 37
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 23
+/app/index.php 354 12500766 0 1
+/app/templates/abc_proyectos_addComments.php 133 360810 0 0
+/ 133 188917 65 57
+/app/login.php 54 270040 23 4
+/Secc/002.swf 36 1731378 0 4
+/Home.swf 36 1597792 0 1
+/app/templates/abc_proyectos_editComments.php 36 119840 0 0
+/Home.html 35 30267 3 0
+/Secc/001a.swf 17 937992 1 5
+/Secc/005.swf 16 13325897 0 6
+/Secc/004.swf 13 107376 0 6
+/Secc/003.swf 12 3118649 0 2
+/Secc/001.flv 9 19055418 0 1
+/Secc/006.swf 9 852264 0 0
+/Secc/001e.swf 7 100434 0 1
+/Secc/001b.swf 5 75516 0 0
+/Secc/001c.swf 4 71784 0 1
+/Secc/002.flv 4 20030888 0 1
+/Resources/ElFiltroDeGravaNoEsUnfiltro.pdf 3 30261 0 0
+/Secc/001e1.swf 2 41490 0 1
+/Resources/DesinfeccionDePozos.pdf 2 41484 0 1
+/Secc/001d.swf 2 11298 0 0
+/Secc/001b1.swf 1 42292 0 0
+END_SIDER

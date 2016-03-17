@@ -1,0 +1,314 @@
+AWSTATS DATA FILE 6.3 (build 1.800)
+# If you remove this file, all statistics for date 2005-04 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2534                
+POS_VISITOR 6272                
+POS_DAY 7274                
+POS_DOMAIN 3082                
+POS_LOGIN 3360                
+POS_ROBOT 3515                
+POS_WORMS 3713                
+POS_EMAILSENDER 3844                
+POS_EMAILRECEIVER 3987                
+POS_SESSION 7718                
+POS_SIDER 7895                
+POS_FILETYPES 4122                
+POS_OS 4280                
+POS_BROWSER 4363                
+POS_SCREENSIZE 4468                
+POS_UNKNOWNREFERER 4542                
+POS_UNKNOWNREFERERBROWSER 4746                
+POS_ORIGIN 4862                
+POS_SEREFERRALS 4997                
+POS_PAGEREFS 5165                
+POS_SEARCHWORDS 5377                
+POS_KEYWORDS 5659                
+POS_MISC 2198                
+POS_ERRORS 5800                
+POS_CLUSTER 3216                
+POS_SIDER_404 5896                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20050501050645 1 0 47417190390
+FirstTime 20050401200000
+LastTime 20050429175235
+LastUpdate 20050501184208 1 0 0 0 0
+TotalVisits 21                  
+TotalUnique 18                  
+MonthHostsKnown 15                  
+MonthHostsUnknown 5                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 2 0 0 0 0
+2 3 27 290551 0 0 0
+3 0 0 0 9 9 199292
+4 0 3 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 2 2 8710
+7 0 0 0 0 0 0
+8 0 1 0 0 0 0
+9 2 17 0 8 8 9216
+10 0 1 0 0 0 0
+11 12 43 1470277 4 4 3072
+12 0 0 0 0 0 0
+13 18 94 1157517 0 0 0
+14 5 28 299261 0 0 0
+15 27 85 1137524 0 0 0
+16 8 37 645975 0 0 0
+17 3 14 0 2 2 0
+18 1 1 8710 0 0 0
+19 0 6 0 0 0 0
+20 1 10 0 4 4 17420
+21 2 2 0 0 0 0
+22 0 0 0 0 0 0
+23 12 86 8710 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+us 85 416 4480679
+ar 6 33 511716
+ca 2 2 17420
+gb 1 1 8710
+gt 0 5 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+googlebot 8 199292 20050422031755 0
+slurp 3 8710 20050428065059 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+html 14 113230 0 0
+jpg 130 3276624 0 0
+js 32 77024 0 0
+htm 43 302199 0 0
+gif 201 90472 0 0
+swf 37 1158976 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 4
+winxp 361
+macintosh 44
+win2000 2
+Unknown 50
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 5
+msie6.0 361
+msie5.23 44
+firefox 2
+mozilla 49
+Unknown 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/4.0_(compatible;) 20050429094013
+Python-urllib/1.16 20050417181320
+Mozilla/3.01_(compatible;) 20050426043127
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Python-urllib/1.16 20050417181320
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 40 87
+From1 0 0
+From2 4 4
+From3 1 1
+From4 49 365
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+altavista 1 1
+yahoo 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://www.paginasamarillas.com/pagamanet/procesos/web.aspx 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 4
+segura+tierra+pozos 1
+maquinas+perforacion+pozos 1
+maquinas+de+perforacion+de+pozos+de+agua 1
+perforaci%c3%b3n+de+pozos+de+agua 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 8
+de 5
+pozos 4
+maquinas 2
+agua 2
+perforacion 2
+perforaci%c3%b3n 1
+tierra 1
+segura 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 6 29708
+404 12 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 3
+/_vti_bin/owssvr.dll 1 -
+/robots.txt 10 -
+/MSOffice/cltreq.asp 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 20
+64.208.0.5 17 70 1470277 20050429093807
+adsl-2-142-172.mia.bellsouth.net 15 44 571388 20050408150240
+165.158.intelnet.net.gt 9 20 557739 20050409131437
+225.158.intelnet.net.gt 7 54 0 20050419234422
+64.241.170.177 6 35 628555 20050407160750
+168-226-92-51.speedy.com.ar 6 33 511716 20050418152424
+63.148.99.239 6 6 54420 20050410151251
+226.158.intelnet.net.gt 4 26 8710 20050419234237
+dsl-11-134.cofs.net 4 26 299261 20050426145024
+185.158.intelnet.net.gt 3 25 290551 20050424025714
+ip-147-222.newcomamericas.net 3 25 46477 20050415130537
+dsl-201-129-45-221.prod-infinitum.com.mx 3 24 262750 20050414135216
+202.158.intelnet.net.gt 3 14 0 20050429175235
+166.158.intelnet.net.gt 3 25 290551 20050409131108
+64.114.199.1 2 2 17420 20050410165025
+extproxy2.guate.net.gt 1 16 0 20050401200000
+217.205.124.18 1 1 8710 20050417181320
+224.158.intelnet.net.gt 1 5 0 20050419234538
+ip-61-090.guate.net.gt 0 2 0 
+extproxy3.guate.net.gt 0 4 0 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 19
+20050401 1 10 0 1
+20050404 0 1 0 0
+20050405 0 2 0 0
+20050406 0 1 0 0
+20050407 6 35 628555 1
+20050408 27 88 2041665 2
+20050409 12 45 848290 2
+20050410 8 8 71840 2
+20050414 3 24 262750 1
+20050415 3 27 46477 1
+20050417 1 1 8710 1
+20050418 6 33 511716 1
+20050419 12 85 8710 3
+20050422 0 2 0 0
+20050423 2 3 0 1
+20050424 3 25 290551 1
+20050426 4 34 299261 1
+20050428 1 1 0 1
+20050429 5 32 0 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+5mn-15mn 2
+2mn-5mn 3
+30s-2mn 7
+0s-30s 9
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 14
+/images/rotativas2.swf 19 487880 2 5
+/images/rotativasgrande.swf 18 671096 0 3
+/ 14 113230 13 2
+/profundizacion.htm 6 42125 0 0
+/perforacion.htm 6 64620 2 1
+/index.htm 5 26130 1 2
+/equipo.htm 5 39595 0 2
+/contactenos.htm 4 24492 1 3
+/rehabilitacion.htm 4 34496 0 0
+/its.htm 4 18512 1 1
+/quienes_somos.htm 3 19132 0 1
+/sellamiento.htm 3 15636 1 0
+/entrenamiento.htm 2 16938 0 1
+/mapa.htm 1 523 0 0
+END_SIDER

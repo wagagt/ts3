@@ -1,0 +1,1057 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201109 will be lost/reset.
+# Last config file used to build this data file was /home/tierra/tmp/awstats/awstats.tierrasegura.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2008                
+POS_TIME 2674                
+POS_VISITOR 24689               
+POS_DAY 29613               
+POS_DOMAIN 3492                
+POS_LOGIN 3917                
+POS_ROBOT 4072                
+POS_WORMS 4572                
+POS_EMAILSENDER 4703                
+POS_EMAILRECEIVER 4846                
+POS_SESSION 30429               
+POS_SIDER 30640               
+POS_FILETYPES 4981                
+POS_DOWNLOADS 5277                
+POS_OS 5734                
+POS_BROWSER 5898                
+POS_SCREENSIZE 6511                
+POS_UNKNOWNREFERER 6585                
+POS_UNKNOWNREFERERBROWSER 6908                
+POS_ORIGIN 7079                
+POS_SEREFERRALS 7220                
+POS_PAGEREFS 7388                
+POS_SEARCHWORDS 7938                
+POS_KEYWORDS 8686                
+POS_MISC 2337                
+POS_ERRORS 9161                
+POS_CLUSTER 3773                
+POS_SIDER_404 9288                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20111001011111 71 16245 9919900324757
+FirstTime 0
+LastTime 20110930195856
+LastUpdate 20111001053600 71 0 70 0 0
+TotalVisits 177                 
+TotalUnique 120                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 120                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 54 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 38 69 3779075 11 16 39735
+1 2 2 9932 6 8 329516
+2 2 2 9932 2 4 4241
+3 1 1 4966 8 11 44574
+4 2 2 9932 3 6 883418
+5 2 2 6087 11 19 77591
+6 5 11 505933 128 137 566812
+7 47 161 1804637 14 54 29796
+8 54 139 44465113 8 28 90464
+9 26 53 62287401 11 29 675651
+10 144 375 70104304 34 95 782933
+11 56 156 18767058 19 36 1573206
+12 19 38 571311 13 24 81412
+13 36 114 27680040 18 31 195244
+14 52 123 50164883 30 65 509815
+15 47 149 6285857 12 32 257389
+16 111 244 38966744 23 72 175117
+17 80 180 9154595 24 49 2928149
+18 122 312 14321967 25 80 1098876
+19 54 170 2283718 13 55 208355
+20 14 20 1396511 19 68 155475
+21 20 49 1230628 335 357 563694
+22 11 16 778988 5 12 970300
+23 25 28 596555 8 15 102939
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 15
+gt 839 2195 239120359
+us 93 163 106001296
+mx 13 32 3021598
+ni 6 7 224396
+de 5 5 24830
+es 2 2 170544
+hn 2 2 170544
+nl 2 2 9932
+gb 2 2 9932
+za 1 1 4966
+ca 1 1 4966
+ru 1 1 4966
+cz 1 1 4966
+ar 1 1 316901
+co 1 1 24599
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+bot[\s_+:,\.\;\/\\-] 96 1354334 20110929001906 0
+googlebot 66 4608581 20110929234207 0
+spider 35 171635 20110930070505 0
+crawl 17 0 20110924204832 0
+slurp 14 54197 20110930175311 0
+[\s_+:,\.\;\/\\-]bot 4 9932 20110911125557 0
+robot 4 20147 20110928032248 0
+no_user_agent 3 9932 20110926191404 0
+msnbot\-media 2 40441 20110905060734 0
+netcraft 1 4966 20110926163703 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+css 139 132240 0 0
+png 199 2912214 0 0
+pdf 3 51571 0 0
+swf 182 27546803 0 0
+php 374 10066956 0 0
+flv 38 259120148 0 0
+html 412 1063518 0 0
+js 148 766862 0 0
+jpg 606 41387502 0 0
+gif 310 4669529 0 0
+xls 3 1387520 0 0
+com 2 9932 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 12
+/Secc/001.flv 10 2 37700852
+/bienesraices.gt/ingresovirtual/ingresosts.xls 6 0 2775040
+/Secc/003.flv 6 0 38552748
+/Secc/002.flv 6 0 30046332
+/Secc/005.flv 4 0 36360868
+/Secc/004.flv 4 0 61077708
+/ingreso/ingresosts.xls 2 0 144384
+/Resources/DesinfeccionDePozos.pdf 2 0 41484
+/Secc/006.flv 1 0 13925188
+/Resources/ElFiltroDeGravaNoEsUnfiltro.pdf 1 0 10087
+/Secc/008.flv 1 0 36718003
+/Secc/007.flv 1 0 4738449
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 12
+blackberry 1
+winlong 107
+winxp 895
+win2000 5
+win98 1
+linux 5
+linuxfedora 6
+win7 698
+winme 3
+macosx 656
+win2003 38
+Unknown 3
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 38
+msie6.0 19
+firefox5.0 87
+firefox4.0.1 3
+chrome13.0.782.220 95
+opera9.61 1
+chrome13.0.782.218 6
+curl 2
+opera9.63 1
+firefox3.5.3 6
+safari5.0.2 595
+msie8.0 965
+iphone 1
+firefox6.0.2 155
+safari1.3.2 40
+firefox3.5.8 2
+msie7.0 85
+wget 1
+msie9.0 38
+Unknown 1
+chrome11.0.696 1
+blackberry 1
+firefox3.5.6 2
+firefox2.0.0.20 1
+chrome14.0.835.186 109
+firefox3.6.21 1
+firefox3.6.17 41
+msie5.5 5
+firefox3.0.5 1
+chrome5.0.375.86 32
+mozilla 3
+firefox5.0.1 1
+safari5.1 57
+firefox3.6.3 1
+chrome5.0.356.2 21
+chrome11.0.696.60 1
+chrome11.0.696.71 4
+firefox3.0.19 21
+firefox3.6.13 12
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_DomainRatio_Website_Index/1.2.46;__http://www.domainratio.com) 20110907191409
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20110915101735
+Wget/1.11.4_Red_Hat_modified 20110907071000
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20110915101735
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 289 373
+From1 0 0
+From2 31 31
+From3 9 9
+From4 641 2005
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 29 29
+search 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+http://www.paginasamarillas.com/Perforadores-de-Pozos/Guatemala/1-2.aspx 3 3
+http://www.facebook.com/l.php 2 2
+http://www.paginasamarillas.com/water-and-wastewater-treatment/Guatemala/English-1-2.aspx 1 1
+http://www.paginasamarillas.com/Bombas-de-agua-sumergibles/Guatemala/Guatemala/1-3.aspx 1 1
+http://heritagemp.com 1 1
+http://www.paginasamarillas.com/Pozos-de-Agua/Guatemala/Guatemala/1-3.aspx 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 20
+tierra+segura 6
+www.tierrasegura.com 4
+tierra+segura+pozos 2
+tierra+segura+guatemala 2
+proceso+perforacion+pozo+mecanicos+agua 1
+excavaci%c3%b3n+de+pozos+para+riego+en+ca%c3%91a 1
+condado+filadelfia+guatemala 1
+web 1
+brocas+para+pozos+mecanicos 1
+perforar+pozos+de+700+pies 1
+inmobiliaria+tierra+segura 1
+pozo+de+agua+de+700+pies+para 1
+fluidos+para+perforacion+de+pozos+acuiferos 1
+brocas+para+hacer+un+pozo 1
+devsa 1
+constructora+de+pozos+en+guatemala 1
+ranurador+pozo 1
+perforaci%c3%b3n+de+pozos+filetype+swf 1
+lodos+de+perforacion+para+formaciones+no+consolidadas 1
+curso+para+perforistas 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 40
+tierra 11
+segura 11
+pozos 8
+de 8
+para 7
+pozo 4
+guatemala 4
+www.tierrasegura.com 4
+perforacion 3
+700 2
+agua 2
+brocas 2
+pies 2
+en 2
+mecanicos 2
+perforaci%c3%b3n 1
+filadelfia 1
+no 1
+fluidos 1
+excavaci%c3%b3n 1
+consolidadas 1
+condado 1
+devsa 1
+un 1
+hacer 1
+riego 1
+filetype 1
+acuiferos 1
+proceso 1
+web 1
+inmobiliaria 1
+constructora 1
+lodos 1
+perforar 1
+perforistas 1
+formaciones 1
+ranurador 1
+swf 1
+ca%c3%91a 1
+curso 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 56 130508
+206 22 5213916
+404 902 0
+301 27 11726
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 474
+/mysql/admin/ 1 -
+/db/phpmyadmin/ 1 -
+/mysql/dbadmin/ 1 -
+/Secc/no-text5257483609619686400 1 -
+/mysqladmin/ 1 -
+//mysql.bck/scripts/setup.php 1 -
+/Secc/no-text1158024246438912147 1 -
+/Secc/images/Fotos/009.jpg 1 -
+//nildbnil/scripts/setup.php 1 -
+/web/ 1 -
+/images/logo.png 2 -
+/~/admin/ 1 -
+//adminsql/scripts/setup.php 1 -
+//phpMyAdmin-2.11.1/scripts/setup.php 2 -
+//phpMyAdmin-2.11.9.5/scripts/setup.php 2 -
+//mysql-old/scripts/setup.php 1 -
+//_pma/scripts/setup.php 1 -
+/database/database/ 1 -
+//phpMyAdmin-2.11.9.4/scripts/setup.php 1 -
+//wbsadmin/html/scripts/setup.php 1 -
+//db_backup/scripts/setup.php 1 -
+//mydb/scripts/setup.php 3 -
+//msql/scripts/setup.php 1 -
+//!mysql/scripts/setup.php 1 -
+//phpadmin2011/scripts/setup.php 1 -
+//sqladmin_old/scripts/setup.php 1 -
+//phpMyAdmin-2.11.2.2-all-languages/scripts/setup.php 1 -
+/PHPMYADMIN/ 1 -
+/3rdparty/phpMyAdmin/ 1 -
+/Secc/no-text5032762402867749285 1 -
+/cpadmin/ 1 -
+//pma-profis/scripts/setup.php 2 -
+//PMA/scripts/setup.php 1 -
+/Secc/images/Fotos/020.jpg 1 -
+//phpMyAdmin-2.9.1/scripts/setup.php 1 -
+//habr/scripts/setup.php 1 -
+//old/phpmyadmin/scripts/setup.php 1 -
+/administrator/web/ 1 -
+//pmy/phpMyAdmin-2.10.0.2-english/scripts/setup.php 1 -
+//rootsql/scripts/setup.php 1 -
+/database/phpMyAdmin2/ 1 -
+//admin/my/scripts/setup.php 1 -
+/images/fondo_tabla_tierra.jpg 236 http://www.tierrasegura.com/app/index.php
+//admn/scripts/setup.php 1 -
+//phpmyadmin1/scripts/setup.php 2 -
+/sql/phpMyAdmin/ 1 -
+/Secc/no-text-3237469192319987987 1 -
+//admin/mysqladmin/scripts/setup.php 1 -
+/myadmin/ 1 -
+/3rdparty/pma2005/ 1 -
+/db/db-admin/ 1 -
+//admm/scripts/setup.php 1 -
+/Secc/no-text2933265702123548683 1 -
+/administrator/ 2 -
+//_php/scripts/setup.php 1 -
+/Secc/images/Fotos/012.jpg 1 -
+/Secc/no-text5521303710020157037 1 -
+/db/phpMyAdmin-2/ 1 -
+/db/phpmyadmin2/ 1 -
+//My-php/scripts/setup.php 1 -
+//phpMyAdmin-2.11.5.1-all-languages/scripts/setup.php 1 -
+//_admin/scripts/setup.php 1 -
+/sql/phpmyadmin2/ 1 -
+//aadm/pma/scripts/setup.php 1 -
+//_myadmin/scripts/setup.php 1 -
+/apple-touch-icon-72x72-precomposed.png 9 -
+//_bon_dbadmin/scripts/setup.php 3 -
+//backup/phpmyadmin/scripts/setup.php 1 -
+/Secc/images/Fotos/004.jpg 1 -
+/sql/sqladmin/ 1 -
+//phpMyAdmin.life/scripts/setup.php 1 -
+//admdb947/scripts/setup.php 1 -
+/Secc/no-text2728217460325766140 1 -
+/phpmy/ 1 -
+//sql2/scripts/setup.php 1 -
+//phpmyadminnemo/scripts/setup.php 1 -
+//_sql2/scripts/setup.php 1 -
+/db/phpMyAdmin2/ 1 -
+/sqlweb/ 1 -
+//pmadm/scripts/setup.php 1 -
+//webadmin/scripts/setup.php 1 -
+//m_ad/scripts/setup.php 1 -
+//PmA/scripts/setup.php 1 -
+/phppma/ 1 -
+//xxmy_admin.old/scripts/setup.php 1 -
+/sql/webadmin/ 1 -
+/db/webdb/ 1 -
+/sql/sqlweb/ 1 -
+//databaseadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.11.1.2-all-languages/scripts/setup.php 1 -
+/cpdbadmin/ 1 -
+//pma211/scripts/setup.php 2 -
+//portable-phpmyadmin/wp-pma-mod/scripts/setup.php 1 -
+//phpMyAdminpcs41/scripts/setup.php 1 -
+//phpMyAdmin-3/scripts/setup.php 1 -
+//Myphp/scripts/setup.php 1 -
+//pma2/scripts/setup.php 1 -
+//admsql1/scripts/setup.php 1 -
+//admin/pma/scripts/setup.php 1 -
+/Secc/images/Fotos/001.jpg 1 -
+/PMA/ 1 -
+/mysql/pMA/ 1 -
+//.bash/scripts/setup.php 1 -
+//adminn/scripts/setup.php 2 -
+/apple-touch-icon-72x72.png 9 -
+//etetetet.old/scripts/setup.php 1 -
+//php2011/scripts/setup.php 1 -
+/mysql/db/ 1 -
+//phpMyAdmin2011/scripts/setup.php 2 -
+//db1/scripts/setup.php 1 -
+//phpma1/scripts/setup.php 1 -
+//phpadmin211/scripts/setup.php 1 -
+/database/phpMyAdmin/ 1 -
+//cb/scripts/setup.php 1 -
+//MySQL/scripts/setup.php 1 -
+//pma2.11.10/scripts/setup.php 1 -
+//cbadmin/scripts/setup.php 1 -
+//myadmin_a/scripts/setup.php 1 -
+//admin/myadmin/scripts/setup.php 1 -
+//admdb/scripts/setup.php 1 -
+/db/dbweb/ 1 -
+//Admin/scripts/setup.php 1 -
+//admin/mysql/scripts/setup.php 1 -
+/~/phpadmin/ 1 -
+//gmy-myadm/scripts/setup.php 1 -
+//phpMyAdmin-3.0.1.1-all-languages/scripts/setup.php 1 -
+//data_admin/scripts/setup.php 2 -
+/cpphpmyadmin/ 1 -
+//phpMyAdmin-2.11.11.3/scripts/setup.php 1 -
+//pma3/scripts/setup.php 1 -
+//xx_phpmyadmin/scripts/setup.php 1 -
+/Secc/no-text-4632165249100834458 1 -
+/robots.txt 104 -
+/SQL/ 1 -
+//bbs/phpMyAdmin/scripts/setup.php 1 -
+//phpmyadmin/2.11.10/htdocs/scripts/setup.php 1 -
+/sql/sql/ 1 -
+//db4/scripts/setup.php 1 -
+//my_sql_admin/scripts/setup.php 1 -
+//phpadmin_old/scripts/setup.php 1 -
+//phpMyAdmin-2.11.9.6/scripts/setup.php 1 -
+/Secc/no-text-1680207088647520428 1 -
+//phpMyAdmin-2.8.2.2/scripts/setup.php 1 -
+/db/ 1 -
+/cpanelphpmyadmin/ 1 -
+//webmail2/scripts/setup.php 1 -
+//rcsu_mydb/scripts/setup.php 1 -
+//phpmyadmin/2.11.9.4/htdocs/scripts/setup.php 1 -
+//sql/scripts/setup.php 1 -
+//_dbadmin/scripts/setup.php 1 -
+/MyAdmin/ 1 -
+//pa/scripts/setup.php 1 -
+//phpmyadmin_old/phpmyadmin/scripts/setup.php 1 -
+//php2/scripts/setup.php 1 -
+//db3/scripts/setup.php 1 -
+/sql/phpMyAdmin2/ 1 -
+//pmy/scripts/setup.php 2 -
+/Secc/images/Fotos/003.jpg 1 -
+//dbadm/phpMyAdmin/scripts/setup.php 1 -
+/Secc/images/Fotos/017.jpg 1 -
+//phpmyadmin/phpMyAdmin-2.11.5-english/scripts/setup.php 1 -
+/sql/webdb/ 1 -
+/mysql/mysqlmanager/ 1 -
+/websql/ 1 -
+//phadmin/scripts/setup.php 1 -
+/Secc/images/Fotos/015.jpg 1 -
+//phpMyAdmin-3.0.0-all-languages/scripts/setup.php 1 -
+//admin/phpAdmin/scripts/setup.php 1 -
+/Secc/Resources/ElFiltroDeGravaNoEsUnfiltro.pdf 3 -
+/Secc/no-text-6148644464514348837 1 -
+//_phpMyAdmin/scripts/setup.php 1 -
+/phpmyadmin2/ 1 -
+//phpMyAdmin-2.11.8.1-all-languages/scripts/setup.php 1 -
+//pmadm-2.11.3cr1/scripts/setup.php 1 -
+//phpMyAdminpcs81/scripts/setup.php 1 -
+/3rdparty/ 1 -
+//phpmyadminx/scripts/setup.php 1 -
+/Secc/images/Fotos/014.jpg 1 -
+//p/scripts/setup.php 1 -
+//phpmysql/scripts/setup.php 1 -
+/Secc/images/Fotos/011.jpg 1 -
+//dvphp/phpmyadmin/scripts/setup.php 1 -
+/sql/php-myadmin/ 1 -
+/Secc/images/Fotos/006.jpg 1 -
+/sql/sql-admin/ 1 -
+/Secc/no-text-1263921026493307786 1 -
+/admin/sqladmin/ 1 -
+//db_my/scripts/setup.php 2 -
+/Secc/images/Fotos/021.jpg 1 -
+/3rdparty/myadmin/ 1 -
+/admin/ 1 -
+/apple-touch-icon.png 8 -
+/mysql/pma/ 1 -
+/php-my-admin/ 1 -
+//phpmyadmin29/scripts/setup.php 1 -
+//adminBD/scripts/setup.php 1 -
+//phpMyAdminco/scripts/setup.php 1 -
+//myadmin/MyAdmin/scripts/setup.php 1 -
+//phpMyAdmin-english/scripts/setup.php 1 -
+//911/scripts/setup.php 1 -
+//sasapma/scripts/setup.php 1 -
+/bienesraices.gt/index.htm 1 -
+//dbadmin211/scripts/setup.php 1 -
+/Secc/images/Fotos/007.jpg 1 -
+//mysql2011/scripts/setup.php 1 -
+//phpMyAdmin-2.11.11-all-languages/scripts/setup.php 1 -
+/phpmyadmin1/ 1 -
+//phpMyAdmin_for_upload/scripts/setup.php 1 -
+//myadmin/phpMyAdmin-2.11.9.6-all-languages/scripts/setup.php 2 -
+//phpMyAdmin-2.8.3/scripts/setup.php 1 -
+//myadmin2/scripts/setup.php 2 -
+//pma_bk/scripts/setup.php 1 -
+//2010/phpMyAdmin/scripts/setup.php 1 -
+//myphp/scripts/setup.php 1 -
+//PMYADM/phpMyAdmin-2.10.0.2-english/scripts/setup.php 1 -
+//phpMyAdmin-2.11.2.2/scripts/setup.php 1 -
+//pmaold/scripts/setup.php 2 -
+//phpmyadmin32/scripts/setup.php 1 -
+//phpMyAdmin-2.11.7.1-all-languages-utf-8-only/scripts/setup.php 1 -
+//my/scripts/setup.php 1 -
+//pma_ai/scripts/setup.php 2 -
+/db/myadmin/ 1 -
+/apple-touch-icon-precomposed.png 9 -
+//mysql211/scripts/setup.php 1 -
+//sgl/scripts/setup.php 1 -
+//.phpadmin/scripts/setup.php 1 -
+/bienesraices.gt/index_archivos/Page477.htm 1 -
+/db/websql/ 1 -
+//myad/scripts/setup.php 2 -
+/3rdparty/pma/ 1 -
+//phpMyAdmin-2.11.11.3-english/scripts/setup.php 1 -
+//php_jibin/scripts/setup.php 1 -
+/bienesraices.gt/index_archivos/Page335.htm 1 -
+//sql211/scripts/setup.php 1 -
+/Secc/images/Fotos/008.jpg 1 -
+/sql/myadmin/ 1 -
+//web/mysql/scripts/setup.php 1 -
+//copiaphpmyadmin/scripts/setup.php 1 -
+/administrator/db/ 1 -
+/Secc/no-text1580036244418985019 1 -
+//phpMyAdmin-2.11.2.2-all-languages/scripts/setup.ph 1 -
+/Secc/no-text3683214287302476374 1 -
+/mysql/web/ 1 -
+//phpMyAdmin-2.9.0.3/scripts/setup.php 1 -
+/sql/phpmy-admin/ 1 -
+/Secc/no-text380482534238176054 1 -
+//phpmyadmin-bkp/scripts/setup.php 1 -
+//dbnimba/scripts/setup.php 2 -
+//pma2011/scripts/setup.php 1 -
+/phpMyAdmin/ 1 -
+//mysql_administrator/scripts/setup.php 1 -
+//phpmyadmin_old/scripts/setup.php 1 -
+//phpMyAdmin-old/scripts/setup.php 1 -
+//phpMyAdmin-2.11.5/scripts/setup.php 1 -
+/~/phpmanager/ 1 -
+/mysql-admin/ 1 -
+/3rdparty/admin/ 1 -
+/admin/db/ 1 -
+//phpmyadmin291/scripts/setup.php 1 -
+//php211/scripts/setup.php 1 -
+//phpmyadmin/2.11.9.6/htdocs/scripts/setup.php 1 -
+/phpmanager/ 1 -
+/Secc/images/Fotos/010.jpg 1 -
+/db/webadmin/ 1 -
+//_sql1/scripts/setup.php 1 -
+/bienesraices.gt/index_archivos/Page445.htm 2 -
+//phpMyAdmin-2.9.0/scripts/setup.php 1 -
+/qql/ 1 -
+//phpMyAdmin-1/scripts/setup.php 1 -
+//_phpmyadmin_/scripts/setup.php 1 -
+//phpMyAdmin-2/scripts/setup.php 1 -
+/Secc/no-text-7061416484342777266 1 -
+/admin/phpMyAdmin/ 1 -
+/phpmya/ 1 -
+//wp-pma-mod/scripts/setup.php 1 -
+//_db/scripts/setup.php 1 -
+/sl2/data/ 1 -
+//myAdmin/scripts/setup.php 1 -
+/webadmin/ 1 -
+//_db_man_aa/scripts/setup.php 1 -
+/Secc/images/Fotos/005.jpg 1 -
+//_phpmyadmin/_v2.8/scripts/setup.php 1 -
+/images/Jetting.jpg 2 -
+/admin/pMA/ 1 -
+//phpmyadmin/myadmin/scripts/setup.php 1 -
+/administrator/pma/ 1 -
+//_phpadmin/scripts/setup.php 1 -
+//phpMyAdmin393/scripts/setup.php 1 -
+/Secc/no-text888475849975194848 1 -
+//.phpMyAdmin/scripts/setup.php 1 -
+//phpmyadmin2.11.1/scripts/setup.php 1 -
+/cpanelsql/ 1 -
+/pma/ 1 -
+/web/phpMyAdmin/ 1 -
+//phpMyAdmin-2.11.6-all-languages/scripts/setup.php 1 -
+/phpMyAdmin2/ 1 -
+//phpMyAdmin-2.11.9.4-all-languages/scripts/setup.php 1 -
+/administrator/admin/ 1 -
+//admin/pmadm/scripts/setup.php 1 -
+//phpMyAdmin/phpMyAdmin/scripts/setup.php 1 -
+/sql/websql/ 1 -
+//phpmyadmin/2.11.9.5/htdocs/scripts/setup.php 1 -
+/program/ 1 -
+//admsql/scripts/setup.php 1 -
+/admin/pma/ 1 -
+/database/phpmyadmin2/ 1 -
+//phpm/scripts/setup.php 1 -
+//dbadmin2011/scripts/setup.php 1 -
+/bienesraices.gt/index_archivos/Page293.htm 1 -
+//db2/scripts/setup.php 1 -
+//pma/scripts/setup.php 2 -
+/Secc/Resources/DesinfeccionDePozos.pdf 2 -
+//phpmyadmin/scripts/setup.php 2 -
+//phpMyAdmin-2.8.2/scripts/setup.php 2 -
+//ladminadminl/scripts/setup.php 1 -
+/roundcube/ 1 -
+//php1/scripts/setup.php 1 -
+/Secc/images/Fotos/016.jpg 1 -
+//phpmyadmin-ramy/scripts/setup.php 1 -
+//adm/scripts/setup.php 1 -
+/Secc/images/Fotos/019.jpg 1 -
+//adminphp/scripts/setup.php 1 -
+//phpMyA/scripts/setup.php 1 -
+//mysqladmin/scripts/setup.php 2 -
+/3rdparty/dbadmin/ 1 -
+/pma2005/ 1 -
+//pma_tpfocus/scripts/setup.php 1 -
+/database/phpmyadmin/ 1 -
+/admin/phpmyadmin/ 1 -
+//phpMyAdmin-2.11.5-english/scripts/setup.php 1 -
+//pma1/scripts/setup.php 1 -
+//webapps/scripts/setup.php 1 -
+//phpMyAdmini/scripts/setup.php 1 -
+//cbadmin2/scripts/setup.php 1 -
+//myadmin/scripts/setup.php 2 -
+//phpM/scripts/setup.php 3 -
+//_myphp/scripts/setup.php 1 -
+//phpMyAdmin-2.11.4-all-languages-utf-8-only/scripts/setup.php 2 -
+//phpmyadmin2011/scripts/setup.php 1 -
+//Phpmyadmin/scripts/setup.php 2 -
+//phpAdmin/scripts/setup.php 1 -
+//db211/scripts/setup.php 1 -
+//dbadmin/scripts/setup.php 2 -
+//myadmin1/scripts/setup.php 1 -
+//pma_rs/scripts/setup.php 1 -
+/administrator/index.php 1 -
+//_v2.8/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0.3/scripts/setup.php 1 -
+/php-myadmin/ 1 -
+/phpadmin/ 1 -
+//_phpmyadmin_db4/scripts/setup.php 2 -
+/admin/web/ 1 -
+/bienesraices.gt/index_archivos/Page351.htm 1 -
+/mysqladminconfig/ 1 -
+//sqladm/scripts/setup.php 1 -
+/shop/admin/banner_manager.php/login.php 2 -
+/Secc/images/Fotos/018.jpg 1 -
+/admin/sysadmin/ 1 -
+//sql1/scripts/setup.php 1 -
+//phpMyAdmin-2.10.0.2-english/scripts/setup.php 1 -
+//mysql_admin/scripts/setup.php 1 -
+//mygoodadmin/scripts/setup.php 1 -
+//phpma/scripts/setup.php 1 -
+//__myadmin__/scripts/setup.php 1 -
+//phpMyAdmin-3.0.0-rc2/scripts/setup.php 1 -
+//scripts/setup.php 2 -
+//phpMyAdmin-2.11.9.3/scripts/setup.php 1 -
+//phpMyAdmin-2.11.10.1/scripts/setup.php 1 -
+/PMA2005/ 1 -
+/Secc/images/Fotos/022.jpg 1 -
+//phpMyAdmin-2.10.3/scripts/setup.php 1 -
+//PHPmyAdmin.old/scripts/setup.php 1 -
+//.dbadmin/scripts/setup.php 1 -
+//phpma12345/scripts/setup.php 1 -
+/Secc/no-text-1400432234121397090 1 -
+//PHPMyAdmin/scripts/setup.php 1 -
+//admin/db/scripts/setup.php 1 -
+//phpMyAdmin-2.8.1/scripts/setup.php 1 -
+//phpMyAdmin-2.11.4/scripts/setup.php 1 -
+//phpmycube/scripts/setup.php 1 -
+//phpmya/scripts/setup.php 2 -
+/Secc/no-text3749699965195450682 1 -
+//phpadmin/scripts/setup.php 2 -
+//2011/phpMyAdmin/scripts/setup.php 1 -
+/phpmy-admin/ 1 -
+/administrator/phpmyadmin/ 1 -
+//.pma/scripts/setup.php 1 -
+//dba/scripts/setup.php 1 -
+//phpMyAdmin-2.11.1-all-languages/scripts/setup.php 1 -
+//prog/scripts/setup.php 1 -
+//phpmysql/sql/scripts/setup.php 2 -
+/mysqlmanager/ 1 -
+/phpmyadmin/ 1 -
+/mysql/ 1 -
+//phpMyAdmin-2.10.0.2/scripts/setup.php 1 -
+//.phpmyadmin/scripts/setup.php 2 -
+//phpmyadmin211/scripts/setup.php 1 -
+/Secc/no-text-1578978451301098486 1 -
+/db/dbadmin/ 1 -
+//./scripts/setup.php 1 -
+/images/servicios.JPG 2 -
+//my-php/scripts/setup.php 1 -
+/Secc/images/Fotos/002.jpg 1 -
+//wp-phpmyadmin/phpmyadmin/scripts/setup.php 2 -
+//_qsql/scripts/setup.php 1 -
+/panel 1 -
+//admin/sql/scripts/setup.php 1 -
+/Secc/images/Fotos/013.jpg 1 -
+//_old/phpMyAdmin/scripts/setup.php 1 -
+//dbAdmin/scripts/setup.php 1 -
+//phpmyadmin123/scripts/setup.php 1 -
+//phpMyAdmin-3.0.0/scripts/setup.php 1 -
+/administrator/PMA/ 1 -
+/Secc/no-text-3794083523830135904 1 -
+//sqladm.old/scripts/setup.php 1 -
+//_sql/scripts/setup.php 2 -
+/sql/phpmanager/ 1 -
+/phpMyAdmin-2/ 1 -
+//backup/scripts/setup.php 1 -
+/cpadmindb/ 1 -
+//SQL/scripts/setup.php 1 -
+//___pma/scripts/setup.php 1 -
+//phpmyadmin2/scripts/setup.php 2 -
+//dbc/scripts/setup.php 1 -
+/Secc/no-text660859825337387572 1 -
+//phpmyadmin_2.10/scripts/setup.php 3 -
+//examples/scripts/setup.php 1 -
+//_hidden_myadmin_/scripts/setup.php 1 -
+//pmabd/scripts/setup.php 2 -
+//m_a/scripts/setup.php 1 -
+/Secc/Resources/Mapa.jpg 1 -
+/bbs/data/ 1 -
+/3rdparty/setup.php 1 -
+//phpMyAdmin-2.11.9.5-all-languages/scripts/setup.php 1 -
+//admin--/mysqladmin/scripts/setup.php 1 -
+/database/ 1 -
+//phpad/scripts/setup.php 1 -
+//phpMyAdmin.old/scripts/setup.php 1 -
+//_phpmyadmin/scripts/setup.php 1 -
+//pxA/scripts/setup.php 1 -
+/muieblackcat 2 -
+/Secc/no-text-535854547580029877 1 -
+//_phpmyadmin_db3/scripts/setup.php 2 -
+/webdb/ 1 -
+//db/scripts/setup.php 2 -
+//Files/scripts/setup.php 1 -
+/typo3/phpmyadmin/ 1 -
+/mysql/sqlmanager/ 1 -
+/db/phpMyAdmin/ 1 -
+//html/scripts/setup.php 1 -
+//phpMyAdmin-2.11.11.1-english/scripts/setup.php 1 -
+//phpMyAdmin211/scripts/setup.php 1 -
+//phpMyAdmin-2.11.9.6-all-languages/scripts/setup.php 1 -
+//PMYADM/scripts/setup.php 1 -
+//sql2011/scripts/setup.php 1 -
+//pma_2/scripts/setup.php 1 -
+/sqlmanager/ 1 -
+//db2011/scripts/setup.php 1 -
+//pg_mysql/scripts/setup.php 1 -
+/sqladmin/ 1 -
+/administrator/phpMyAdmin/ 1 -
+//madm/scripts/setup.php 3 -
+/Secc/no-text4288890990258697856 1 -
+//phpmyadmin_xxx/scripts/setup.php 1 -
+/p/m/a/ 1 -
+//PHPmyAdmin/scripts/setup.php 1 -
+/~/myadmin/ 1 -
+/index.php 1 -
+//phpMyAdmin/scripts/setup.php 2 -
+//mysql/scripts/setup.php 2 -
+/cpanelmysql/ 1 -
+/bienesraices.gt/textLayout_1.0.0.595.swz 2 http://www.tierrasegura.com/bienesraices.gt/
+//pma_mydb/scripts/setup.php 1 -
+/dbadmin/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 120
+201.216.146.47 101 206 14769999 20110925180636
+200.119.166.21 72 195 44261235 20110928134217
+200.119.189.120 62 134 8356812 20110916110302
+190.149.238.85 61 123 8502942 20110930115155
+200.119.161.247 38 109 1636831 20110912192554
+200.119.154.125 36 114 2420608 20110908184309
+200.119.165.224 32 53 621930 20110929164601
+200.119.157.120 25 89 888037 20110927193504
+200.119.178.224 23 57 1056167 20110909222210
+200.49.162.42 23 80 19346205 20110920105007
+200.119.167.69 22 58 358698 20110906162956
+201.216.146.21 21 51 8123017 20110919160634
+200.119.175.231 17 50 709769 20110910183122
+190.111.7.235 17 68 10717729 20110906142502
+200.119.179.101 17 46 729930 20110907212756
+200.119.183.191 16 25 392478 20110901163307
+190.143.190.87 16 45 838262 20110911145406
+38.100.21.19 14 16 505708 20110911235521
+200.12.45.79 14 51 46210162 20110927101756
+200.119.166.183 13 42 618585 20110917193302
+200.119.151.26 13 21 259447 20110902153158
+201.120.191.165 12 25 2615835 20110928084308
+200.119.164.147 11 38 691938 20110913181449
+200.119.184.34 11 36 353033 20110915175305
+200.119.163.180 11 42 806717 20110927181847
+188.138.120.208 1 1 4966 20110927062635
+208.80.194.31 1 1 4966 20110912230738
+74.125.64.84 1 1 1121 20110916210402
+96.126.105.220 1 1 4966 20110909123921
+157.55.112.202 3 4 31740 20110913121247
+76.24.229.178 9 36 40317748 20110911084627
+76.171.216.62 3 7 381047 20110918120519
+208.80.194.37 4 4 19864 20110929105046
+186.2.144.140 1 1 85272 20110915202329
+190.184.95.151 4 5 146231 20110903080406
+69.79.77.86 5 11 825428 20110912205855
+109.206.179.199 1 1 4966 20110920020138
+190.231.10.22 1 1 316901 20110915094211
+200.119.170.227 3 7 378805 20110914193533
+207.46.12.74 1 2 27134 20110929232836
+190.148.161.160 7 15 1907654 20110915101843
+190.143.184.25 3 3 0 20110920140848
+190.143.191.223 1 1 0 20110924081853
+83.33.118.162 1 1 85272 20110913081504
+65.52.104.39 3 4 31740 20110908160724
+190.148.224.9 4 10 508527 20110919142039
+66.220.149.250 1 1 0 20110915101735
+190.148.7.172 6 21 1424284 20110928154054
+190.148.211.6 3 14 401235 20110912124757
+208.80.194.32 1 1 4966 20110923235627
+201.216.181.69 4 9 495048 20110923103124
+190.115.1.74 2 17 465207 20110902162500
+200.119.173.183 2 2 0 20110902210427
+190.148.17.22 2 6 447545 20110929142031
+190.56.241.100 5 10 13479 20110907072748
+200.6.222.49 10 40 41627726 20110927100747
+200.119.169.156 2 4 26958 20110926122322
+200.6.193.90 2 10 405143 20110930145018
+46.0.100.205 1 1 4966 20110915171123
+207.46.12.19 1 1 4966 20110905202332
+168.234.217.2 5 27 1085535 20110915151033
+200.119.180.52 1 1 0 20110901074851
+184.107.226.226 1 1 4966 20110907071000
+64.202.161.41 2 2 9932 20110907042630
+200.119.153.179 3 9 0 20110902114728
+200.119.187.94 4 10 405763 20110918181732
+50.16.60.217 2 2 4966 20110918143017
+85.60.45.220 1 1 85272 20110918063818
+208.80.194.27 1 1 4966 20110925082611
+200.119.181.234 2 2 0 20110920092433
+208.80.194.26 3 3 14898 20110926180803
+78.140.138.39 1 1 4966 20110902144849
+207.46.204.164 1 1 1121 20110910054305
+200.119.152.226 4 4 0 20110906120131
+190.148.212.250 8 21 2369990 20110922170743
+216.230.150.60 3 3 102764 20110909220810
+207.58.225.210 5 16 1951702 20110927114202
+190.56.55.193 4 4 419665 20110901130447
+99.28.244.30 5 9 490517 20110926184825
+186.2.144.107 1 1 85272 20110925211254
+200.119.189.62 1 1 0 20110919115733
+208.80.194.34 2 2 9932 20110910114134
+200.119.175.126 1 1 0 20110923192836
+186.180.43.192 1 1 24599 20110904234159
+190.149.43.214 1 1 1121 20110917172951
+200.49.162.36 7 35 4822988 20110923113022
+200.119.170.14 2 2 85272 20110923145833
+190.212.243.196 2 2 78165 20110930153953
+46.4.95.200 2 2 9932 20110929181144
+200.119.185.254 3 5 26958 20110905150514
+200.119.176.91 1 6 392284 20110930150656
+208.80.194.35 1 1 4966 20110915211802
+208.80.194.29 7 7 34762 20110930195856
+200.49.190.98 6 32 1538806 20110914151949
+190.148.174.29 9 19 2610052 20110916140315
+200.49.167.18 2 2 9932 20110905081545
+201.216.146.87 3 21 401380 20110901134346
+200.119.184.247 3 3 102764 20110921103748
+188.138.121.24 2 2 9932 20110917083350
+189.181.94.139 1 7 405763 20110914140304
+77.73.2.160 2 2 9932 20110908063648
+200.119.184.132 6 6 0 20110901141342
+216.230.133.69 4 14 1112586 20110930145015
+208.80.194.33 1 1 4966 20110901184550
+81.30.76.232 1 1 4966 20110907191409
+184.82.131.106 1 1 4966 20110910031452
+200.119.152.186 1 1 0 20110930073914
+207.46.204.162 1 1 1121 20110905102003
+190.143.190.203 3 7 0 20110922174503
+190.149.20.98 3 3 102764 20110919134226
+69.58.178.59 7 7 29182 20110901235420
+200.35.184.105 2 2 9932 20110919084654
+72.94.249.37 1 1 4966 20110909143358
+200.119.139.4 1 1 409339 20110907212726
+41.160.185.138 1 1 4966 20110928201404
+200.119.189.139 1 1 4966 20110917224454
+200.119.150.42 7 35 195145 20110916104402
+67.230.25.112 5 18 61266939 20110904093053
+200.119.172.243 1 1 0 20110927090205
+190.149.60.125 9 15 2138211 20110912202631
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20110901 38 65 1247671 8
+20110902 22 55 1108425 7
+20110903 5 6 151197 2
+20110904 8 21 61301470 4
+20110905 6 8 38011 5
+20110906 44 131 11081393 6
+20110907 28 66 1551417 9
+20110908 43 122 2468367 6
+20110909 28 63 1170252 8
+20110910 20 53 720822 4
+20110911 40 98 41666684 4
+20110912 56 150 5006671 11
+20110913 29 67 1128740 4
+20110914 34 107 6621271 7
+20110915 28 83 3758327 8
+20110916 42 104 9659825 5
+20110917 21 58 1398301 10
+20110918 9 15 502088 6
+20110919 31 67 8744240 6
+20110920 29 86 19351171 5
+20110921 14 49 45863281 4
+20110922 38 78 2733747 5
+20110923 15 48 5408274 5
+20110924 81 165 8052275 2
+20110925 23 42 6781004 3
+20110926 37 107 30386596 6
+20110927 105 289 50233688 10
+20110928 29 89 21140968 5
+20110929 38 64 1111507 5
+20110930 29 60 4798484 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 18
+30s-2mn 15
+2mn-5mn 12
+15mn-30mn 12
+0s-30s 114
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 34
+/app/index.php 244 9607479 1 12
+/ 185 521430 142 98
+/app/templates/abc_proyectos_addComments.php 63 169039 0 0
+/Home.html 42 41477 14 10
+/app/login.php 40 198746 4 5
+/bienesraices.gt/indexa.html 40 83728 3 1
+/bienesraices.gt/banner_top/banner.swf 36 4360695 0 4
+/Home.swf 32 2003144 0 2
+/bienesraices.gt/ 31 72919 2 0
+/Secc/000.swf 30 590376 1 8
+/bienesraices.gt/propiedades/casas.html 29 60664 0 3
+/app/templates/abc_proyectos_editComments.php 27 91692 0 0
+/bienesraices.gt/intro/intro.swf 17 14134688 0 0
+/bienesraices.gt/propiedades/oficinas.html 15 34568 0 0
+/bienesraices.gt/propiedades/terrenos.html 13 35761 0 0
+/bienesraices.gt/propiedades/contactenos.html 12 40083 0 3
+/Secc/003.swf 12 3802812 1 6
+/Secc/006.swf 12 969795 0 7
+/Secc/001a.swf 12 937992 6 7
+/bienesraices.gt/top.html 11 57750 0 0
+/Secc/005.swf 11 72028 0 3
+/bienesraices.gt/propiedades/ofibodegas.html 11 35867 0 0
+/bienesraices.gt/propiedades/vacacionales.html 10 30561 0 2
+/bienesraices.gt/propiedades/apartamentos.html 8 32155 0 0
+/Secc/004.swf 7 53688 0 4
+/Secc/001e.swf 1 33478 0 0
+http://TIERRASEGURA.COM 2 9932 1 1
+/Secc/001c.swf 1 35892 0 0
+/Secc/001e1.swf 1 41490 0 0
+/Secc/002.swf 6 412440 2 0
+/bienesraices.gt/propiedades/fincas.html 5 16555 0 1
+/Secc/001b.swf 2 50344 0 0
+/Secc/001d.swf 1 5649 0 0
+/Secc/001b1.swf 1 42292 0 0
+END_SIDER

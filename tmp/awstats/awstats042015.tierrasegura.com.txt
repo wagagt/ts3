@@ -1,0 +1,881 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201504 will be lost/reset.
+# Last config file used to build this data file was /home/tierra/tmp/awstats/awstats.tierrasegura.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2008                
+POS_TIME 2687                
+POS_VISITOR 21500               
+POS_DAY 29612               
+POS_DOMAIN 3523                
+POS_LOGIN 4302                
+POS_ROBOT 4457                
+POS_WORMS 4951                
+POS_EMAILSENDER 5082                
+POS_EMAILRECEIVER 5225                
+POS_SESSION 30423               
+POS_SIDER 30633               
+POS_FILETYPES 5360                
+POS_DOWNLOADS 5617                
+POS_OS 5777                
+POS_BROWSER 5965                
+POS_SCREENSIZE 6935                
+POS_UNKNOWNREFERER 7009                
+POS_UNKNOWNREFERERBROWSER 7680                
+POS_ORIGIN 8150                
+POS_SEREFERRALS 8293                
+POS_PAGEREFS 8471                
+POS_SEARCHWORDS 9042                
+POS_KEYWORDS 9217                
+POS_MISC 2350                
+POS_ERRORS 9299                
+POS_CLUSTER 4158                
+POS_SIDER_404 9420                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150501000928 37 6361 17587039700061
+FirstTime 20150401022416
+LastTime 20150430163605
+LastUpdate 20150501051725 37 0 36 0 0
+TotalVisits 236                 
+TotalUnique 190                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 208                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 49 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 10 43 2140330 30 39 1019886
+1 2 9 446396 46 53 108974
+2 4 12 767926 34 42 84894
+3 21 44 4061634 30 51 1055458
+4 27 62 2589899 27 43 65980
+5 30 79 3457046 23 37 844507
+6 17 52 1444155 24 40 1530113
+7 58 191 5398662 27 44 630484
+8 48 111 3012790 25 65 627385
+9 49 88 10839986 34 75 387453
+10 73 206 5044317 40 66 430838
+11 60 121 4698548 30 65 134359
+12 19 81 4815455 16 27 1042063
+13 16 52 2307029 25 45 444960
+14 50 88 4781585 35 69 356883
+15 29 60 3016259 40 52 379875
+16 27 77 3219135 33 49 623563
+17 20 39 1826526 71 155 174865
+18 8 25 1571036 19 30 113426
+19 80 219 6667615 21 53 248210
+20 36 87 3610385 44 64 652899
+21 4 15 1380473 20 30 1602526
+22 7 23 1250918 15 22 84778
+23 7 15 779074 15 27 559154
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 39
+gt 422 1029 38950141
+us 100 188 12851686
+pa 48 157 3241068
+cl 21 104 3607425
+br 14 70 5304614
+ph 13 13 65806
+ua 11 11 55100
+ru 11 24 1494997
+it 11 47 3420233
+de 8 8 40399
+co 4 20 1515604
+ca 4 4 20151
+mx 3 15 1136703
+pt 2 10 757802
+es 2 12 784760
+ch 2 10 757802
+in 2 8 406980
+ie 2 2 10027
+cz 2 2 10027
+nl 2 2 10124
+il 1 5 378901
+cn 1 1 5062
+hn 1 5 378901
+cr 1 1 24599
+tn 1 5 378901
+my 0 1 462848
+sa 1 1 5062
+id 1 5 378901
+th 1 5 378901
+jp 1 1 5062
+tw 1 5 378901
+at 1 5 378901
+eu 1 1 5062
+mu 1 5 378901
+vn 1 5 378901
+ee 1 1 5062
+ar 1 5 378901
+ng 1 1 5062
+pe 1 5 378901
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+bot[\s_+:,\.\;\/\\-] 231 5985769 20150430190400 0
+googlebot 127 2432824 20150430212700 0
+spider 60 3004373 20150430080809 0
+robot 13 42735 20150428055104 0
+crawl 7 65750 20150420122832 0
+no_user_agent 3 15186 20150429013413 0
+slurp 2 10027 20150428113710 0
+msnbot\-media 2 829039 20150405035449 0
+netcraft 2 5062 20150408210355 0
+discovery 1 0 20150414114250 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 48 132240 0 0
+png 376 7293006 0 0
+swf 49 5480678 0 0
+php 376 12013055 0 0
+flv 2 8170670 0 0
+html 277 1276397 0 0
+jpg 351 41839279 0 0
+js 48 618918 0 0
+gif 269 914392 0 0
+xls 3 1388544 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 3
+/bienesraices.gt/ingresovirtual/ingresosts.xls 12 0 5554176
+/Secc/001.flv 1 0 3162948
+/Secc/002.flv 1 0 5007722
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 13
+linuxandroid 52
+winlong 24
+winxp 70
+winnt 2
+linuxubuntu 2
+linux 15
+winvista 124
+win7 613
+bsdfreebsd 1
+macosx 802
+winunknown 22
+win2003 3
+Unknown 69
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 55
+firefox28.0 1
+safari7.0 41
+chrome37.0.2062.124 2
+msie6.0 7
+chrome40.0.2214.115 1
+firefox5.0 1
+chrome29.0.1547.57 2
+chrome41.0.2272.96 10
+chrome29.0.1547.76 1
+android 23
+chrome5.0.375.99 3
+chrome28.0.1500.94 17
+firefox4.0 1
+chrome38.0.2125.111 1
+chrome7.0.517.44 1
+chrome12.0.742.112 2
+opera9.80 6
+firefox31.0 1
+firefox1.0.4 9
+firefox2.0.0.13 2
+iphone 6
+msie8.0 2
+chrome42.0.2311.90 88
+chrome24.0.1290.1 1
+chrome39.0.2171.65 2
+msie7.0 2
+safari10.0.10.648 10
+chrome10.0.648.204 19
+safari8.0 696
+wget 1
+chrome11.0.652.0 1
+msie9.0 2
+Unknown 57
+chrome39.0.2171.71 3
+chrome39.0.2171.93 1
+safari8.0.5 3
+chrome41.0.2272.118 17
+chrome32.0.1700.107 40
+chrome18.0.1025.133 1
+firefox33.0 6
+chrome36.0.1985.143 182
+firefox1.0 1
+mozilla 176
+firefox37.0 45
+chrome35.0.1916.153 25
+firefox14.0.1 3
+chrome42.0.2311.135 5
+msie10.0 203
+firefox3.6.28 1
+firefox6.0 3
+firefox3.6.3 1
+firefox36.0 2
+safari8.0.3 3
+safari 58
+chrome21.0.1180.89 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+Mozilla/5.0_(BB10;_Touch)_AppleWebKit/537.10__(KHTML,_like_Gecko)_Version/10.0.10.648_Mobile_Safari/537.10_ 20150409052455
+iZSearch.com 20150413050757
+Mozilla/5.0_(compatible;_Lipperhey-Kaus-Australis/5.0;__https://www.lipperhey.com/en/about/) 20150425201254
+Hivemind 20150428123108
+Porkbun/Mustache_(Website_Analysis;_http://porkbun.com;_tech@porkbun.com) 20150407021629
+Scrapy/0.22.2_(_http://scrapy.org) 20150408001134
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20150428193308
+Mozilla/4.0_(compatible;_Synapse) 20150428165404
+NerdyBot 20150430090121
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+Scrapy/0.22.2_(_http://scrapy.org) 20150408001134
+Porkbun/Mustache_(Website_Analysis;_http://porkbun.com;_tech@porkbun.com) 20150407021629
+Hivemind 20150428123108
+python-requests/2.3.0_CPython/2.6.9_Linux/3.14.27-25.47.amzn1.x86_64 20150421132221
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20150428193308
+iZSearch.com 20150413050757
+NerdyBot 20150430090121
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 163 206
+From1 2 2
+From2 31 31
+From3 54 54
+From4 452 1506
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 28 28
+yandex 1 1
+yahoo 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 9
+http://best-seo-offer.com/try.php 28 28
+http://buttons-for-your-website.com 11 11
+http://best-seo-solution.com/try.php 6 6
+http://buttons-for-website.com 4 4
+http://semalt.semalt.com/crawler.php 1 1
+http://www.aquienguate.com/repuestos-para-motocicletas/guatemala/que/repuestos+para+motocicletas/pagina-4 1 1
+http://m.facebook.com 1 1
+http://www.paginasamarillas.com.gt/busqueda/pozos 1 1
+http://www.tierrafirme.com.pa 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+www.tierrasegura.com 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+www.tierrasegura.com 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 77 98311
+206 9 51964
+301 8 2022
+404 652 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 236
+/backup/bigdump.php 1 -
+/admin.php 1 -
+/manage/fckeditor/editor/filemanager/upload/test.html 1 -
+/bienesraices.gt/index_archivos/Page397.htm 1 -
+/admin/bigdump.php 1 -
+/templates/cn/template.xml 1 http://tierrasegura.com
+/admin/tiny_mce/plugins/tinybrowser/readme.txt 1 -
+/bigdump.php 1 -
+/fckeditor/fckeditor.js 1 http://tierrasegura.com
+/hybridauth/hybridauth/install.php 1 -
+/web/FCKeditor/editor/filemanager/connectors/test.html 1 -
+/editor/editor/ 1 -
+/include/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/openemr-4.1.1/library/openflashchart/php-ofc-library/ofc_upload_image.php 1 -
+/scripts/tinymce/jscripts/tiny_mce/plugins/tinybrowser/readme.txt 1 -
+/images/uploader/uploadify.css 1 -
+/webadmin/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/html/js/editor/fckeditor/editor/dialog/fck_about.html 1 -
+/xmlrpc.php 1 -
+/admin/wp-login.php 2 -
+/auth/hybridauth/install.php 1 -
+/manager/fckeditor/editor/dialog/fck_about.html 1 -
+/media/uploadify/uploadify.css 1 -
+/js/lib/fckeditor/editor/dialog/fck_about.html 1 -
+/assets/plugins/tinymce212/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js 1 -
+/stats/libs/open-flash-chart/php-ofc-library/ofc_upload_image.php 1 -
+/app/index.php 1 http://www.tierrasegura.com/app/index.php
+/hybridauth/install.php 1 -
+/js/fckeditor/editor/ 1 -
+/Administrator/fckeditor/fckeditor.js 1 http://tierrasegura.com
+/_fckeditor/fckeditor.js 1 http://tierrasegura.com
+/app/webroot/js/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/assets/uploadify/uploadify.css 1 -
+/cms/wp-login.php 2 -
+/images/fondo_tabla_tierra.jpg 154 http://www.tierrasegura.com/app/index.php
+/dump/bigdump/bigdump.php 1 -
+/moadmin.php 1 http://tierrasegura.com
+/application/fckeditor/editor/dialog/fck_about.html 1 -
+/js/transport.js 1 http://tierrasegura.com
+/admin/fck/editor/filemanager/connectors/uploadtest.html 1 -
+/scripts/uploadify/uploadify.css 1 -
+/editor/filemanager/browser/default/connectors/test.html 1 -
+/scripts/ajax/fckeditor/editor/dialog/fck_about.html 1 -
+/includes/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js 1 -
+/fckeditor/editor/plugins/ajaxfilemanager/jscripts/for_tinymce.js 1 -
+/wp-login.php 7 -
+/app/common/fckeditor/editor/dialog/fck_about.html 1 -
+/editor/filemanager/upload/test.html 1 -
+/apps/uploadify/uploadify.css 1 -
+/db/bigdump.php 1 -
+/includes/php-ofc-library/ofc_upload_image.php 1 -
+/database/bigdump.php 1 -
+/app/webroot/js/fckeditor/editor/dialog/fck_about.html 1 -
+/cms/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/sites/all/libraries/tinymce/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js 1 -
+/sites/default/modules/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php 1 -
+/admin/filebrowser/uploadify/uploadify.css 1 -
+/plugins/editors/tinymce/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js 1 -
+/wp-login/ 6 -
+/tiny_mce/plugins/tinybrowser/readme.txt 1 -
+/admin/js/uploadify/uploadify.css 1 -
+/assets/plugins/tinymce/jscripts/tiny_mce/plugins/tinybrowser/readme.txt 1 -
+/admin/js/fckeditor/editor/dialog/fck_about.html 1 -
+/public/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/zenphoto/zp-core/plugins/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js 1 -
+/tinymce/jscripts/tiny_mce/plugins/tinybrowser/readme.txt 1 -
+/system/fckeditor/editor/filemanager/upload/test.html 1 -
+/admin/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js 1 -
+/admin/js/fckeditor/fckeditor.js 1 http://tierrasegura.com
+/wp-includes/wlwmanifest.xml 1 http://tierrasegura.com
+/blog/xmlrpc.php 1 -
+/wp-admin/admin-ajax.php 4 -
+/media/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/readme.txt 1 -
+/js/jquery/uploadify/uploadify.css 1 -
+/js/fckeditor/fckeditor.js 1 http://tierrasegura.com
+/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js 1 -
+/ofc/php-ofc-library/ofc_upload_image.php 1 -
+/catalog/view/javascript/common.js 1 http://tierrasegura.com
+/js/mage/cookies.js 1 http://tierrasegura.com
+/plugins/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/manage/fckeditor/editor/filemanager/connectors/test.html 1 -
+/js/tinymce/jscripts/tiny_mce/plugins/tinybrowser/readme.txt 1 -
+/manager/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/FCKEditorV2/fckeditor.js 1 http://tierrasegura.com
+/includes/uploadify/uploadify.css 1 -
+/section/wp-login.php 2 -
+/admin/templates/fckeditor/editor/dialog/fck_about.html 1 -
+/admin/fckeditor/fckeditor.js 1 http://tierrasegura.com
+/yml/yandex.php 1 -
+/admin/editors/fckeditor/editor/filemanager/upload/test.html 1 -
+/manager/FCKeditor/editor/filemanager/connectors/test.html 1 -
+/fckeditor/editor/dialog/fck_about.html 1 -
+/backup/bigdump/bigdump.php 1 -
+/administrator/index.php 6 -
+/php-ofc-library/ofc_upload_image.php 1 -
+/scripts/tiny_mce/plugins/tinybrowser/readme.txt 1 -
+/admin_area/charts/ofc-library/ofc_upload_image.php 1 -
+/jscripts/tiny_mce/plugins/tinybrowser/readme.txt 1 -
+/admin/FCKeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/fckeditor.js 1 http://tierrasegura.com
+/scripts/fckeditor/editor/dialog/fck_about.html 1 -
+/includes/general.js 2 http://tierrasegura.com
+/dump/bigdump.php 1 -
+/includes/js/plugins/uploadify/uploadify.css 1 -
+/fckeditor/editor/filemanager/upload/test.html 1 -
+/js/uploadify/uploadify.css 1 -
+/uploadify/uploadify.css 1 -
+/js/fckeditor/editor/dialog/fck_about.html 1 -
+/ofc-library/ofc_upload_image.php 1 -
+/admin/fckeditor/editor/ 1 -
+/database/bigdump/bigdump.php 1 -
+/public/cms/resources/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js 1 -
+/admin/uploadify/uploadify.css 1 -
+/admin/includes/uploadify/uploadify.css 1 -
+/modules/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php 1 -
+/robots.txt 192 -
+/lib/fckeditor/editor/dialog/fck_about.html 1 -
+/js/uploader/uploadify.css 1 -
+/js/tinymce/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js 1 -
+/admin/uploader/uploadify.css 1 -
+/media/js/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js 1 -
+/editors/fckeditor/editor/filemanager/upload/test.html 1 -
+/admin/scripts/uploadify/uploadify.css 1 -
+/scripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js 1 -
+/media/js/tiny_mce/plugins/tinybrowser/readme.txt 1 -
+/wordpress/wp-login.php 6 -
+/data/fckeditor/editor/dialog/fck_about.html 1 -
+/ajaxfilemanager/jscripts/for_tinymce.js 1 -
+/mysql/bigdump/bigdump.php 1 -
+/home.html 12 -
+/m/ 3 -
+/upload/uploadify.css 1 -
+/tinybrowser/readme.txt 1 -
+/FCKeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/static/uploadify/uploadify.css 1 -
+/browserconfig.xml 1 -
+/wp-admin/wp-login.php 2 -
+/include/fckeditor/fckeditor.js 1 http://tierrasegura.com
+/admin/editor/filemanager/upload/test.html 1 -
+/FCKeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/mod/tinymce/jscripts/tiny_mce/plugins/tinybrowser/readme.txt 1 -
+/admin/editor/filemanager/browser/default/connectors/test.html 1 -
+/editor/editor/filemanager/connectors/uploadtest.html 1 -
+/phpmoadmin/moadmin.php 1 http://tierrasegura.com
+/FCKeditor/fckeditor.js 1 http://tierrasegura.com
+/wp-content/plugins/simple-ads-manager/readme.txt 1 -
+/bd/bigdump/bigdump.php 1 -
+/templets/default/style/dedecms.css 1 http://tierrasegura.com
+/mobile/ 3 -
+/admin/fckeditor/editor/filemanager/connectors/test.html 1 -
+/manager/FCKeditor/editor/filemanager/upload/test.html 1 -
+/core/uploadify/uploadify.css 1 -
+/CKeditor/editor/filemanager/upload/test.html 1 -
+/js/ofc2/php-ofc-library/ofc_upload_image.php 1 -
+/modules/fckeditor/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/tinymce/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js 1 -
+/include/fckeditor/editor/ 1 -
+/template/default/common/footer.htm 1 http://tierrasegura.com
+/piwik/libs/open-flash-chart/php-ofc-library/ofc_upload_image.php 1 -
+/administrator/FCKeditor/editor/filemanager/upload/test.html 1 -
+/_ee/_fslib/swfupload/Changelog.txt 1 -
+/web/FCKeditor/editor/filemanager/upload/test.html 1 -
+/blog/wp-login.php 6 -
+/FCKeditor/editor/filemanager/upload/test.html 1 -
+/inc/js/uploadify/uploadify.css 1 -
+/admin/editor/fckeditor.js 1 http://tierrasegura.com
+/admin/editor/editor/filemanager/connectors/uploadtest.html 1 -
+/fck/editor/dialog/fck_about.html 1 -
+/js/jquery/plugins/uploadify/uploadify.css 1 -
+/moadmin/moadmin.php 1 http://tierrasegura.com
+/site/wp-login.php 6 -
+/editor/filemanager/connectors/uploadtest.html 1 -
+/editor/fckeditor.js 1 http://tierrasegura.com
+/misc/drupal.js 1 -
+/system/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/app/webroot/js/tiny_mce/plugins/tinybrowser/readme.txt 1 -
+/fck/editor/filemanager/connectors/test.html 1 -
+/js/tools.js 1 http://tierrasegura.com
+/apple-touch-icon.png 6 -
+/global/editors/fckeditor/editor/dialog/fck_about.html 1 -
+/mysql/bigdump.php 1 -
+/libs/open-flash-chart/php-ofc-library/ofc_upload_image.php 1 -
+/wp-includes/css/buttons.css 1 http://tierrasegura.com
+/app/webroot/js/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js 1 -
+/common/fckeditor/editor/ 1 -
+/admin/FCKeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js 1 -
+/admin/fckeditor/editor/filemanager/upload/test.html 1 -
+/fckeditor/editor/filemanager/connectors/test.html 1 -
+/js/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/images/logongwa.png 1 -
+/photogallery/zp-core/plugins/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js 1 -
+/includes/fckeditor/editor/dialog/fck_about.html 1 -
+/admin/fckeditor/editor/dialog/fck_about.html 1 -
+/js/tiny_mce/plugins/tinybrowser/readme.txt 1 -
+/fck/fckeditor/editor/dialog/fck_about.html 1 -
+/Administrator/FCKeditor/fckeditor.js 1 http://tierrasegura.com
+/sites/all/modules/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php 1 -
+//webalizer/ 1 -
+/wp/wp-login.php 6 -
+/media/filebrowser/uploadify/uploadify.css 1 -
+/bigdump/bigdump.php 1 -
+/apple-touch-icon-precomposed.png 6 -
+/photo/zp-core/plugins/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js 1 -
+/core/model/phpthumb/fonts/readme.txt 1 -
+/fck/fckeditor.js 1 http://tierrasegura.com
+/common/fckeditor/fckeditor.js 1 http://tierrasegura.com
+/admin/dump/bigdump.php 1 -
+/admin/js/uploader/uploadify.css 1 -
+/plugins/fckeditor/editor/dialog/fck_about.html 1 -
+/fckeditor/editor/ 1 -
+/includes/jscripts/tiny_mce/plugins/tinybrowser/readme.txt 1 -
+/manage/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/library/fckeditor/editor/dialog/fck_about.html 1 -
+/system/fckeditor/editor/filemanager/connectors/test.html 1 -
+/manage/fckeditor/editor/ 1 -
+/admin/js/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php 1 -
+/data/scripts/tiny_mce/plugins/tinybrowser/readme.txt 1 -
+/fck/editor/filemanager/upload/test.html 1 -
+/js/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js 1 -
+/wp 1 http://tierrasegura.com/wp
+/assets/plugins/tinymce/jscripts/tiny_mce/plugins/ajaxfilemanager/jscripts/for_tinymce.js 1 -
+/CKeditor/editor/filemanager/connectors/test.html 1 -
+/sites/all/modules/fckeditor/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/sites/all/libraries/tinymce/jscripts/tiny_mce/plugins/tinybrowser/readme.txt 1 -
+/include/fckeditor/editor/dialog/fck_about.html 1 -
+/app/js/fckeditor/editor/dialog/fck_about.html 1 -
+/javascript:popupwin%28%29 2 -
+/openflashchart/php-ofc-library/ofc_upload_image.php 1 -
+/public/js/uploadify/uploadify.css 1 -
+/sqlite/main.php 1 -
+/index.php 3 -
+/lib/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/openemr/library/openflashchart/php-ofc-library/ofc_upload_image.php 1 -
+/administrator/FCKeditor/editor/filemanager/connectors/test.html 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 208
+186.151.60.39 132 393 12106896 20150428212941
+190.143.190.59 53 73 1953365 20150407144843
+190.143.148.199 27 53 1835578 20150423045232
+190.143.190.55 19 25 808565 20150420103238
+198.252.44.4 15 15 75930 20150429224022
+75.83.224.127 15 31 1814003 20150406103120
+181.209.246.160 13 40 746591 20150415103240
+190.143.148.182 13 13 340562 20150429111620
+181.209.214.99 13 41 816039 20150421075557
+190.143.148.226 13 13 407783 20150427110456
+190.149.222.13 12 36 768154 20150416070705
+190.148.162.253 12 40 783741 20150414085913
+181.209.175.2 11 38 584800 20150414132125
+190.148.91.192 11 35 550205 20150414072132
+190.143.148.181 11 11 715302 20150408114619
+190.143.148.209 11 11 380184 20150416155329
+190.148.98.106 10 36 680198 20150422114229
+190.148.57.197 10 22 526474 20150414075012
+52.4.78.14 9 9 45558 20150406043729
+181.174.73.149 8 44 1238313 20150424195302
+190.149.111.108 7 18 513139 20150414114340
+186.151.108.216 7 14 704599 20150421164612
+190.56.253.148 7 14 48130 20150414102232
+181.209.246.68 6 10 635677 20150409052455
+190.143.148.233 6 6 185570 20150413091844
+190.47.239.164 1 5 378901 20150416055719
+85.113.55.152 1 1 5062 20150402232846
+201.74.145.111 1 5 378901 20150421113038
+104.197.2.69 1 1 5062 20150401090356
+190.56.253.255 2 6 380022 20150424232408
+189.72.145.184 1 5 378901 20150408110224
+130.211.180.46 1 1 5062 20150422090132
+186.151.63.73 1 5 378901 20150424141851
+181.209.246.136 4 26 439420 20150414102337
+191.201.85.198 1 5 378901 20150409141932
+64.233.172.252 1 1 5062 20150411195034
+189.155.52.203 1 5 378901 20150428144913
+69.171.227.112 4 4 20248 20150427171123
+104.197.78.64 1 1 5062 20150427090124
+88.12.100.60 1 5 378901 20150417112011
+37.116.179.173 1 5 378901 20150424033553
+148.244.82.10 1 5 378901 20150428145409
+85.6.151.210 1 5 378901 20150426142451
+189.14.45.58 1 5 378901 20150404071221
+130.211.143.107 1 1 5062 20150428090124
+130.211.186.102 1 1 5062 20150415090213
+104.197.8.99 1 1 5062 20150411090150
+191.240.60.62 1 5 378901 20150430163605
+93.42.169.226 1 5 378901 20150421085549
+199.30.24.42 1 4 617609 20150418155721
+72.46.152.69 1 1 5062 20150421114327
+179.189.32.26 1 2 323442 20150410154712
+54.149.107.194 1 1 5062 20150407021629
+151.48.242.214 1 5 378901 20150423061836
+190.143.148.176 5 31 1222001 20150423124049
+191.17.12.9 1 5 378901 20150413171824
+190.56.253.10 1 5 378901 20150414073946
+180.76.4.59 1 1 5062 20150406141014
+52.24.6.144 1 1 0 20150430141347
+93.61.116.31 1 5 378901 20150416034517
+173.252.110.112 0 1 35475 
+77.67.17.72 2 2 10027 20150404232323
+186.224.27.160 1 5 378901 20150414071451
+41.225.95.241 1 5 378901 20150402031643
+190.149.112.254 4 15 406583 20150415092517
+62.113.208.198 1 1 5062 20150410061056
+104.197.72.122 1 1 5062 20150430090121
+173.252.110.119 0 3 106425 
+186.151.112.203 5 31 476912 20150421103650
+190.56.253.134 4 11 24768 20150416105409
+201.16.223.25 1 5 378901 20150414113611
+181.174.67.202 2 6 380022 20150424194845
+176.9.113.45 1 1 5062 20150426121516
+54.173.245.46 1 1 5062 20150408001134
+104.154.54.9 1 1 5062 20150412090136
+93.171.205.23 2 2 10027 20150416080430
+108.59.85.69 1 1 5062 20150409082657
+173.252.110.114 0 3 106425 
+75.174.91.24 5 11 593895 20150414174056
+95.141.35.157 1 1 5062 20150420070915
+52.4.151.72 1 1 5062 20150421142119
+52.17.92.51 1 1 0 20150417105653
+130.211.141.229 1 1 5062 20150414090149
+187.65.142.226 1 5 378901 20150416082327
+181.46.66.122 1 5 378901 20150418122509
+173.252.110.118 0 1 35475 
+187.13.237.112 1 5 378901 20150410150902
+146.148.91.240 1 1 5062 20150403090237
+181.209.251.161 0 1 13479 
+159.253.20.250 1 1 5062 20150410060021
+190.148.14.138 5 31 476912 20150422100645
+130.211.131.229 1 1 5062 20150408082622
+94.131.14.7 1 1 5062 20150401122042
+61.31.202.171 1 5 378901 20150405210029
+190.56.253.165 3 9 406980 20150401122835
+95.252.231.241 1 5 378901 20150402052531
+185.66.250.180 1 1 5062 20150417105925
+104.154.79.190 1 1 5062 20150420090353
+79.32.81.96 1 5 378901 20150416001717
+199.30.24.211 1 4 617609 20150428210811
+199.30.24.88 1 2 758869 20150425131259
+189.82.112.191 1 5 378901 20150417165302
+188.61.167.1 1 5 378901 20150416235456
+157.55.81.9 0 5 375639 
+181.209.246.29 1 1 5062 20150415193739
+69.58.178.57 3 3 15089 20150415150331
+151.56.149.238 1 5 378901 20150413082731
+93.46.39.215 1 5 378901 20150401022416
+5.35.47.100 1 5 378901 20150403171736
+66.249.84.191 1 1 5062 20150430140129
+189.35.41.123 1 5 378901 20150421144956
+95.95.139.98 1 5 378901 20150402045619
+94.33.47.158 1 5 378901 20150418122545
+74.4.178.14 1 5 378901 20150408200606
+176.9.155.247 1 1 5062 20150416111057
+52.6.34.206 0 2 925696 
+91.200.12.26 1 1 5062 20150408030325
+216.230.129.140 1 5 378901 20150428150232
+199.30.25.212 0 1 449458 
+146.148.67.48 1 1 5062 20150407090459
+189.186.159.138 1 5 378901 20150420181221
+190.149.238.85 1 7 405859 20150421164243
+144.76.30.242 1 1 5062 20150405132911
+190.5.107.58 1 5 378901 20150415053731
+95.93.245.109 1 5 378901 20150407125957
+216.230.140.181 1 1 5062 20150414102209
+74.52.245.146 1 1 5062 20150408220128
+104.154.84.41 1 1 5062 20150410090113
+181.174.64.103 4 26 792730 20150414155525
+104.197.33.255 1 1 5062 20150421090434
+199.30.24.169 1 4 821330 20150407031546
+173.252.100.112 0 1 35475 
+104.197.54.90 1 1 5062 20150426090119
+199.30.25.195 1 4 732463 20150423204041
+190.148.29.196 6 12 602843 20150415150508
+31.170.164.27 1 1 5062 20150413150830
+54.147.225.66 1 1 5062 20150423044222
+46.229.170.197 2 2 10124 20150428104135
+91.114.141.99 1 5 378901 20150415115407
+54.205.33.8 1 1 5062 20150428123108
+217.12.206.140 1 1 5062 20150401091526
+70.167.8.44 1 1 5062 20150413050757
+66.220.156.113 0 1 35475 
+85.25.185.173 2 2 10027 20150420091435
+180.243.8.232 1 5 378901 20150411222217
+187.53.182.49 1 5 378901 20150427141336
+173.252.110.115 0 4 141900 
+173.252.115.90 0 1 8362 
+199.30.25.253 1 2 442365 20150408050359
+90.163.22.115 1 7 405859 20150430012409
+173.255.184.47 4 4 20298 20150415050609
+177.156.47.20 1 5 378901 20150416194317
+186.151.60.86 5 5 25310 20150430083021
+171.248.175.187 1 5 378901 20150410031436
+144.76.64.115 1 1 5062 20150405021206
+5.189.144.88 1 1 5062 20150430143815
+190.235.220.233 1 5 378901 20150423142953
+23.95.43.112 1 1 5062 20150420163318
+173.252.110.117 0 3 106425 
+179.96.36.232 1 5 378901 20150401065545
+198.0.61.97 1 1 5062 20150418060229
+186.151.61.86 3 3 15186 20150408175908
+179.214.234.122 1 5 378901 20150410045713
+150.70.173.58 1 1 5062 20150416091121
+107.191.63.109 1 1 5062 20150425170954
+199.30.25.142 1 4 732178 20150403104206
+199.30.25.243 1 4 743107 20150411030325
+52.5.20.189 1 1 5062 20150402083240
+66.249.83.203 1 1 5062 20150426072015
+142.4.218.156 4 4 20151 20150425201255
+191.188.43.146 1 5 378901 20150414121335
+130.211.103.14 1 1 5062 20150428165404
+104.197.11.101 1 1 5062 20150416090333
+168.234.48.36 6 12 8765152 20150416091038
+50.93.249.212 3 7 389025 20150407190302
+104.197.48.252 1 1 5062 20150429090122
+186.151.60.214 1 1 5062 20150413081859
+138.128.2.235 1 1 5062 20150424135804
+188.143.232.12 6 6 29790 20150426154437
+94.131.14.16 1 1 5062 20150422194624
+181.189.147.250 1 1 24599 20150427124057
+199.30.16.169 0 4 373839 
+92.222.67.109 1 1 5062 20150424204118
+193.201.224.26 6 6 29790 20150403181429
+173.252.110.113 0 4 141900 
+173.252.110.116 0 2 70950 
+104.197.20.47 1 1 5062 20150413085915
+58.11.36.220 1 5 378901 20150422175153
+181.174.69.59 1 7 405859 20150414074722
+198.252.44.11 3 3 15186 20150411010612
+111.90.150.132 0 1 462848 
+213.57.244.106 1 5 378901 20150427023307
+197.235.52.87 1 5 378901 20150423051600
+199.30.24.186 1 2 896955 20150426000019
+189.48.23.201 1 5 378901 20150417083530
+190.56.253.153 2 6 380022 20150401123251
+190.56.148.69 5 20 906319 20150427095834
+52.6.115.197 1 1 5062 20150421142242
+203.76.140.121 2 8 406980 20150407222457
+66.220.158.114 0 1 35475 
+187.16.242.23 1 5 378901 20150408230716
+130.211.134.132 1 1 5062 20150404090240
+194.6.233.33 1 1 5062 20150423003532
+104.197.0.89 1 1 5062 20150419090353
+181.174.75.12 4 15 406538 20150414145108
+181.174.71.84 1 1 5062 20150430080600
+186.225.17.221 1 5 378901 20150409184617
+95.241.195.154 1 1 5062 20150428204546
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20150401 10 30 1630940 7
+20150402 5 18 1182302 5
+20150403 9 16 1145931 4
+20150404 6 10 404114 4
+20150405 11 23 1157494 5
+20150406 19 28 1119757 4
+20150407 63 100 3964787 9
+20150408 21 39 2734056 11
+20150409 9 21 1398541 4
+20150410 7 20 1475331 7
+20150411 7 14 1147318 7
+20150412 29 56 1632299 4
+20150413 26 67 2210974 9
+20150414 93 314 7907714 20
+20150415 35 89 2635342 10
+20150416 45 111 12617578 17
+20150417 17 60 2055440 6
+20150418 20 63 3086646 7
+20150419 17 56 1924057 4
+20150420 26 40 1591580 7
+20150421 37 122 4880143 15
+20150422 19 77 1622147 6
+20150423 39 107 5404779 9
+20150424 35 120 4537117 10
+20150425 23 50 1606841 6
+20150426 15 33 2498072 9
+20150427 24 48 2147164 8
+20150428 11 33 2242897 11
+20150429 15 15 350686 3
+20150430 9 19 815132 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 10
+0s-30s 192
+30s-2mn 12
+15mn-30mn 3
+2mn-5mn 14
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 19
+/ 249 1245252 209 181
+/app/index.php 236 11455204 0 15
+/app/login.php 78 389738 16 13
+/app/templates/abc_proyectos_addComments.php 53 137859 0 0
+/Home.html 27 26904 1 8
+/Secc/000.swf 12 295188 1 1
+/Home.swf 11 847484 0 0
+/app/templates/abc_proyectos_editComments.php 9 30254 0 0
+/bienesraices.gt/banner_top/banner.swf 8 2325704 8 8
+/Secc/001a.swf 6 511632 0 3
+/Secc/004.swf 4 35792 0 3
+/Secc/005.swf 2 13096 0 1
+/Secc/001e.swf 1 33478 0 0
+/Secc/001e1.swf 1 41490 0 1
+/Secc/002.swf 1 68740 0 0
+/Secc/003.swf 1 316901 0 0
+/bienesraices.gt/intro/intro.swf 1 883418 1 1
+/Secc/006.swf 1 107755 0 1
+/bienesraices.gt/ 1 4241 0 0
+END_SIDER

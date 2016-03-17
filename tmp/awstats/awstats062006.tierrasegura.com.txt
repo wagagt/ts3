@@ -1,0 +1,455 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2006-06 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2536                
+POS_VISITOR 7260                
+POS_DAY 11067               
+POS_DOMAIN 3252                
+POS_LOGIN 3565                
+POS_ROBOT 3720                
+POS_WORMS 3921                
+POS_EMAILSENDER 4052                
+POS_EMAILRECEIVER 4195                
+POS_SESSION 11772               
+POS_SIDER 11979               
+POS_FILETYPES 4330                
+POS_OS 4499                
+POS_BROWSER 4598                
+POS_SCREENSIZE 4756                
+POS_UNKNOWNREFERER 4830                
+POS_UNKNOWNREFERERBROWSER 5069                
+POS_ORIGIN 5245                
+POS_SEREFERRALS 5386                
+POS_PAGEREFS 5570                
+POS_SEARCHWORDS 5839                
+POS_KEYWORDS 6514                
+POS_MISC 2200                
+POS_ERRORS 6824                
+POS_CLUSTER 3421                
+POS_SIDER_404 6934                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20060703162316 1 0 8591173440907
+FirstTime 20060601013513
+LastTime 20060629123932
+LastUpdate 20060704103257 1 0 0 0 0
+TotalVisits 76                  
+TotalUnique 63                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 111                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 18 170 945518 6 6 18833
+1 3 29 428237 4 5 19976
+2 0 0 0 3 4 0
+3 0 0 0 0 0 0
+4 19 88 1000874 8 8 22599
+5 3 29 430552 0 0 0
+6 0 0 0 7 8 18079
+7 5 39 472044 7 7 42376
+8 59 548 7504289 6 6 6540
+9 2 11 11845 3 3 9146
+10 59 513 7713945 5 5 1204
+11 25 190 2684807 13 13 164162
+12 37 234 3537286 8 8 111690
+13 26 193 3244410 9 9 94778
+14 27 190 2651441 6 6 903
+15 12 73 751528 7 7 26727
+16 31 160 2937004 5 5 10289
+17 6 58 861104 4 4 602
+18 24 174 2748925 2 2 0
+19 7 46 866404 3 3 9171
+20 30 298 4001670 10 11 29964
+21 1 13 266043 11 13 174676
+22 10 69 1080757 6 6 9988
+23 4 30 440540 6 6 19417
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+us 269 2134 29990018
+gt 59 387 6473314
+ip 40 328 2802384
+mx 32 244 4327442
+ve 7 61 976077
+sv 1 1 9988
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+slurp 30 85171 20060629162847 0
+googlebot 27 565793 20060629041720 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+html 73 609268 0 0
+js 193 732677 0 0
+jpg 1159 27071112 0 0
+htm 143 1338725 0 0
+gif 1395 3087641 0 0
+swf 192 11739800 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 6
+macosx 29
+winxp 2921
+win2003 29
+Unknown 7
+win98 164
+linux 5
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 8
+firefox1.5.0.4 90
+msie6.0 2922
+firefox1.0.7 5
+mozilla 4
+firefox1.5 46
+Unknown 3
+firefox1.5.0.3 56
+safari 29
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+- 20060622085510
+Mozilla/2.0_(compatible;_MS_FrontPage_4.0) 20060602084114
+aipbot/1.0_(aipbot;_http://www.aipbot.com;_aipbot@aipbot.com) 20060621134642
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+- 20060622085510
+aipbot/1.0_(aipbot;_http://www.aipbot.com;_aipbot@aipbot.com) 20060621134642
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 206 250
+From1 1 1
+From2 35 51
+From3 9 9
+From4 157 2844
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 6 6
+google_image 4 4
+yahoo 25 41
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://www.paginasamarillas.com/pagamanet/procesos/link.aspx 5 5
+http://www.hi5.com/friend/profile/displayProfile.do 4 4
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 18
+empresas+perforacion+de+pozos 3
+perforacion+de+pozos+de+agua 3
+perforacion+de+pozos 2
+tierrasegura.com 2
+maquinas+de+perforar+pozos 2
+maquinas+para+perforacion+de+pozos 2
+www.tierrasegura.com 2
+maquinas+de+perforacion 2
+pozos+a+tierra 1
+perforaci%c3%b3n+de+pozos+de+agua 1
+desarenadores+bentonita 1
+pozos+de+agua+%26+nivel+de+bombeo 1
+maquinas+hacer+pozos+de+agua 1
+metodos+de+perforacion+para+pozos+de+agua 1
+pozos+de+agua+para+riego 1
+site+tierrasegura.com+tierrasegura 1
+perforacion 1
+metodos+de+perforacion+de+pozos 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 23
+de 27
+pozos 19
+perforacion 15
+agua 8
+maquinas 7
+para 4
+empresas 3
+tierrasegura.com 3
+perforar 2
+metodos 2
+www.tierrasegura.com 2
+riego 1
+a 1
+desarenadores 1
+perforaci%c3%b3n 1
+tierra 1
+bentonita 1
+%26 1
+bombeo 1
+nivel 1
+site 1
+tierrasegura 1
+hacer 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 25 7521
+206 12 132635
+404 51 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 1
+/robots.txt 51 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 111
+72.252.55.177 63 642 8725592 20060614103512
+200.12.61.91 35 221 3431514 20060628130721
+201.152.2.234 27 161 2144537 20060608151253
+201.216.173.255 27 270 3556220 20060622203734
+65.240.237.68 23 142 2663906 20060627143543
+69.79.77.128 17 165 771955 20060628002628
+148.63.27.186 15 104 1793414 20060625134323
+82.63.186.24 14 83 949653 20060616044254
+201.152.92.189 13 106 1657944 20060604183443
+190.57.88.118 8 55 65332 20060602105856
+201.220.38.4 7 46 866404 20060616193014
+200.23.91.8 6 35 708258 20060614161929
+144.162.211.133 6 38 789354 20060616121538
+216.230.140.32 6 58 861104 20060616075621
+201.216.158.11 6 39 789354 20060622114643
+200.12.61.90 6 34 1214734 20060601104712
+190.57.80.75 6 58 430552 20060613114424
+63.148.99.234 6 6 60091 20060612164600
+190.57.80.49 6 36 32909 20060616120538
+66.82.9.79 6 48 887935 20060613101548
+208.17.184.63 5 5 51221 20060612043532
+201.144.158.208 5 35 586276 20060614164225
+200.23.91.9 5 28 641202 20060614161634
+201.242.81.119 5 31 474727 20060605155634
+200.52.160.6 5 37 690627 20060626185651
+216.230.154.99 1 1 9988 20060618144516
+205.188.116.73 0 1 423 
+168.255.253.202 1 11 265364 20060602124715
+205.188.117.5 0 1 1102 
+205.188.117.6 0 2 1629 
+190.57.82.79 1 8 0 20060619093028
+64.12.116.6 0 1 20987 
+205.188.116.204 0 1 1080 
+64.12.116.139 0 2 44918 
+200.106.3.228 3 29 430552 20060629123932
+83.59.223.65 3 29 428237 20060601013517
+200.6.196.58 3 29 430552 20060627105129
+205.188.116.69 0 1 925 
+205.188.117.14 0 1 37767 
+200.92.15.170 2 2 19976 20060626185555
+205.188.116.133 0 2 23610 
+64.12.116.136 0 1 636 
+216.145.16.235 0 8 79755 
+85.55.174.149 3 29 430552 20060629100204
+64.12.116.198 0 1 41096 
+64.12.116.137 1 4 105440 20060605235101
+64.12.116.197 0 3 7911 
+200.84.133.119 4 32 545525 20060615145601
+64.12.116.72 0 1 418 
+205.188.116.202 0 1 645 
+216.230.154.215 2 11 186360 20060605224156
+64.12.117.5 0 1 1102 
+190.57.95.16 3 29 0 20060605120336
+200.121.136.166 1 13 266043 20060608213901
+64.12.116.135 0 1 28656 
+64.246.165.235 0 3 4094 
+200.30.143.98 3 22 286914 20060621144143
+190.57.91.189 3 29 430552 20060603131027
+200.35.167.27 3 29 430552 20060624172842
+64.12.116.74 0 1 37767 
+64.12.116.138 0 1 960 
+205.188.116.130 1 2 104874 20060606132119
+200.30.145.154 1 1 9988 20060627094319
+205.188.116.138 1 2 18515 20060606132115
+64.12.117.7 0 1 883 
+205.188.117.65 0 1 636 
+64.12.116.13 1 1 9988 20060605235055
+64.246.165.236 1 2 124983 20060611053409
+205.188.117.11 0 1 883 
+205.188.117.10 1 1 60985 20060606132118
+72.144.87.19 3 28 445450 20060628205835
+148.204.204.153 3 29 430552 20060616175637
+64.12.116.195 1 2 86371 20060605235101
+205.188.116.14 0 1 900 
+205.188.116.132 0 3 20159 
+205.188.116.71 0 1 73283 
+205.188.117.74 0 1 341 
+64.12.116.196 0 1 12662 
+64.12.116.10 1 1 13729 20060606001019
+64.208.0.11 3 29 430552 20060606145631
+205.188.116.198 0 1 41096 
+64.12.116.202 0 1 645 
+205.188.116.135 0 1 349 
+205.188.116.8 0 1 23700 
+200.66.224.68 4 43 604115 20060602114231
+205.188.117.8 0 1 179 
+216.145.16.237 0 4 20471 
+205.188.116.203 0 1 960 
+64.12.116.73 0 2 24600 
+64.12.117.14 0 1 10600 
+64.12.117.11 0 1 73283 
+64.246.165.130 0 4 52618 
+168.243.219.164 1 1 9988 20060622233215
+216.230.154.216 5 39 472712 20060605224103
+64.12.116.203 0 1 761 
+205.188.117.7 0 1 13744 
+205.188.116.72 0 1 418 
+200.109.196.159 1 11 265364 20060625155247
+64.12.117.10 0 1 868 
+64.12.116.199 0 1 13010 
+205.188.116.67 0 1 414 
+216.145.16.236 1 4 84974 20060611053401
+148.226.9.15 4 32 606946 20060607141243
+205.188.117.12 1 2 12629 20060606132226
+200.64.192.118 4 29 380378 20060624180325
+24.177.134.6 1 1 9988 20060621134642
+64.12.117.6 0 1 925 
+64.246.165.237 1 4 63657 20060611053412
+190.57.88.15 3 29 430552 20060623113729
+205.188.117.70 0 1 743 
+64.12.117.12 0 2 65899 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20060601 21 148 3014700 4
+20060602 25 193 1806720 4
+20060603 3 29 430552 1
+20060604 13 106 1657944 1
+20060605 18 139 1564351 7
+20060606 16 114 1896902 7
+20060607 4 32 606946 1
+20060608 28 174 2410580 2
+20060611 3 29 430552 3
+20060612 11 11 111312 2
+20060613 18 146 2213969 4
+20060614 79 740 10661328 5
+20060615 4 32 545525 1
+20060616 39 261 3499424 6
+20060617 4 8 196370 1
+20060618 1 1 9988 1
+20060619 1 8 0 1
+20060620 5 29 463177 2
+20060621 4 23 296902 2
+20060622 51 424 6723230 5
+20060623 3 29 430552 1
+20060624 7 58 810930 2
+20060625 4 40 695916 2
+20060626 10 56 1012559 3
+20060627 7 48 626853 3
+20060628 23 219 1600837 3
+20060629 6 58 861104 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 9
+0s-30s 45
+2mn-5mn 5
+30s-2mn 13
+15mn-30mn 2
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 16
+/images/rotativasgrande.swf 96 6790913 4 24
+/images/rotativas2.swf 96 4948887 5 11
+/ 73 609268 59 17
+/perforacion.htm 22 274580 2 2
+/profundizacion.htm 20 184600 1 4
+/equipo.htm 14 124180 1 5
+/its.htm 13 103356 1 1
+/entrenamiento.htm 13 130320 1 4
+/contactenos.htm 12 121740 1 2
+/quienes_somos.htm 12 106220 0 3
+/sellamiento.htm 12 106140 1 2
+/rehabilitacion.htm 8 75432 0 0
+/index.htm 8 69916 0 0
+/renovarseomorir.htm 4 37674 0 0
+/mapa.htm 3 1569 0 1
+/footer.htm 2 2998 0 0
+END_SIDER

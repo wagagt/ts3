@@ -1,0 +1,661 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201602 will be lost/reset.
+# Last config file used to build this data file was /home/tierra/tmp/awstats/awstats.tierrasegura.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2699                
+POS_VISITOR 14398               
+POS_DAY 18439               
+POS_DOMAIN 3555                
+POS_LOGIN 3999                
+POS_ROBOT 4154                
+POS_WORMS 4776                
+POS_EMAILSENDER 4907                
+POS_EMAILRECEIVER 5050                
+POS_SESSION 18794               
+POS_SIDER 19003               
+POS_FILETYPES 5185                
+POS_DOWNLOADS 5545                
+POS_OS 5759                
+POS_BROWSER 6022                
+POS_SCREENSIZE 6848                
+POS_UNKNOWNREFERER 6922                
+POS_UNKNOWNREFERERBROWSER 7582                
+POS_ORIGIN 7838                
+POS_SEREFERRALS 7980                
+POS_PAGEREFS 8156                
+POS_SEARCHWORDS 8587                
+POS_KEYWORDS 8739                
+POS_MISC 2361                
+POS_ERRORS 8798                
+POS_CLUSTER 3855                
+POS_SIDER_404 8959                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160211141556 1669 387473 15435418618391
+FirstTime 20160201002338
+LastTime 20160211141556
+LastUpdate 20160211141600 1669 0 1669 0 0
+TotalVisits 148                 
+TotalUnique 92                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 97                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 262 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 75 370 11542975 41 155 1674306
+1 41 141 2950040 24 68 875538
+2 36 123 2953347 22 84 1529987
+3 2 2 9940 3 8 12678
+4 6 6 27387 12 15 189899
+5 15 25 295345 26 37 1150470
+6 2 2 4970 8 16 101880
+7 16 42 4032726 23 34 335681
+8 6 10 635585 10 14 310468
+9 133 308 11095776 39 100 873727
+10 122 576 8552089 67 185 2782145
+11 209 1068 23202804 97 252 2821800
+12 160 293 7209955 59 184 2169101
+13 69 146 9486835 32 96 904012
+14 22 110 6322867 13 31 326632
+15 36 60 6190878 9 38 1421510
+16 34 84 6981635 9 40 1053657
+17 23 116 44567545 16 39 289122
+18 19 49 10386675 12 24 303705
+19 19 134 3827116 15 50 1403289
+20 16 53 1734686 16 34 2186180
+21 2 2 13914 8 17 249932
+22 144 709 16494554 69 125 1991703
+23 187 1223 32214294 42 244 2338225
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 16
+gt 1220 5245 155049083
+us 68 160 4712118
+sv 49 152 45835549
+mx 18 55 2153991
+fr 12 12 64121
+ca 10 10 136177
+nl 4 4 19880
+de 3 3 14969
+ru 2 2 9940
+vn 2 2 9940
+md 1 1 4970
+cl 1 1 24599
+jp 1 1 4970
+ch 1 1 4970
+it 1 1 4970
+hu 1 2 18449
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+bot[\s_+:,\.\;\/\\-] 158 2671371 20160211120641 66
+googlebot 117 2991797 20160211091242 14
+spider 20 958302 20160210173147 6
+slurp 13 42210 20160208212418 6
+bingpreview 11 2256154 20160209201916 0
+google[_+\s]web[_+\s]preview 10 757682 20160204103300 0
+robot 8 31016 20160207150557 2
+no_user_agent 5 14958 20160203193555 2
+php 5 177375 20160211022648 0
+unknown 2 48 20160211052219 2
+[\s_+:,\.\;\/\\-]bot 1 24 20160210215236 1
+scanner 1 16785 20160211092224 0
+crawl 1 4970 20160202215512 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 15
+css 1529 23257921 0 0
+png 452 22661364 0 0
+ttf 3 414612 0 0
+woff 5 274104 0 0
+woff2 17 515712 0 0
+swf 82 5340424 0 0
+map 2 444558 0 0
+php 363 10684266 0 0
+flv 6 55197985 0 0
+html 374 2479862 0 0
+jpg 301 14673983 0 0
+js 1900 31022592 0 0
+Unknown 548 40589640 0 0
+svg 1 1521 0 0
+gif 69 510152 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 4
+/Secc/001.flv 5 2 18479982
+/bienesraices.gt/ingresovirtual/ingresosts.xls 4 0 1851392
+/Resources/ElFiltroDeGravaNoEsUnfiltro.pdf 1 0 10087
+/Secc/008.flv 1 0 36718003
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 14
+linuxandroid 126 18
+winxp 16 14
+winlong 4 2
+ios_iphone 114 15
+java 3 3
+winnt 1814 301
+linux 1075 159
+win7 611 299
+macosx 1644 450
+win8 3 3
+linuxdebian 4 4
+Unknown 34 28
+win8.1 27 4
+ios_ipad 179 94
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 43
+msie6.0 2 2
+firefox5.0 4 4
+firefox20.0 6 6
+chrome29.0.1547.57 1 1
+firefox44.0 794 87
+strata 4 4
+chrome5.0.375.99 1 1
+msie8.0 4 4
+chrome33.0.0.0 80 9
+opera9.20 1 1
+iphone 1 0
+firefox13.0.1 1 1
+chrome47.0.2526.111 149 59
+firefox43.0 1088 240
+msie7.0 77 12
+chrome37.0.2062.120 5 5
+firefox23.0 1 1
+konqueror3.0 2 2
+msie9.0 37 5
+firefox27.0 2 1
+Unknown 14 13
+chrome47.0.2526.83 45 8
+safari9.0.3 36 6
+chilkat 2 2
+firefox21.0 1 1
+firefox29.0 1 1
+msie11.0 67 16
+safari9.0 2 1
+chrome18.0.1025.133 1 1
+mozilla 14 11
+chrome44.0.2403.157 2 2
+netscape5.0 8 8
+chrome48.0.2564.109 871 138
+chrome42.0.2311.135 10 5
+msie10.0 298 206
+firefox6.0 25 25
+chrome48.0.2564.103 920 159
+firefox3.6.3 1 1
+chrome41.0.2220.0 1 1
+safari 294 109
+chrome48.0.2564.97 770 228
+safari9.0.2 10 6
+firefox35.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+Stratagems_Kumo 20160206003957
+Safari/11601.3.9_CFNetwork/760.2.6_Darwin/15.2.0_(x86_64) 20160209115959
+visionutils/0.2 20160207174918
+WordPress/4.3.3;_http://tierrasegura.com 20160211111416
+python-requests/2.9.0 20160202165401
+Mozilla/5.0_Moreover/5.1_(_http://www.moreover.com;_webmaster@moreover.com) 20160211091234
+Mozilla/5.0_(compatible;_Lipperhey-Kaus-Australis/5.0;__https://www.lipperhey.com/en/about/) 20160211052227
+Mozilla/5.0 20160202152745
+Mozilla/4.0_(compatible;) 20160210052549
+Chilkat/1.0.0_(_http://www.chilkatsoft.com/ChilkatHttpUA.asp) 20160204220108
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+visionutils/0.2 20160207174918
+Apache-HttpClient/4.3.5_(java_1.5) 20160211092233
+WordPress/4.3.3;_http://tierrasegura.com 20160211111416
+python-requests/2.9.0 20160202165401
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 331 360
+From1 0 0
+From2 28 30
+From3 8 8
+From4 1027 5256
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 23 25
+bing 3 3
+yahoo 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+http://burger-imperia.com 2 2
+http://www.paginasamarillas.com.gt/empresa/inmobiliaria+tierra+segura-guatemala-4638743 1 1
+http://pizza-imperia.com 1 1
+http://hvd-store.com 1 1
+http://www.paginasamarillas.com.gt/servicios/pozos 1 1
+https://www.facebook.com 1 1
+http://hundejo.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 1 7612
+302 283 200575
+206 10 525629
+500 193 7247529
+404 708 9380280
+301 80 11330
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 78
+/js/bootstrap-datepicker.js 7 http://tierrasegura.com/proyectos/192
+/users/78/bootstrap/css/fontawesome.min.css 5 http://tierrasegura.com/users/78/edit
+/en-breve-nos-c%E2%80%A6emos-con-usted 1 http://tierrasegura.com/
+/app/auth/login 2 http://tierrasegura.com/app/
+/index.php/bootstrap/css/fontawesome.min.css 7 http://tierrasegura.com/index.php/home
+/app/ 4 -
+/images/tierrase-logo.png 1 http://tierrasegura.com/app/
+/proyectos/188/bootstrap/css/fontawesome.min.css 3 http://www.tierrasegura.com/proyectos/188/edit
+/proyectos/189/bootstrap/css/fontawesome.min.css 7 http://tierrasegura.com/proyectos/189/edit
+/users/75/bootstrap/css/fontawesome.min.css 1 http://www.tierrasegura.com/users/75/edit
+/wordpress 1 -
+/images/tierrasegurao.png 1 http://tierrasegura.com/app/
+/proyectos/images/logo.png 4 http://tierrasegura.com/proyectos/public/
+/images/tierrasegura-logo.png 1 http://tierrasegura.com/app/
+/auth/register 1 -
+/images/tierras.png 1 http://tierrasegura.com/app/
+/publichtml 1 -
+/scripts/moadmin.php 1 http://tierrasegura.com/scripts/moadmin.php
+/app/..app/images/credichapin-logo.png 1 http://www.tierrasegura.com/app/
+/users/77/bootstrap/css/fontawesome.min.css 11 http://www.tierrasegura.com/users/77/edit
+/clientes/49/bootstrap/css/fontawesome.min.css 2 http://www.tierrasegura.com/clientes/49/edit
+/images/tierra.png 1 http://tierrasegura.com/app/
+/proyectos/14/bootstrap/css/fontawesome.min.css 1 http://www.tierrasegura.com/proyectos/14/edit
+/proyectos/185/bootstrap/css/fontawesome.min.css 1 http://www.tierrasegura.com/proyectos/185/edit
+/users/44/bootstrap/css/fontawesome.min.css 1 http://tierrasegura.com/users/44/edit
+/users/36/bootstrap/css/fontawesome.min.css 2 http://tierrasegura.com/users/36/edit
+/plugins/jQuery/jQuery-2.1.4.min.js 16 http://tierrasegura.com/proyectos/192
+/images/fondo_tabla_tierra.jpg 2 http://tierrasegura.com/style/style.css
+/proyectos/193/bootstrap/css/fontawesome.min.css 2 http://tierrasegura.com/proyectos/193/edit
+/img/user2-160x160.jpg 7 http://tierrasegura.com/proyectos/192
+/clientes/23/bootstrap/css/fontawesome.min.css 1 http://tierrasegura.com/clientes/23/edit
+/css/AdminLTE.css 7 http://tierrasegura.com/proyectos/192
+/bootstrap/css/fontawesome.min.css 290 http://tierrasegura.com/users
+/dist/img/user2-160x160.jpg 5 http://tierrasegura.com/users
+/home 1 -
+/app/app/auth/login 1 http://tierrasegura.com/app/
+/moadmin/moadmin.php 1 http://tierrasegura.com/moadmin/moadmin.php
+/users/79/bootstrap/css/fontawesome.min.css 1 http://tierrasegura.com/users/79/edit
+/images/tierrasegura.png 1 http://tierrasegura.com/app/
+/images/tierrasegurago.png 1 http://tierrasegura.com/app/
+/users/bootstrap/css/fontawesome.min.css 5 http://tierrasegura.com/users/create
+/proyectos/192/bootstrap/css/fontawesome.min.css 6 http://www.tierrasegura.com/proyectos/192/edit
+/proyectos/13/bootstrap/css/fontawesome.min.css 2 http://www.tierrasegura.com/proyectos/13/edit
+/admin/moadmin.php 1 http://tierrasegura.com/admin/moadmin.php
+/phpMoAdmin-MongoDB-Admin-Tool-for-PHP/moadmin.php 1 http://tierrasegura.com/phpMoAdmin-MongoDB-Admin-Tool-for-PHP/moadmin.php
+/users/68/bootstrap/css/fontawesome.min.css 1 http://www.tierrasegura.com/users/68/edit
+/bootstrap/css/styles.css 19 http://tierrasegura.com/proyectos
+/index.html 1 -
+/images/credichapin-logo.png 33 http://tierrasegura.com/app/
+/proyectos/187/bootstrap/css/fontawesome.min.css 1 http://www.tierrasegura.com/proyectos/187/edit
+/proyectos/16/bootstrap/css/fontawesome.min.css 1 http://www.tierrasegura.com/proyectos/16/edit
+/img-sys/headerbg.jpg 5 http://www.tierrasegura.com/cpanel/
+/apl/ 1 -
+/images/tierra-logo.png 1 http://tierrasegura.com/app/
+/css/datepicker.css 7 http://tierrasegura.com/proyectos/192
+/img-sys/bg.jpg 5 http://www.tierrasegura.com/cpanel/
+/clientes/20/bootstrap/css/fontawesome.min.css 1 http://tierrasegura.com/clientes/20/edit
+/tools/moadmin.php 1 http://tierrasegura.com/tools/moadmin.php
+/proyectos/145/bootstrap/css/fontawesome.min.css 1 http://www.tierrasegura.com/proyectos/145/edit
+/img-sys/contentbox.jpg 5 http://www.tierrasegura.com/cpanel/
+/proyectos/176/bootstrap/css/fontawesome.min.css 1 http://www.tierrasegura.com/proyectos/176/edit
+/proyectos/161/bootstrap/css/fontawesome.min.css 1 http://www.tierrasegura.com/proyectos/161/edit
+/proyectos/public/ 1 -
+/proyectos/134/bootstrap/css/fontawesome.min.css 1 http://www.tierrasegura.com/proyectos/134/edit
+/indexwp.php 1 -
+/proyectos/bootstrap/css/fontawesome.min.css 135 http://tierrasegura.com/proyectos/23
+/contacto/ 1 http://tierrasegura.com/wp-admin/post.php
+/contacto 2 http://tierrasegura.com/
+/app/index2.html 1 http://www.tierrasegura.com/app/
+/installer.php 2 -
+/indexwp 1 -
+/proyectos/186/bootstrap/css/fontawesome.min.css 1 http://www.tierrasegura.com/proyectos/186/edit
+/index.php 4 http://tierrasegura.com/
+/auth/login 27 http://tierrasegura.com/app/auth/login
+/proyectos/194/bootstrap/css/fontawesome.min.css 1 http://www.tierrasegura.com/proyectos/194/edit
+/proyectos/images/credichapin-logo.png 6 http://tierrasegura.com/proyectos/public/
+/plugins/iCheck/square/blue.css 17 http://tierrasegura.com/proyectos/192
+/public_html 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 97
+190.106.223.85 400 2460 56119076 20160211115527
+190.149.0.176 128 179 11757175 20160202132538
+190.148.123.91 118 198 5352258 20160210172642
+181.114.28.129 112 269 8176126 20160210151736
+186.151.63.27 91 164 4467353 20160211114022
+186.151.60.74 74 377 10047949 20160203022008
+190.149.225.46 69 239 5249222 20160211125834
+168.234.48.218 51 431 6721679 20160211141556 20160211140941 /proyectos/
+190.120.6.218 31 69 2824140 20160204232808
+190.148.172.231 23 389 3368498 20160211110624
+181.174.107.6 17 21 4468329 20160203075212
+186.151.62.179 16 29 4641902 20160201154956
+181.209.246.106 16 22 2073001 20160208095007
+190.148.142.118 12 46 8031292 20160202182742
+201.247.219.19 12 73 42375824 20160204180136
+201.123.96.20 11 16 515061 20160201164036
+200.6.208.37 10 27 1393699 20160202120542
+201.216.189.61 10 12 3896795 20160201170503
+167.114.174.95 9 9 131207 20160211052228
+64.92.125.39 9 9 0 20160211111416
+190.106.213.167 8 45 1908547 20160205142605
+190.56.253.153 8 51 2252584 20160204114615
+190.106.223.74 7 17 972612 20160202165048
+64.83.253.138 7 38 1672684 20160210131939
+66.249.83.76 6 6 34986 20160210093930
+142.4.213.25 1 1 4970 20160205050733
+113.190.125.14 1 1 4970 20160204220108
+104.45.18.178 1 1 7512 20160210151800
+107.167.108.171 0 2 43837 
+107.167.108.173 2 32 1462221 20160204232104
+190.148.78.143 2 20 3419704 20160211134124 20160211134122 /wp-content/themes/tracks/assets/font-awesome/fonts/fontawesome-webfont.woff2
+189.197.34.162 2 2 30108 20160211115739
+186.151.62.115 1 7 405767 20160202100351
+54.68.33.126 1 1 4970 20160203010927
+152.231.93.42 1 1 24599 20160210123529
+176.10.99.207 1 1 4970 20160210220721
+66.249.88.85 2 2 15042 20160202092225
+70.39.246.37 3 3 43466 20160211091234
+109.201.154.207 1 1 4970 20160210164244
+178.17.174.99 1 1 4970 20160208232809
+184.73.16.242 1 1 4970 20160210111315
+186.151.62.243 2 6 447549 20160203094137
+186.151.61.22 2 4 36898 20160209115959
+200.6.226.180 0 2 8362 
+40.76.84.55 1 1 4970 20160202165401
+150.70.173.50 1 1 4970 20160210172159
+91.83.45.3 1 2 18449 20160202101927
+186.151.61.52 4 4 61014 20160206110337
+205.134.243.98 1 1 4970 20160202043229
+190.56.253.221 6 46 1880633 20160210112739
+31.207.140.231 1 1 4970 20160206160717
+190.56.114.30 6 37 1587412 20160209120840
+216.230.141.84 5 10 504000 20160204090552
+66.249.83.186 4 4 19880 20160204215015
+186.151.60.86 1 2 18449 20160201110322
+23.101.61.176 1 1 16785 20160211095416
+173.254.216.69 1 1 16785 20160210231542
+104.131.254.79 1 1 16785 20160211093222
+190.149.113.178 2 6 379930 20160210223944
+190.62.47.137 6 10 635585 20160203085026
+54.85.185.244 1 1 4970 20160206010931
+66.220.146.226 0 1 35475 
+40.78.146.128 1 1 7512 20160210151801
+109.201.152.236 1 1 4970 20160210200018
+212.47.227.72 1 1 4970 20160207012958
+115.79.55.22 1 1 4970 20160204013659
+199.19.249.196 1 1 4970 20160210052549
+104.209.188.207 1 1 7938 20160211115626
+200.49.168.226 6 36 1493979 20160202165521
+196.3.50.254 1 3 31928 20160210052549
+190.148.77.252 0 2 70950 
+66.249.83.70 4 4 22422 20160210093930
+66.249.88.65 2 2 10004 20160202092225
+190.56.253.191 1 29 1300474 20160205142315
+54.148.171.74 1 1 4970 20160205031830
+161.69.163.20 1 1 16785 20160211122254
+204.13.201.138 1 1 4970 20160210165709
+181.174.95.234 5 10 563792 20160203095652
+91.221.106.20 1 1 4970 20160209035139
+85.93.89.232 2 2 9999 20160201095319
+5.196.219.112 2 2 10004 20160208225259
+66.249.83.73 6 6 63618 20160211093805
+213.61.149.100 1 1 4970 20160207063109
+217.73.209.140 1 1 4970 20160205230646
+95.211.198.9 1 1 4970 20160202152745
+190.111.22.65 6 47 1896153 20160210115209
+190.148.39.138 1 2 40445 20160203000847
+66.249.83.183 1 1 8944 20160204130923
+37.187.56.47 4 4 24302 20160202090433
+208.184.112.74 2 2 9940 20160210195959
+187.217.94.183 5 37 1608822 20160203232638
+176.56.230.79 1 1 4970 20160207010213
+54.91.137.217 1 1 16785 20160211092233
+107.167.108.172 3 29 1091024 20160205185618
+190.56.253.202 0 1 35475 
+37.187.56.81 1 1 4965 20160201045626
+62.4.22.54 4 4 19880 20160206003957
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 11
+20160201 268 645 29645767 19
+20160202 107 303 21482172 18
+20160203 58 155 8998152 12
+20160204 94 344 52660251 20
+20160205 32 133 5547831 10
+20160206 12 20 205642 5
+20160207 3 4 50385 3
+20160208 20 26 2095423 5
+20160209 147 748 24646144 7
+20160210 372 1700 41444909 27
+20160211 281 1574 23957262 22
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 11
+5mn-15mn 11
+15mn-30mn 6
+30s-2mn 9
+2mn-5mn 12
+0s-30s 92
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 116
+/ 185 1339439 95 63
+/proyectos 112 30522137 0 5
+/wp-admin/admin-ajax.php 110 9753 1 1
+/index.php 102 773209 18 16
+/home 85 1161704 0 3
+/proyectos/ 58 83790 0 2
+/proyectos/193 58 1600434 1 4
+/app/ 52 308295 4 2
+/users 50 2110672 0 1
+/auth/login 38 296434 3 3
+/proyectos/192 29 595050 0 4
+/Home.html 23 23541 3 3
+/app/index.php 22 873087 0 1
+/wp-admin/load-scripts.php 18 2857616 0 0
+/installer.php 18 529601 0 0
+/wp-content/themes/tracks/assets/font-awesome/fonts/fontawesome-webfont.woff2 17 515712 0 2
+/clientes 17 723978 0 0
+/app/login.php 17 84561 4 2
+/Home.swf 17 1309748 0 0
+/Secc/000.swf 16 393584 1 1
+/proyectos/189 16 452643 0 1
+/cpanel/ 14 125216 8 4
+/users/77/edit 13 230189 0 0
+/proyectos/public/ 13 96027 1 2
+/wp-admin/admin.php 11 614688 0 0
+/comentarios 10 376466 0 0
+/proyectos/23 1 58095 0 0
+/wp-admin/post-new.php 4 489834 0 0
+/proyectos/176/edit 1 18368 0 0
+/laravel.php 1 7812 0 0
+/wp-admin/load-styles.php 3 954646 0 0
+/app/auth/login 2 15224 0 0
+/wp-admin/index.php 2 100136 0 0
+/proyectos/16/edit 1 18341 0 0
+/Secc/001c.swf 3 107676 0 0
+/2016/02/02/acerca-de-tierra-segura/ 10 154156 0 0
+/password/email 2 7684 0 0
+/users/44/edit 1 17539 0 0
+/feed/ 2 26737 1 2
+/roles 3 46939 0 0
+/css/bootstrap.css.map 2 444558 0 0
+/Secc/003.swf 5 1584505 0 0
+/proyectos/189/edit 7 129327 0 0
+/wp-content/themes/tracks/assets/font-awesome/fonts/fontawesome-webfont.woff 3 243852 0 0
+/wp-admin/ 1 48797 0 0
+/proyectos/185/edit 1 18426 0 0
+/proyectos/28 1 30682 0 0
+/2016/02/02/hola-mundo/ 1 11839 0 0
+/fonts/glyphicons-halflings-regular.woff 1 23424 0 0
+/Secc/001b.swf 2 50344 0 0
+/wp-admin/post.php 9 1146277 0 0
+/wp-admin/plugins.php 10 485015 0 0
+/proyectos/21 1 53944 0 1
+/proyectos/36 2 118714 0 0
+/auth/register 1 5145 0 1
+/proyectos/13 5 292709 0 0
+/proyectos/145/edit 1 18427 0 0
+/Secc/001e.swf 2 66956 0 0
+/proyectos/192/edit 6 111295 0 0
+/wp-admin/nav-menus.php 7 658658 0 0
+/Secc/001e1.swf 1 41490 0 1
+/proyectos/194 9 209843 0 1
+/Secc/005.swf 4 26192 0 0
+/2016/02/02/servicios/ 7 156356 0 0
+/cpanel 6 53514 3 0
+/proyectos/134/edit 1 18393 0 0
+/proyectos/187/edit 1 18429 0 0
+/index.php/home 8 110245 0 0
+/users/36/edit 2 35458 0 0
+/2016/02/02/aprendiendo-con-its/ 1 12060 0 0
+/Secc/001d.swf 2 11298 0 0
+/wp-login.php 1 2703 0 0
+/proyectos/33 1 57091 0 0
+/Secc/001b1.swf 1 42292 0 0
+/2016/02/01/prueba/ 1 13323 0 1
+/users/create 5 88200 0 0
+/users/78/edit 5 88979 0 0
+/wp-admin/options-reading.php 1 30387 0 0
+/proyectos/18 1 29278 0 0
+/clientes/49/edit 2 31316 0 0
+/Secc/002.swf 7 481180 0 3
+/proyectos/51 1 104081 0 1
+/proyectos/188 2 62148 0 0
+/proyectos/194/edit 1 18635 0 0
+/Secc/006.swf 5 538775 0 2
+/wp-admin/theme-editor.php 4 194739 0 0
+/proyectos/161/edit 1 18395 0 0
+/wp-admin/plugin-install.php 7 565462 0 0
+/proyectos/14/edit 1 18397 0 0
+/proyectos/14 1 46192 0 0
+/proyectos/188/edit 3 55074 0 0
+/proyectos/186/edit 1 18415 0 0
+/2016/02/02/noticias/ 1 12306 0 0
+/comentarios/%7Bcomentarios%7D 6 28334 0 0
+/proyectos/193/edit 2 36966 0 0
+/proyectos/13/edit 2 36819 0 1
+/proyectos/186 1 28620 0 0
+/2016/02/10/prueba/ 5 67980 0 0
+/estados 2 33623 0 0
+/wp-admin/update.php 3 69011 0 0
+/users/68/edit 1 17781 0 0
+/wp-content/plugins/contact-form-with-a-meeting-scheduler-by-vcita/fonts/icomoon.woff 1 6828 0 0
+/clientes/20/edit 1 15691 0 0
+/users/79/edit 1 17718 0 0
+/wp-cron.php 9 0 5 5
+/users/75/edit 1 17559 0 0
+/wp-content/themes/tracks/assets/font-awesome/fonts/fontawesome-webfont.ttf 3 414612 0 0
+/proyectos/create 3 54870 0 0
+/clientes/23/edit 1 15534 0 0
+/wp-admin/edit.php 3 174977 0 0
+/bitacoras 8 114214 0 0
+/Secc/001a.swf 7 596904 0 2
+/wp-admin/options-general.php 1 62094 0 0
+/proyectos/145 2 41197 0 1
+/Secc/004.swf 10 89480 0 4
+/proyectos/134 1 18065 0 0
+END_SIDER

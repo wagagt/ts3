@@ -1,0 +1,664 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201405 will be lost/reset.
+# Last config file used to build this data file was /home/tierra/tmp/awstats/awstats.tierrasegura.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2008                
+POS_TIME 2687                
+POS_VISITOR 12128               
+POS_DAY 19432               
+POS_DOMAIN 3511                
+POS_LOGIN 4052                
+POS_ROBOT 4207                
+POS_WORMS 4565                
+POS_EMAILSENDER 4696                
+POS_EMAILRECEIVER 4839                
+POS_SESSION 20262               
+POS_SIDER 20465               
+POS_FILETYPES 4974                
+POS_DOWNLOADS 5233                
+POS_OS 5593                
+POS_BROWSER 5791                
+POS_SCREENSIZE 6608                
+POS_UNKNOWNREFERER 6682                
+POS_UNKNOWNREFERERBROWSER 7212                
+POS_ORIGIN 7538                
+POS_SEREFERRALS 7681                
+POS_PAGEREFS 7849                
+POS_SEARCHWORDS 8845                
+POS_KEYWORDS 9055                
+POS_MISC 2350                
+POS_ERRORS 9174                
+POS_CLUSTER 3908                
+POS_SIDER_404 9297                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140601023802 45 8712 10033973819283
+FirstTime 20140501000316
+LastTime 20140531231329
+LastUpdate 20140601050505 45 0 44 0 0
+TotalVisits 205                 
+TotalUnique 176                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 183                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 48 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 13 17 996247 31 42 926785
+1 1 1 5062 14 22 60744
+2 1 1 5062 25 37 80992
+3 3 11 762767 16 28 328591
+4 2 2 10124 15 24 287074
+5 5 9 399149 25 34 500305
+6 20 81 97459021 20 39 317125
+7 65 136 19634959 26 48 1596518
+8 33 102 2550883 21 30 438248
+9 70 108 5216538 28 87 867875
+10 83 194 102019062 32 70 1117952
+11 50 94 3697661 17 40 510064
+12 26 76 3901624 27 50 1104868
+13 34 79 4037788 26 44 816147
+14 29 91 4044909 22 47 1300687
+15 36 53 2580801 21 44 471821
+16 47 61 2528115 22 59 550935
+17 51 91 2779356 18 38 696441
+18 28 70 1472033 61 85 1685257
+19 18 83 98225932 32 59 1777992
+20 21 53 2457376 14 29 411028
+21 2 6 383963 23 36 116503
+22 3 6 497675 14 20 56532
+23 11 20 2331467 27 39 1302125
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 23
+gt 479 1092 337532445
+us 90 137 9817748
+cr 16 40 1868088
+ua 11 11 55682
+br 10 50 3789010
+pa 9 32 1320916
+de 7 7 35240
+cn 4 4 19957
+nl 4 5 28932
+ru 3 11 782401
+sa 3 3 15089
+jp 2 2 10124
+sv 2 15 423323
+it 2 10 757802
+lu 2 2 10124
+eg 1 1 4965
+cl 1 5 378901
+lv 1 1 0
+mx 1 5 378901
+ec 1 5 378901
+co 1 1 5062
+ar 1 5 378901
+pe 1 1 5062
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+bot[\s_+:,\.\;\/\\-] 280 7327134 20140531214732 0
+googlebot 153 7077763 20140531122951 0
+spider 41 1115503 20140531154548 0
+robot 15 70819 20140531123619 0
+crawl 7 35337 20140524121435 0
+no_user_agent 6 15186 20140525151405 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 39 74385 0 0
+png 248 4263823 0 0
+swf 118 11159442 0 0
+php 318 8847523 0 0
+flv 27 297608364 0 0
+html 216 885806 0 0
+jpg 330 32658914 0 0
+js 22 360612 0 0
+gif 125 1213009 0 0
+xls 2 925696 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 10
+/bienesraices.gt/ingresovirtual/ingresosts.xls 6 0 2777088
+/Secc/001.flv 4 0 12651792
+/Secc/002.flv 4 0 20030888
+/Secc/003.flv 4 0 25701832
+/Secc/005.flv 3 0 27270651
+/Secc/006.flv 3 0 41775564
+/Secc/008.flv 3 0 110154009
+/Secc/004.flv 3 0 45808281
+/Secc/007.flv 3 0 14215347
+/ingreso/ingresosts.xls 2 0 144384
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 15
+blackberry 1
+linuxandroid 31
+winlong 6
+winxp 183
+win2000 1
+winnt 1
+linuxubuntu 2
+linux 9
+winvista 81
+win7 663
+winme 1
+macosx 418
+wince 5
+win2003 3
+Unknown 40
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 47
+msie6.0 12
+firefox28.0 43
+safari7.0 361
+firefox20.0 2
+chrome34.0.1847.137 55
+firefox26.0 45
+android 18
+chrome28.0.1500.94 7
+curl 1
+chrome12.0.742.112 1
+msie8.0 57
+chrome33.0.1750.112 5
+chrome34.0.1847.132 16
+firefox3.5.8 2
+msie7.0 23
+chrome35.0.1916.122 6
+firefox16.0 1
+chrome10.0.648.204 5
+chrome5.0.354.0 1
+wget 1
+msie9.0 25
+chrome30.0.1599.101 1
+chrome24.0.1312.52 3
+chrome14.0.804.0 1
+Unknown 32
+netscape 3
+blackberry 1
+chrome21.0.1180.75 2
+chrome34.0.1847.131 127
+safari6.0 14
+firefox29.0 83
+chrome27.0.1453.110 2
+msie5.5 1
+firefox7.0.1 1
+chrome28.0.1500.71 5
+chrome32.0.1700.107 70
+chrome35.0.1916.114 62
+safari6.0.5 2
+safari6.0.4 1
+mozilla 120
+firefox14.0.1 2
+firefox22.0 1
+msie10.0 204
+firefox6.0 1
+firefox3.6.3 5
+chrome31.0.1650.16 1
+chrome27.0.1453.116 13
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Mozilla 20140529001057
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~pagerockdotcom) 20140509191315
+Mozilla/5.0_(compatible;_WebMasterAid/1.0;__http://wmaid.com/explore/) 20140531231329
+Mozilla/5.0_(compatible;_Lipperhey_SEO_Service;_http://www.lipperhey.com/) 20140528003508
+Gimme60/Nutch-1.8_(page_refresh:_please_visit_gimme60.com;_gimme60.com;_support__AT__SIGN__gimmie60__DOT_COM_) 20140508103158
+NerdyBot 20140531070428
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~pagerockdotcom) 20140509191315
+Gimme60/Nutch-1.8_(page_refresh:_please_visit_gimme60.com;_gimme60.com;_support__AT__SIGN__gimmie60__DOT_COM_) 20140508103158
+NerdyBot 20140531070428
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 145 194
+From1 0 0
+From2 21 22
+From3 48 48
+From4 438 1181
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 19 20
+yandex 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 16
+http://semalt.semalt.com/crawler.php 14 14
+http://www.ecopromosgt.com/tierrasegura1/contactenos.html 8 8
+http://x14files.in 5 5
+http://www.paginasamarillas.com.gt/busqueda/perforadores+de+pozos 4 4
+http://webtemplateocean.com 4 4
+http://www.misuperguia.com/viewad.asp 2 2
+http://www.ecopromosgt.com/tierrasegura1/2a.html 2 2
+http://www.paginasamarillas.com.gt/empresa/inmobiliaria+tierra+segura-guatemala-4638743 1 1
+http://www.SERVICIOTECNICOMALLORCA.COM 1 1
+http://www.SOFTBOLNORESTE.COM 1 1
+https://www.facebook.com 1 1
+http://www.paginasamarillas.com.gt/busqueda/inmobiliaria+esteban+rios 1 1
+http://www.paginasamarillas.com.gt/busqueda/inmobiliaria+tierra+segura 1 1
+http://www.paginasamarillas.com.gt/busqueda/bombas+para+agua-guatemala 1 1
+http://wmaid.com/explore/tierrasegura.com 1 1
+http://www.paginasamarillas.com.gt/busqueda/pozos 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+tierrasegura.com 1
+tierra+segura 1
+www.tierrasegura.com 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+tierra 1
+tierrasegura.com 1
+www.tierrasegura.com 1
+segura 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 42 45516
+206 14 986337
+301 6 2022
+404 439 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 54
+/Secc/Secc/pics/16/09.jpg 1 http://www.tierrasegura.com/Secc/000.swf
+/sitemap.xml 1 -
+/Secc/images/Fotos/010.jpg 1 -
+/localhost.sql 1 -
+/robots.txt 277 -
+/text/javascript 1 -
+/apple-touch-icon.png 2 -
+/admin.php 2 -
+/data.sql 1 -
+/database.sql 1 -
+/configuration.php.old 1 -
+/tierrasegura.com.sql 1 -
+/system/fckeditor/editor/filemanager/browser/default/connectors/test.html 1 http://tierrasegura.com/system/fckeditor/editor/filemanager/browser/default/connectors/test.html
+/Secc/Secc/pics/16/11.jpg 1 http://www.tierrasegura.com/Secc/000.swf
+/components/com_search/views/search/metadata.xml 1 -
+/app/function.mysql-connect 3 -
+/wp-config.bak.php 1 -
+/_DB_.sql 1 -
+/wp-config.php~ 1 -
+/Secc/Secc/pics/16/02.jpg 1 http://www.tierrasegura.com/Secc/000.swf
+/sql.sql 1 -
+/resources/desinfecciondepozos.pdf 1 -
+/manage/fckeditor/editor/filemanager/browser/default/connectors/test.html 1 http://tierrasegura.com/manage/fckeditor/editor/filemanager/browser/default/connectors/test.html
+/backup.sql 1 -
+/configuration.php.bak 1 -
+/admin/fckeditor/editor/filemanager/browser/default/connectors/test.html 1 http://tierrasegura.com/admin/fckeditor/editor/filemanager/browser/default/connectors/test.html
+/fckeditor/editor/filemanager/browser/default/connectors/test.html 1 http://tierrasegura.com/fckeditor/editor/filemanager/browser/default/connectors/test.html
+/wp-config.php.old 1 -
+/1.sql 1 -
+/apple-touch-icon-precomposed.png 2 -
+/sql.txt 1 -
+/Dump.sql 1 -
+/administrator/index.php 1 -
+/images/fondo_tabla_tierra.jpg 98 http://www.tierrasegura.com/app/index.php
+/configuration.php~ 1 -
+/dump.sql 1 -
+/resources/elfiltrodegravanoesunfiltro.pdf 2 -
+/wp-config.php.bak 1 -
+/administrator/ 2 -
+/Secc/Secc/pics/16/01.jpg 1 http://www.tierrasegura.com/Secc/000.swf
+/Secc/Secc/pics/16/05.jpg 1 http://www.tierrasegura.com/Secc/000.swf
+/assets/plugins/tinymce/style/content.css 1 -
+/Secc/images/Fotos/006.jpg 1 -
+/editor/filemanager/browser/default/connectors/test.html 1 http://tierrasegura.com/editor/filemanager/browser/default/connectors/test.html
+/Secc/Secc/pics/16/08.jpg 1 http://www.tierrasegura.com/Secc/000.swf
+/Secc/Secc/pics/16/04.jpg 1 http://www.tierrasegura.com/Secc/000.swf
+/index.php 1 -
+/tierrasegura.sql 1 -
+/Secc/Secc/pics/16/07.jpg 1 http://www.tierrasegura.com/Secc/000.swf
+/wp-login.php 6 -
+/_db_.sql 1 -
+/Secc/Secc/pics/16/03.jpg 1 http://www.tierrasegura.com/Secc/000.swf
+/Secc/Secc/pics/16/06.jpg 1 http://www.tierrasegura.com/Secc/000.swf
+/Secc/Secc/pics/16/10.jpg 1 http://www.tierrasegura.com/Secc/000.swf
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 183
+186.151.61.39 87 175 4091954 20140512221218
+190.143.148.207 31 31 668504 20140513163009
+190.149.117.135 30 89 1606023 20140506093409
+190.143.148.251 26 28 683809 20140519094727
+200.119.166.196 20 20 438160 20140523113925
+190.143.178.79 17 20 615205 20140512095746
+200.6.252.2 17 41 1576928 20140515111203
+186.151.61.103 15 50 1683638 20140522080659
+200.119.174.234 15 15 461712 20140507102328
+190.143.148.172 14 24 319567 20140505103332
+190.149.238.85 13 33 1295460 20140514204114
+190.143.148.181 13 14 434412 20140526152051
+190.56.61.98 11 26 1166616 20140528112849
+181.189.138.201 11 23 729143 20140526102812
+186.151.66.146 10 32 1285435 20140514143744
+190.14.142.23 9 17 2005871 20140530135112
+201.216.146.2 9 36 1186688 20140529125439
+190.56.253.97 9 45 95857086 20140511193756
+190.143.148.235 9 9 341428 20140527154847
+186.151.183.14 8 30 1217998 20140515072024
+190.143.148.164 7 10 328524 20140527163111
+190.143.148.200 7 7 295294 20140508154002
+216.230.129.130 7 18 593349 20140507085930
+190.149.26.108 6 18 509877 20140519102332
+190.148.203.194 6 26 1069466 20140509105123
+190.148.131.17 1 5 378901 20140520142318
+190.106.200.51 4 8 382264 20140512093251
+107.178.215.229 1 1 5062 20140509165703
+69.58.178.56 3 3 15089 20140517003933
+198.50.217.3 1 1 4965 20140523232801
+181.114.26.66 1 5 378901 20140514065711
+199.30.25.186 1 4 743107 20140520165502
+200.30.174.154 2 10 757802 20140521070144
+187.6.122.42 1 5 378901 20140525160442
+199.30.24.43 1 4 732178 20140513231838
+190.148.129.185 4 8 481665 20140505094627
+66.249.88.145 1 1 5062 20140514204028
+54.226.168.205 1 1 5062 20140518231955
+37.57.200.107 1 1 5062 20140529225942
+178.238.235.184 3 3 15089 20140518100721
+186.151.61.49 5 11 577363 20140517125027
+181.209.155.50 5 11 517571 20140528065947
+190.143.143.11 4 8 481665 20140526150131
+107.178.212.106 1 1 5062 20140520070419
+186.151.81.32 1 5 378901 20140514112051
+199.223.235.10 1 1 5062 20140512053633
+199.30.24.213 1 3 918651 20140518071509
+208.85.0.202 2 2 9930 20140519063204
+70.105.165.124 1 5 378901 20140508205522
+199.30.24.21 1 4 617609 20140510100633
+108.59.82.100 1 1 5062 20140529070436
+173.208.66.70 1 1 4965 20140520085144
+173.255.115.106 1 1 5062 20140523070422
+186.151.125.88 5 9 490613 20140506134223
+54.81.67.155 1 1 5062 20140515133901
+186.42.143.28 1 5 378901 20140510073707
+177.17.202.6 1 5 378901 20140527163454
+216.230.141.84 2 12 405859 20140514140811
+117.163.131.225 1 1 4965 20140525234729
+107.178.211.33 1 1 5062 20140505124831
+107.178.216.28 1 1 5062 20140514154605
+200.6.210.181 1 7 405859 20140514121552
+187.94.85.193 1 5 378901 20140502102656
+107.178.221.138 1 1 5062 20140518070423
+187.165.95.25 1 5 378901 20140518191823
+186.151.63.29 5 9 490613 20140531173305
+181.207.80.5 1 7 405859 20140517175108
+200.49.161.142 1 5 378901 20140520092515
+23.92.60.139 1 1 5062 20140515065813
+107.178.218.166 1 1 5062 20140526070435
+202.46.53.37 1 1 5062 20140509040657
+186.35.179.107 1 5 378901 20140514175150
+198.50.217.1 1 1 4965 20140528201711
+200.183.149.34 0 3 55459 
+200.30.174.155 1 6 414376 20140531090412
+107.178.210.172 2 2 10124 20140519070442
+186.151.66.60 5 11 593895 20140522100912
+188.92.76.167 1 1 0 20140531231329
+186.151.234.98 1 1 24599 20140513092000
+199.30.25.177 1 3 483130 20140503223200
+179.63.240.8 1 1 24599 20140515132149
+107.178.211.66 1 1 5062 20140530070437
+177.72.44.27 1 5 378901 20140520085724
+23.19.155.154 1 1 4965 20140525234046
+94.242.222.29 2 2 10124 20140507202824
+190.104.118.130 1 6 392380 20140514141659
+177.220.174.39 1 5 378901 20140512121739
+190.143.166.202 5 9 550405 20140520150122
+181.189.138.93 1 5 378901 20140519083321
+199.217.118.137 6 6 29790 20140519064718
+205.237.88.143 5 5 25310 20140529001737
+190.148.95.37 1 3 0 20140520192214
+31.131.17.57 3 3 15186 20140528000039
+187.23.106.155 1 5 378901 20140514101841
+200.6.244.154 6 40 95667168 20140512104732
+142.54.184.18 1 1 5062 20140515184337
+181.189.138.233 3 7 381143 20140510075506
+153.121.33.231 1 1 5062 20140529172047
+23.19.46.68 1 1 4965 20140529190934
+199.30.25.37 1 4 802632 20140516093434
+107.178.214.211 1 1 5062 20140512105616
+177.55.253.26 1 5 378901 20140505155501
+190.106.204.45 0 7 1424912 
+199.30.24.137 1 4 821330 20140530192751
+54.198.29.195 1 1 5062 20140503172003
+50.19.30.169 0 1 2755 
+191.239.1.173 1 1 5062 20140513172520
+186.151.47.254 1 5 378901 20140514201752
+66.249.90.253 0 2 16724 
+108.62.187.188 1 1 267 20140528080348
+207.244.73.12 1 1 5062 20140512205338
+96.227.124.38 1 1 5062 20140512180607
+38.100.21.67 2 3 12782 20140513122233
+186.151.77.237 1 1 4965 20140510075440
+183.221.185.131 1 1 4965 20140531173934
+190.62.200.162 2 15 423323 20140501143224
+162.248.101.67 1 1 5062 20140527020020
+107.178.213.11 1 1 5062 20140502070516
+199.30.25.108 1 3 918651 20140501000316
+199.30.24.140 1 4 821330 20140512232141
+107.178.212.226 1 1 5062 20140501070519
+199.30.24.159 1 4 743107 20140502233335
+201.216.174.62 4 17 501488 20140515063605
+199.30.24.183 1 3 595913 20140501104938
+107.178.219.52 1 1 5062 20140505185126
+181.189.139.73 1 5 378901 20140516144334
+186.241.240.101 1 5 378901 20140525071128
+107.178.213.195 1 1 5062 20140513140143
+64.202.161.46 2 2 10124 20140507050655
+108.62.172.177 1 1 4965 20140528235257
+201.72.102.178 1 2 323442 20140515101622
+183.221.224.216 1 1 4965 20140525230312
+190.41.58.57 1 1 5062 20140527092150
+178.137.164.233 1 1 5062 20140530164114
+107.178.214.61 1 1 5062 20140506070504
+23.19.155.73 1 1 4965 20140530001030
+199.30.24.92 0 4 373839 
+107.178.217.214 1 1 5062 20140507070524
+107.178.217.43 1 1 5062 20140517070435
+5.199.142.250 1 1 5062 20140508001032
+199.223.235.94 1 1 5062 20140522070412
+187.75.90.187 1 5 378901 20140510133948
+107.178.218.53 1 1 5062 20140525070423
+5.199.175.174 2 2 10027 20140520163727
+107.178.213.84 1 1 5062 20140516070438
+64.235.154.68 1 1 5062 20140520075946
+37.1.208.48 1 1 5062 20140529094935
+41.196.238.123 1 1 4965 20140531152455
+199.30.25.86 1 1 77044 20140503132757
+109.195.234.109 1 5 378901 20140502035934
+108.62.172.218 1 1 4965 20140529091145
+107.178.211.222 1 1 5062 20140510085946
+95.236.44.64 1 5 378901 20140506124946
+119.63.193.196 1 1 5062 20140509040807
+190.149.178.26 1 5 378901 20140530060834
+54.237.72.234 1 1 5062 20140503172031
+181.209.246.218 3 14 397486 20140511190050
+216.230.140.157 1 5 378901 20140507090302
+31.202.241.242 5 5 25310 20140514122035
+190.56.253.206 5 5 183280 20140523110443
+107.178.220.87 1 1 5062 20140524070424
+148.251.50.43 1 1 5062 20140513012917
+190.56.253.169 2 6 380022 20140529092343
+79.8.99.251 1 5 378901 20140519051705
+107.178.223.241 1 1 5062 20140514134812
+24.188.126.130 1 5 378901 20140527132336
+200.119.188.119 6 6 272645 20140502103405
+190.106.212.80 1 5 378901 20140513135012
+8.35.201.50 1 1 5062 20140509191315
+50.16.27.251 0 1 2755 
+107.178.219.97 1 1 5062 20140531070428
+66.249.90.230 0 1 8362 
+23.19.46.90 1 1 4965 20140531144248
+107.178.211.158 1 1 5062 20140514213924
+71.189.164.218 2 2 10124 20140516141817
+107.178.208.55 1 1 5062 20140527070414
+144.76.42.76 3 3 15089 20140508102804
+200.35.182.177 6 43 110263296 20140515065623
+107.178.216.115 1 1 5062 20140515092355
+176.193.171.153 1 5 378901 20140502035921
+107.178.210.130 1 1 5062 20140528070438
+107.178.214.214 1 1 5062 20140521070543
+62.212.77.219 4 5 28932 20140528003507
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20140501 27 74 3010868 6
+20140502 25 40 2461033 7
+20140503 21 48 1430561 5
+20140504 34 46 1257219 2
+20140505 21 43 1564096 5
+20140506 17 47 1231311 4
+20140507 35 76 2064786 7
+20140508 14 22 1078309 6
+20140509 10 30 1089714 5
+20140510 9 24 1771643 7
+20140511 12 59 96254572 2
+20140512 46 122 98758088 12
+20140513 40 52 2211051 9
+20140514 41 124 5725056 15
+20140515 42 146 114362359 12
+20140516 7 18 1580585 7
+20140517 13 25 1018268 7
+20140518 9 15 1332695 7
+20140519 38 60 1971542 8
+20140520 15 36 2455331 10
+20140521 2 8 389473 2
+20140522 19 59 2949705 3
+20140523 28 28 636529 5
+20140524 2 2 10124 2
+20140525 6 14 777759 6
+20140526 30 47 1655344 5
+20140527 21 32 1442940 7
+20140528 25 49 1750164 8
+20140529 19 55 1989213 10
+20140530 13 24 2842290 7
+20140531 11 20 924946 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 12
+0s-30s 163
+15mn-30mn 1
+2mn-5mn 8
+30s-2mn 16
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 24
+/ 180 840292 152 120
+/app/index.php 167 8298784 0 11
+/app/templates/abc_proyectos_addComments.php 78 210132 0 0
+/app/login.php 64 308654 36 33
+/Home.html 33 35872 2 4
+/Secc/000.swf 26 614975 2 5
+/Home.swf 26 1926100 1 2
+/Secc/004.swf 11 98428 0 7
+/bienesraices.gt/banner_top/banner.swf 10 2907130 9 10
+/Secc/002.swf 9 618660 0 5
+/app/templates/abc_proyectos_editComments.php 9 29953 0 0
+/Secc/001a.swf 8 682176 0 1
+/Secc/005.swf 6 39288 0 1
+/Secc/001e.swf 3 100434 0 0
+/Secc/003.swf 3 950703 0 0
+/bienesraices.gt/intro/intro.swf 3 2650254 2 2
+/Secc/006.swf 3 323265 0 2
+/Secc/001b.swf 3 75516 0 1
+/Secc/001d.swf 3 16947 0 0
+/Secc/001c.swf 2 71784 0 1
+/bienesraices.gt/ 2 4241 1 0
+/Secc/001e1.swf 1 41490 0 0
+/bienesraices.gt/indexa.html 1 5401 0 0
+/Secc/001b1.swf 1 42292 0 0
+END_SIDER

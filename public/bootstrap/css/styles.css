@@ -1,0 +1,113 @@
+.td-style{
+    width:20%;
+}
+
+.td-style-proy{
+    width:10%;
+}
+
+.td-style-projects{
+    width:30%;
+}
+
+.btn-primary-tab{
+    
+    background-color:#fec35f;
+    color:#000;
+    border-color:#cecece;
+}
+
+.btn-primary-tab:hover{
+    
+    background-color:#fec35f;
+    color:#000;
+    border-color:#cecece;
+}
+
+.btn-work
+{
+    background-color:#96ffc7;
+    color:#000;
+     border-color:#cecece;
+}
+
+.btn-work:hover{
+    background-color:#96ffc7;
+    color:#000;
+     border-color:#cecece;
+}
+
+
+
+.btn-suspend{
+    background-color:#fdff97;
+    color: #000;
+     border-color:#cecece;
+}
+
+
+.btn-suspend:hover{
+    background-color:#fdff97;
+    color: #000;
+     border-color:#cecece;
+}
+
+
+.btn-final{
+    background-color:#f9d5bb;
+    color: #000;
+     border-color:#cecece;
+}
+
+
+.btn-final:hover{
+    background-color:#f9d5bb;
+    color: #000;
+     border-color:#cecece;
+}
+
+
+
+/* table colors from projects status */
+
+
+.table-in{
+    background-color:#fec35f;
+    color:#000;
+    text-decoration:none;
+}
+
+.table-in a{
+    color:#000;
+}
+
+
+
+.table-work{
+    
+    background-color:#99ffcb;
+    color:#000;
+}
+
+.table-info a, .table-suspend a, .table-danger a, .table-work a{
+    color:#000;
+}
+
+.table-suspend{
+    
+    background-color:#fdff97;
+    color:#000;
+    
+}
+
+
+
+.table-danger{
+    
+    background-color:#f9d5bb;
+    color:#000;
+    
+}
+
+
+

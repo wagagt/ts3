@@ -1,0 +1,431 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 200907 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2539                
+POS_VISITOR 7924                
+POS_DAY 10721               
+POS_DOMAIN 3249                
+POS_LOGIN 3647                
+POS_ROBOT 3802                
+POS_WORMS 4172                
+POS_EMAILSENDER 4303                
+POS_EMAILRECEIVER 4446                
+POS_SESSION 11486               
+POS_SIDER 11687               
+POS_FILETYPES 4581                
+POS_OS 4795                
+POS_BROWSER 4925                
+POS_SCREENSIZE 5134                
+POS_UNKNOWNREFERER 5208                
+POS_UNKNOWNREFERERBROWSER 5383                
+POS_ORIGIN 5465                
+POS_SEREFERRALS 5605                
+POS_PAGEREFS 5770                
+POS_SEARCHWORDS 6856                
+POS_KEYWORDS 7118                
+POS_MISC 2202                
+POS_ERRORS 7281                
+POS_CLUSTER 3503                
+POS_SIDER_404 7386                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20090801052324 2 168 11358643189762
+FirstTime 20090701033125
+LastTime 20090731230208
+LastUpdate 20090801194101 2 0 1 0 0
+TotalVisits 149                 
+TotalUnique 68                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 68                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 17 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 8 8 29166 12 12 9618
+1 4 4 12824 6 6 41340
+2 4 7 143209 7 7 90720
+3 2 2 4327 6 6 183390
+4 7 7 22442 4 5 8841
+5 19 26 9079300 3 3 76857
+6 3 3 9618 8 8 8654
+7 6 6 19236 4 5 155706
+8 11 14 165651 2 4 36596
+9 19 30 1021514 13 13 539378
+10 49 69 17330024 3 3 98823
+11 57 159 12266824 10 16 358233
+12 3 6 140003 7 7 83269
+13 29 75 2116004 2 2 0
+14 17 36 979194 4 4 18126
+15 44 97 11342038 1 1 1121
+16 20 33 4162127 4 5 76857
+17 15 31 4160285 1 2 0
+18 17 33 727776 5 5 6412
+19 18 28 1025888 5 6 12689
+20 2 2 6412 3 4 6412
+21 2 2 6412 2 2 3206
+22 7 10 152827 3 4 0
+23 9 9 28854 12 15 7720
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+gt 139 303 31899979
+us 118 154 2699310
+es 39 57 17968163
+sv 31 106 2073319
+pe 15 25 521520
+ni 12 17 754244
+mx 7 20 429279
+ve 7 11 8595402
+jp 1 1 3206
+ca 1 1 3206
+gb 1 1 3206
+th 1 1 1121
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+googlebot 43 1391239 20090731074935 0
+slurp 10 31470 20090731052532 0
+msnbot 3 3206 20090727221255 0
+bot[+:,\.\;\/\\-] 2 6412 20090708004710 0
+crawl 2 43837 20090730190216 0
+jeeves 1 3206 20090725180307 0
+netcraft 1 3206 20090710205559 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 14 38570 0 0
+png 91 1832792 0 0
+swf 150 8812247 0 0
+php 24 322562 0 0
+flv 12 45334472 0 0
+html 186 511167 0 0
+jpg 167 8007548 0 0
+js 4 47884 0 0
+gif 49 44713 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 9
+winlong 96
+winxp 492
+win2000 5
+win98 1
+linuxfedora 2
+macosx 85
+winme 5
+win2003 8
+Unknown 3
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 13
+msie6.0 110
+firefox3.0.3 1
+msie8.0 98
+firefox1.0.7 2
+mozilla 2
+firefox3.5.1 4
+msie7.0 325
+opera 5
+firefox3.0.11 36
+msie5.5 1
+safari 85
+real 1
+firefox3.0.5 27
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+RMA/1.0_(compatible;_RealMedia) 20090721105719
+Mozilla/4.0_(compatible;) 20090730180428
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 184 189
+From1 1 1
+From2 7 8
+From3 19 19
+From4 161 480
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 6 6
+yahoo 1 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 13
+http://www.unidadci.com/pre2009/Home.html 3 3
+http://paginasamarillas.com/www.tierrasegura.com/web_4638743_2_1__3_1/index.aspx 3 3
+http://www.paginasamarillas.com/www.tierrasegura.com/web_4638743_2_6_20809_3_1/index.aspx 2 2
+http://www.paginasacolores.com/listing/results.php 2 2
+http://www.paginasamarillas.com/www.tierrasegura.com/webT_4638743_2_1_4286_1/index.aspx 1 1
+http://www.unidadci.com/minisite2009/mini.html 1 1
+http://www.inmobilia.com/default/detalles.php 1 1
+http://www.paginasamarillas.com/www.tierrasegura.com/web_4638743_2_1_4089_3_1/index.aspx 1 1
+http://www.paginasamarillas.com/www.tierrasegura.com/webT_4638743_2_1_11989_1/index.aspx 1 1
+http://www.bing.com/search 1 1
+http://www.paginasamarillas.com/www.tierrasegura.com/webT_4638743_2_1_4089_1/index.aspx 1 1
+http://www.paginasamarillas.com/www.tierrasegura.com/web_4638743_2_1_11989_3_1/index.aspx 1 1
+http://www.wellowner2.org/2007/Maps/ContractorLookUp.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 5
+tierra+segura 2
+www.tierra+segura.com 1
+registros+de+pozos 1
+tierra+segura+guatemala 1
+www.tierrasegura.com 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 9
+tierra 3
+segura 3
+pozos 1
+www.tierra 1
+registros 1
+segura.com 1
+guatemala 1
+de 1
+www.tierrasegura.com 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 4 0
+206 9 341392
+404 70 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 11
+/google_sitemap.xml 2 -
+/sitemap.xml 2 -
+/robots.txt 46 -
+/apple-touch-icon.png 2 -
+/m/ 2 -
+/mobile/ 2 -
+/mobi/ 2 -
+/images/fondo_tabla_tierra.jpg 6 http://www.tierrasegura.com/app/index.php
+/sitemap/ 2 -
+/iphone/ 2 -
+/pda/ 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 68
+190.148.205.211 26 51 9924295 20090708111819
+83.61.165.163 23 37 16255347 20090721105928
+216.106.165.49 16 27 1011896 20090713095220
+190.14.128.126 15 40 9587861 20090722153355
+190.233.16.147 15 25 521520 20090721132933
+208.80.195.54 13 13 41678 20090729112358
+190.57.85.129 13 40 674360 20090722152505
+190.212.23.133 12 17 754244 20090708191303
+190.148.67.175 12 15 168857 20090726224211
+200.6.222.205 12 22 3889897 20090717174808
+89.128.31.26 11 15 1557150 20090725110953
+69.112.65.211 10 13 477486 20090725054057
+190.149.74.246 9 19 439599 20090706181910
+190.148.54.14 9 18 704525 20090724171856
+190.56.166.18 8 12 3598606 20090730163747
+190.75.218.30 7 11 8595402 20090717053915
+208.80.195.121 7 7 22442 20090731230208
+190.57.89.26 7 34 318872 20090727111337
+190.148.38.12 7 10 382944 20090706153715
+190.57.99.110 6 24 799778 20090715145849
+190.148.60.56 6 20 731159 20090723195100
+208.80.195.36 6 6 19236 20090729045507
+190.148.52.184 6 15 410391 20090727200652
+168.221.159.6 5 23 790830 20090714135158
+208.80.195.48 5 5 16030 20090724045201
+208.80.195.39 4 4 12824 20090725014548
+208.80.195.44 2 2 6412 20090716085015
+208.80.195.33 2 2 6412 20090730234742
+67.205.85.53 1 1 3206 20090711234748
+190.57.112.178 1 1 3206 20090710192045
+66.249.17.174 1 4 133591 20090708024221
+200.49.184.106 3 12 133591 20090727113254
+65.55.110.202 1 1 3206 20090724100052
+201.216.146.45 5 15 294567 20090701112123
+150.70.84.45 1 1 3206 20090701091115
+71.132.217.251 1 1 3206 20090701084303
+189.164.235.111 4 7 277103 20090702165327
+208.80.195.41 5 5 16030 20090727102056
+190.57.81.202 4 7 277103 20090714101737
+174.133.177.66 2 2 8171 20090709004934
+208.80.195.47 3 3 9618 20090730085749
+208.80.195.38 4 4 12824 20090727164756
+38.100.41.105 2 3 10926 20090714144733
+189.132.60.122 3 13 152176 20090705153738
+69.58.178.32 2 2 8171 20090706183957
+208.80.195.40 2 2 6412 20090712124948
+190.148.52.183 1 4 133591 20090722162747
+190.148.54.150 3 3 9618 20090728140433
+203.147.0.44 1 1 1121 20090719034526
+201.216.146.21 1 4 133591 20090730173217
+190.148.51.21 5 8 286051 20090713112317
+208.80.195.42 5 5 16030 20090731061728
+208.80.195.55 3 3 9618 20090719212334
+88.24.89.16 4 4 152460 20090720141039
+200.30.176.34 1 4 133591 20090730180428
+208.80.195.37 2 2 6412 20090719151240
+88.111.92.246 1 1 3206 20090718235459
+190.148.60.65 3 3 9618 20090731160521
+205.203.134.197 2 2 6412 20090725075732
+190.149.116.225 5 23 790830 20090704132545
+77.72.209.26 1 1 3206 20090724063655
+216.104.15.138 1 1 3206 20090701084617
+190.148.6.157 2 5 136797 20090730230609
+208.80.195.34 3 3 9618 20090726133340
+208.80.195.49 4 4 12824 20090711224030
+174.129.89.54 2 2 6412 20090729235000
+72.94.249.34 1 1 3206 20090702001040
+74.52.45.250 2 2 8171 20090727001405
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20090701 9 19 307391 5
+20090702 7 10 286721 4
+20090703 2 2 6412 2
+20090704 8 26 800448 4
+20090705 5 15 158588 3
+20090706 21 34 840332 6
+20090707 2 2 6412 2
+20090708 41 74 10818542 5
+20090709 4 4 14583 3
+20090710 4 4 12824 4
+20090711 4 4 12824 4
+20090712 3 3 9618 3
+20090713 23 37 1304359 4
+20090714 13 35 1085271 5
+20090715 8 26 806190 3
+20090716 2 2 6412 2
+20090717 22 36 12494917 5
+20090718 3 3 9618 3
+20090719 4 4 10739 4
+20090720 6 6 158872 3
+20090721 40 64 16783279 4
+20090722 31 86 10402224 6
+20090723 9 23 740777 7
+20090724 13 22 717349 6
+20090725 30 37 2063490 11
+20090726 9 12 159239 9
+20090727 20 65 877437 11
+20090728 5 5 16030 5
+20090729 4 4 12824 3
+20090730 15 28 4012203 8
+20090731 5 5 16030 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 3
+0s-30s 127
+30s-2mn 7
+2mn-5mn 7
+15mn-30mn 2
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 20
+/ 153 480900 147 118
+/Home.html 33 30267 2 1
+/Home.swf 31 1841275 0 1
+/Secc/002.swf 30 1649760 0 4
+/app/login.php 16 79584 0 8
+/Secc/001a.swf 16 1108536 0 2
+/Secc/004.swf 10 89480 0 3
+/Secc/001.flv 8 25303584 0 1
+/Secc/001e.swf 8 267824 0 1
+/app/index.php 8 242978 0 1
+/Secc/005.swf 8 49240 0 2
+/Secc/001c.swf 7 251244 0 0
+/Secc/003.swf 7 2218307 0 1
+/Secc/006.swf 7 745731 0 0
+/Secc/001b.swf 7 176204 0 1
+/Secc/000.swf 6 89520 0 2
+/Secc/001e1.swf 6 248940 0 1
+/Secc/001d.swf 6 33894 0 0
+/Secc/002.flv 4 20030888 0 2
+/Secc/001b1.swf 1 42292 0 0
+END_SIDER

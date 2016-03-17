@@ -1,0 +1,1536 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201112 will be lost/reset.
+# Last config file used to build this data file was /home/tierra/tmp/awstats/awstats.tierrasegura.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2008                
+POS_TIME 2673                
+POS_VISITOR 42919               
+POS_DAY 48976               
+POS_DOMAIN 3535                
+POS_LOGIN 4021                
+POS_ROBOT 4176                
+POS_WORMS 4678                
+POS_EMAILSENDER 4809                
+POS_EMAILRECEIVER 4952                
+POS_SESSION 49812               
+POS_SIDER 50023               
+POS_FILETYPES 5087                
+POS_DOWNLOADS 5366                
+POS_OS 5825                
+POS_BROWSER 6005                
+POS_SCREENSIZE 6505                
+POS_UNKNOWNREFERER 6579                
+POS_UNKNOWNREFERERBROWSER 6781                
+POS_ORIGIN 6893                
+POS_SEREFERRALS 7036                
+POS_PAGEREFS 7239                
+POS_SEARCHWORDS 7907                
+POS_KEYWORDS 8910                
+POS_MISC 2336                
+POS_ERRORS 9641                
+POS_CLUSTER 3877                
+POS_SIDER_404 9768                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20120101020839 18 2337 9462493911106
+FirstTime 0
+LastTime 20111231182659
+LastUpdate 20120101043918 18 0 17 0 0
+TotalVisits 192                 
+TotalUnique 145                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 146                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 71 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 9932 28 48 516992
+1 3 3 14897 70 90 746010
+2 15 16 382204 49 51 8948
+3 5 5 24830 46 52 29796
+4 8 16 1910219 157 172 957345
+5 32 38 2507172 69 93 28647
+6 102 149 5124745 60 127 934689
+7 126 229 103014283 39 135 423838
+8 117 250 53816100 164 216 195284
+9 33 72 2229818 400 416 181742
+10 56 101 3583770 131 154 198097
+11 72 99 3366488 97 175 146853
+12 35 78 23591439 69 86 500168
+13 77 160 10451776 1042 1057 221345
+14 112 162 7129283 20 90 572192
+15 63 118 2787521 416 450 980249
+16 67 115 6480256 107 141 116428
+17 122 147 4455983 114 222 170093
+18 172 317 170209653 65 202 877797
+19 36 55 1472418 444 477 239086
+20 53 60 1506920 14 63 136095
+21 23 42 2983621 24 46 2202803
+22 50 59 3365025 61 99 1035614
+23 4 4 16019 4 19 650887
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 18
+gt 1037 1724 161911013
+us 189 326 201968688
+mx 29 89 9641446
+cn 24 33 2465791
+ru 18 18 89388
+de 15 15 74490
+fr 14 14 65899
+ca 14 32 2723532
+my 10 10 49660
+tr 6 6 29796
+it 6 6 29796
+kr 5 5 24830
+ar 5 5 504937
+pr 4 4 419665
+ve 4 5 146231
+uy 3 3 102764
+in 1 1 4966
+cz 1 1 4966
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+bot[\s_+:,\.\;\/\\-] 126 3789553 20111231161435 0
+googlebot 57 6105692 20111231144933 0
+spider 47 240698 20111231151526 0
+crawl 9 78308 20111226113443 0
+robot 5 24733 20111228090049 0
+no_user_agent 2 9932 20111231161557 0
+msnbot\-media 2 19030 20111214124710 0
+[\s_+:,\.\;\/\\-]bot 1 4966 20111208004044 0
+myweb 1 4966 20111218125409 0
+netcraft 1 4966 20111229212259 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 87 46835 0 0
+png 133 2250575 0 0
+pdf 13 210476 0 0
+swf 196 26967165 0 0
+php 810 23617741 0 0
+flv 24 289956399 0 0
+html 379 1462551 0 0
+jpg 453 31573526 0 0
+js 76 426618 0 0
+xls 1 462848 0 0
+gif 125 3283124 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 12
+/Secc/001.flv 9 1 31545214
+/Resources/ElFiltroDeGravaNoEsUnfiltro.pdf 7 1 75653
+/Resources/DesinfeccionDePozos.pdf 6 1 134823
+/Secc/008.flv 4 1 173954429
+/bienesraices.gt/ingresovirtual/ingresosts.xls 3 0 1388544
+/Secc/007.flv 3 0 14215347
+/Secc/005.flv 2 0 18180434
+/ingreso/ingresosts.xls 2 0 144384
+/Secc/002.flv 2 0 10015444
+/Secc/003.flv 2 0 12850916
+/Secc/006.flv 1 0 13925188
+/Secc/004.flv 1 0 15269427
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 12
+linuxandroid 6
+blackberry 3
+winlong 51
+winxp 790
+win2000 13
+linuxubuntu 11
+linuxfedora 9
+linux 9
+win7 474
+macosx 790
+win2003 20
+Unknown 125
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 32
+msie6.0 40
+blackberry 3
+firefox5.0 9
+firefox10.0 19
+android 6
+firefox3.0 1
+chrome10.0.648.205 15
+firefox8.0 55
+firefox9.0 21
+safari5.0.6 10
+msie5.5 10
+safari5.0.1 34
+firefox3.5.3 9
+safari5.0.2 32
+firefox3.0.5 1
+chrome15.0.874.121 155
+msie8.0 224
+safari4.0 2
+mozilla 10
+netscape5.0 1
+safari5.1.2 25
+firefox3.0.6 1
+firefox3.5.8 2
+msie7.0 526
+safari5.1 685
+wget 31
+msie9.0 85
+chrome16.0.912.63 142
+firefox3.0.10 11
+Unknown 90
+firefox8.0.1 30
+safari 16
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/4.0_(compatible;) 20111214082414
+Wget/1.11.4_Red_Hat_modified 20111203081006
+<?php_system(\ 20111217223029
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+<?php_system(\ 20111217223029
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 344 396
+From1 0 0
+From2 40 40
+From3 17 17
+From4 984 1848
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+google 36 36
+search 1 1
+bing 1 1
+mywebsearch 1 1
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 9
+http://www.orangeask.com 8 8
+http://int.search-results.com/web 2 2
+http://www.facebook.com/l.php 1 1
+http://www.paginasamarillas.com.gt/Pozos-de-Agua/Guatemala/1-3.aspx 1 1
+http://www.arccosine.com/web.php 1 1
+http://www.export.com.gt/int/index.php 1 1
+http://www.paginasamarillas.com.gt/BOMBA-DE-AGUA/Guatemala/English-1-3.aspx 1 1
+http://www.paginasamarillas.com.gt/equipo-de-bombas-de-agua/English-1-2.aspx 1 1
+http://www.directoriolibre.com.gt/empresas/construccion/bienes_raices/775_bienes-raices-tierra-segura 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 27
+tierra+segura 6
+condiciones+para+perforar+un+pozo+mec%c3%a1nico 2
+www+tierrasegura+com 2
+lotificacion+los+conacastes+escuintla 2
+www.tierrasegura 1
+pozos+mecanicos+agua 1
+destapar+pozos+entubados 1
+spectrum+escuintla 1
+colegio+sek+guatemala+fraijanes 1
+comunidad+madremia 1
+tanques+para+herbicidas+rau 1
+inmobiliaria+tierra+segura 1
+empresas+perforacion+de+pozos+en+guatemala 1
+proye+cto+alamedas+de+conacaste+escuintla 1
+figura+de+tubo+ranurado+tipo+canastilla 1
+perfiles+de+pozos+en+jalapa+guatemala 1
+inmobiliaria+tierra+segura+guatemala 1
+http+//www.tierrasegura.com/ 1
+pozos+tierra+segura 1
+eficiencia+de+un+pozo+de+agua+con+rejillas+johnson+screen 1
+comunidadmadremia 1
+tierra+segurra 1
+cursos+perforista 1
+inmobiliaria+devsa 1
+pozos+mecanicos+misxco+guatemala 1
+como+se+perforan+los+pozos+mecanicos 1
+equipo+de+perforacion+depozos+guatemala 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 65
+tierra 10
+segura 9
+pozos 7
+de 7
+guatemala 6
+escuintla 4
+para 3
+pozo 3
+inmobiliaria 3
+un 3
+los 3
+mecanicos 3
+www 2
+condiciones 2
+lotificacion 2
+agua 2
+perforar 2
+conacastes 2
+mec%c3%a1nico 2
+en 2
+perforacion 2
+tierrasegura 2
+com 2
+equipo 1
+johnson 1
+spectrum 1
+misxco 1
+devsa 1
+//www.tierrasegura.com/ 1
+cto 1
+alamedas 1
+colegio 1
+cursos 1
+www.tierrasegura 1
+madremia 1
+herbicidas 1
+rejillas 1
+tanques 1
+con 1
+perfiles 1
+tubo 1
+destapar 1
+comunidad 1
+comunidadmadremia 1
+entubados 1
+se 1
+screen 1
+proye 1
+sek 1
+perforan 1
+tipo 1
+http 1
+figura 1
+segurra 1
+eficiencia 1
+conacaste 1
+fraijanes 1
+jalapa 1
+como 1
+empresas 1
+depozos 1
+ranurado 1
+perforista 1
+canastilla 1
+rau 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 82 263614
+206 17 581861
+301 29 12628
+404 4231 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 894
+/BetaBlockModules/RecentTagsModule/RecentTagsModule.php 2 -
+//phpMyAdmin-2.5.5-pl1/index.php 2 -
+/admin/addons/archive/archive.php 2 -
+/phpMyAdmin-2.6.4-pl1/ 4 -
+/mysqladmin/ 4 -
+/Secc/no-text1158024246438912147 1 -
+/phpMyAdmin-2.8.0/ 4 -
+/BetaBlockModules/PeopleModule/PeopleModule.php 2 -
+/DFF_PHP_FrameworkAPI-latest/include/DFF_affiliate_client_API.php 2 -
+/no-text-2448244919962738309 1 -
+/addvip.php 2 -
+/Secc/Secc/pics/15/07.jpg 1 -
+/phpMyAdmin-2.7.0-pl1/ 4 -
+/BetaBlockModules/EnableModule/EnableModule.php 2 -
+/modules/phpThumb/phpThumb.php 10 -
+/phpMyAdmin-2.11.10.1-all-languages/ 4 -
+/phpMyAdmin-2.6.2-pl1/ 4 -
+/adlayer.php 2 -
+/phpMyAdmin-3.3.10.2-english/ 4 -
+/phpMyAdmin-3.3.10.5-all-languages/ 4 -
+/Farsi1/index.php 2 -
+/admin/include/header.php 2 -
+/admin/inc/lib/boxes.lib.php 2 -
+/Include/variables.php3 2 -
+/=http://62.141.58.186/google.txt 2 -
+/Include/lib.inc.php3 2 -
+/admin/inc/prepend.inc.php 2 -
+/phpMyAdmin-3.3.9.1/ 4 -
+/CheckUpload.php 2 -
+/administrator/components/com_jcs/views/list.sub.html.php 1 -
+/pm/lib.inc.php 2 -
+/phpMyAdmin-3.4.2-all-languages/ 4 -
+/no-text-5095875083014645826 1 -
+/admin/components/com_fm/fm.install.php 2 -
+/Sources/Packages.php 2 -
+/admin/system/include.php 4 -
+/_theme/breadcrumb.php 2 -
+/phpMyAdmin-2.11.11.3/ 4 -
+/administrator/components/com_clickheat/Recly/Clickheat/Clickheat_Heatmap.php 1 -
+/abf_js.php 2 -
+//xampp/phpmyadmin/index.php 2 -
+//phpMyAdmin-2.5.5/index.php 2 -
+/Secc/no-text-3237469192319987987 1 -
+/photoalbums/main.php 4 -
+/BetaBlockModules/VideosMediaGalleryModule/VideosMediaGalleryModule.php 2 -
+/2007/administrator/components/com_joomlaflashfun/admin.joomlaflashfun.php 2 -
+/_includes/settings.inc.php 2 -
+/modules/xgallery/upgrade_album.php 4 -
+/BetaBlockModules/LoginModule/remoteauth_functions.php 2 -
+/FormTools1_5_0/global/templates/client_page_open.php 2 -
+/Secc/no-text2933265702123548683 1 -
+/administrator/components/com_dbquery/classes/DBQ/admin/common.class.php 1 -
+/administrator/ 4 -
+/PhotoGal/ops/gals.php 2 -
+/Secc/no-text5521303710020157037 1 -
+/ad_main.php 2 -
+/phpMyAdmin-2.6.4-pl2/ 4 -
+/admin/news.admin.php 2 -
+/Contenido_4.8.4/contenido/cronjobs/move_old_stats.php 2 -
+/scgi-bin/stats/awstats.pl 40 -
+/RGboard/include/footer.php 2 -
+/Secc/Secc/pics/17/10.jpg 1 -
+/BetaBlockModules/ViewAllMembersModule/ViewAllMembersModule.php 2 -
+/sqlweb/ 3 -
+/phpMyAdmin-2.6.0-pl2/ 4 -
+/cgi/awstats/awstats.pl 41 -
+/[path]/previewtheme.php 2 -
+/shop/ 9 -
+/index1.php 2 -
+/administrator/components/com_banners/admin.banners.php 2 -
+/add.cgi.php 2 -
+/assets/components/phpthumb/phpThumb.php 10 -
+/photos/main.php 4 -
+/SQuery/lib/gore.php 2 -
+/wp-content/themes/comfy-plus/scripts/phpThumb/phpThumb.php 20 -
+/mambots/editors/tinymce/jscripts/tiny_mce/plugins/ibrowser/scripts/phpThumb/phpThumb.php 10 -
+/phpMyAdmin-3.4.5-all-languages/ 3 -
+/ACGVnews/header.php 2 -
+/OTSCMS.php 2 -
+/Beautifier/Core.php 2 -
+/Secc/images/Fotos/001.jpg 1 -
+/phpMyAdmin-2.6.0-rc3/ 4 -
+/phpMyAdmin-2.6.4/ 4 -
+/admin/addentry.php 8 -
+/index.php/main.php 2 -
+/apps/phpAlbum/main.php 39 -
+/DFF_PHP_FrameworkAPI-latest/include/DFF_rss.func.php 2 -
+//phpmyadmin/index.php 4 -
+/BetaBlockModules/MyGroupsModule/MyGroupsModule.php 2 -
+/phpalbum/main.php 38 -
+/pollvote/pollvote.php 2 -
+/Core/core.inc.php 2 -
+/sources/post.php 2 -
+/_msdazu_pdata/redaktion/artikel/up/index.php 2 -
+/phpMyAdmin-3.3.9.2-all-languages/ 4 -
+/DON3/applications/frontpage.don3app/frontpage.php 2 -
+/Upload/install.php 2 -
+/admin/edit_album.php 4 -
+/site.php 28 -
+/e107/e107_handlers/secure_img_render.php 3 -
+/Somery/team.php 2 -
+/phpMyAdmin-3.4.3.2-all-languages/ 3 -
+/content/phpthumb/phpthumb.php 10 -
+//admin/phpmyadmin/index.php 2 -
+/admin_modules/admin_module_rotimage.inc.php 2 -
+/phpMyAdmin-3.3.8.1/ 4 -
+/derniers_commentaires.php 2 -
+/Secc/no-text3136967867444479374 1 -
+/phpMyAdmin-3.3.10.1/ 4 -
+/admin/user_user.php 2 -
+/phpMyAdmin-2.5.4/ 4 -
+/phpMyAdmin-2.8.0.2 4 -
+/PHPNews/auth.php 2 -
+/Secc/no-text9147295034970266638 1 -
+/inc/header.php/step_one.php 2 -
+/phpMyAdmin-3.3.9-all-languages/ 4 -
+/Blog/BlogModel.php 2 -
+/main.php 43 -
+/phpMyAdmin-3.4.3-all-languages/ 3 -
+/awstatstotals.php 38 -
+/phpMyAdmin-2.6.1/ 4 -
+/admin_modules/admin_module_deldir.inc.php 2 -
+/phpMyAdmin-3.3.7/ 4 -
+/index-9x.jsp 1 -
+/Contenido_4.8.4/contenido/cronjobs/run_newsletter_job.php 2 -
+/admin/auth.php 4 -
+/admin/testing/tests/0004_init_urls.php 4 -
+/htmltonuke.php 2 -
+/modules/4nAlbum/public/displayCategory.php 2 -
+/albums/main.php 4 -
+/admini/index.php 4 -
+/bienesraices.gt/index_archivos/Page466.htm 1 -
+/_blogadata/include/struct_admin.php 2 -
+/Secc/images/Fotos/003.jpg 1 -
+/admin/news.php 2 -
+/cgi-bin/awstats.pl 41 -
+/Secc/images/Fotos/017.jpg 1 -
+/websql/ 3 -
+/Secc/images/Fotos/015.jpg 1 -
+/adm/krgourl.php 2 -
+/live-support/inc/pipe.php 2 -
+/addevent.inc.php 2 -
+/administrator/components/com_chronocontact/excelwriter/Writer.php 2 -
+/_basicfunctions.php 2 -
+/allmylinks/include/footer.inc.php 2 -
+/admin/mods/simplechat_1.0.0/chat_panel.php 2 -
+/FirstPost/block.php 2 -
+/admin/genres.php 4 -
+/addsite.php 2 -
+/administrator/components/com_banners/admin.banners.html.php 2 -
+/Forums/bb_smilies.php 2 -
+/_msdazu_share/extras/downloads/index.php 2 -
+/components/com_hotornot2/phpThumb/phpThumb.php 10 -
+/BetaBlockModules/NetworkDefaultControlModule/NetworkDefaultControlModule.php 2 -
+/OpenSiteAdmin/scripts/classes/DatabaseManager.php 2 -
+/phpMyAdmin-3.4.0-english/ 4 -
+/phpMyAdmin-3.4.8/ 4 -
+/Secc/Secc/pics/06/02.jpg 1 -
+/admin/includes/header.php 2 -
+/Secc/images/Fotos/006.jpg 2 -
+/Secc/images/Fotos/021.jpg 1 -
+/phpMyAdmin-2.0.5-all-languages/ 4 -
+/BetaBlockModules/GroupModerateContentModule/GroupModerateContentModule.php 2 -
+/admin/controls/cart.php 2 -
+/administrator/components/com_admin/admin.admin.html.php 2 -
+/administrator/components/com_clickheat/Recly/Clickheat/Cache.php 1 -
+//phpMyAdmin-2.5.7-pl1/index.php 2 -
+/apple-touch-icon.png 13 -
+/OpenSiteAdmin/scripts/classes/Form.php 2 -
+/modules/My_eGallery/public/displayCategory.php 2 -
+/phpMyAdmin-3.4.3.1/ 3 -
+/administrator/components/com_config/admin.config.html.php 1 -
+/admin/classes/pear/Spreadsheet/Excel/Writer/Worksheet.php 2 -
+/phpMyAdmin-2.5.5-rc2/ 4 -
+/BetaBlockModules/RegisterModule/RegisterModule.php 2 -
+/admin/admin_users.php 6 -
+/phpMyAdmin-2.6.0-pl3/ 4 -
+/phpMyAdmin-2.11.11.3-english/ 4 -
+/phpMyAdmin-2.2.6/ 4 -
+/MOD_forum_fields_parse.php 4 -
+/phpMyAdmin-3.4.3.1-english/ 3 -
+/aboutinfo.php 2 -
+/phpMyAdmin-2.6.4-rc1/ 4 -
+/include/db.php 2 -
+/apple-touch-icon-precomposed.png 13 -
+/admin/config_settings.tpl.php 4 -
+/ListRecords.php 2 -
+/admin/include/lib.module.php 2 -
+/admin/templates/template_thumbnail.php 2 -
+/phpThumb.php 10 -
+/admin/admin_linkdb.php 4 -
+/phpMyAdmin-3.3.8-english/ 4 -
+/Scripts/mundimail/template/simpledefault/admin/_masterlayout.php 2 -
+/libs/phpThumb/phpThumb.php 10 -
+/A-Blog/navigation/latestnews.php 2 -
+/phpMyAdmin-3.3.9/ 4 -
+/admin/modules_data.php 2 -
+/phpMyAdmin-3.4.3/ 4 -
+//websql/index.php 2 -
+/CoupleDB.php 2 -
+/administrator/components/com_chronocontact/excelwriter/Writer/Format.php 2 -
+/Secc/no-text380482534238176054 1 -
+/phpMyAdmin-3.4.7.1/ 3 -
+//db/index.php 2 -
+/admin/admin_module.php 2 -
+/Picssolution/install/config.php 2 -
+/admini/admin.php 4 -
+/phpMyAdmin-2.8.2/ 4 -
+/BetaBlockModules/LinksModule/LinksModule.php 2 -
+/phpmanager/ 4 -
+//phpMyAdmin-2.5.6-rc2/index.php 2 -
+/DFF_PHP_FrameworkAPI-latest/include/DFF_paging.func.php 2 -
+/Secc/Secc/pics/12/03.jpg 1 -
+/includes/header.php 4 -
+/phpMyAdmin-3.4.4-all-languages/ 3 -
+/phpMyAdmin-3.4.6-rc1/ 3 -
+/bienesraices.gt/index_archivos/Page445.htm 1 -
+/phpMyAdmin-3.4.9/ 4 -
+/phpMyAdmin-2.1.0-english/ 4 -
+/OpenSiteAdmin/scripts/classes/Filter.php 2 -
+/BetaBlockModules/AudiosMediaGalleryModule/AudiosMediaGalleryModule.php 2 -
+/phpMyAdmin-2.6.1-pl3/ 4 -
+/Secc/no-text-7929826271384828325 1 -
+/phpMyAdmin-2.6.2-pl1 4 -
+/Contenido_4.8.4/contenido/plugins/content_allocation/includes/include.right_top.php 6 -
+/stats/awstats.pl 40 -
+/staticfiles/phpThumb/phpThumb.php 10 -
+/Secc/no-text-7061416484342777266 1 -
+/pic/main.php 4 -
+//phpMyAdmin-2.5.1/index.php 2 -
+/webadmin/ 3 -
+/wp-content/themes/wp-max/scripts/phpThumb/phpThumb.php 20 -
+/administrator/components/com_frontpage/toolbar.frontpage.html.php 1 -
+/Administration/Includes/deleteUser.php 2 -
+//web/index.php 2 -
+/administrator/components/com_feederator/includes/tmsp/subscription.php 1 -
+/administrator/components/com_contact/admin.contact.html.php 1 -
+/phpMyAdmin-3.4.3.2-english/ 3 -
+/_conf/_php-core/common-tpl-vars.php 2 -
+/Blog_CMS/admin/plugins/NP_UserSharing.php 4 -
+/Secc/no-text888475849975194848 1 -
+/phpMyAdmin-3.4.1-english/ 4 -
+/hcl/inc/pipe.php 2 -
+/phpMyAdmin-2.7.0-pl2/ 4 -
+/Full_Release/include/body_comm.inc.php 2 -
+/BetaBlockModules/EditProfileModule/external.php 2 -
+/Ex/modules/threadstop/threadstop.php 4 -
+/img/main.php 4 -
+/addpost_newpoll.php 2 -
+/phpMyAdmin-2.6.2-beta1 4 -
+/BetaBlockModules/MembersFacewallModule/MembersFacewallModule.php 2 -
+/phpMyAdmin-3.3.10.4-all-languages/ 4 -
+/Jobline/admin.jobline.php 2 -
+/ATutor/include/classes/module/module.class.php 2 -
+/phpMyAdmin-2.1.0/ 4 -
+/administrator/components/com_clickheat/includes/heatmap/_main.php 1 -
+/admin/admin_topic_action_logging.php 12 -
+/phpMyAdmin-2.8.0-rc1/ 4 -
+/administrator/components/com_clickheat/install.clickheat.php 1 -
+/modules/coppermine/themes/default/theme.php 4 -
+/phpMyAdmin-2.6.3/ 4 -
+/phpMyAdmin-3.3.9.1-english/ 4 -
+/bienesraices.gt/index_archivos/Page293.htm 1 -
+/default.php 2 -
+/UserMan/controller/common.function.php 2 -
+/activate.php 2 -
+/Secc/no-text3863705747972827173 1 -
+/admin/nav.php 4 -
+/OpenSiteAdmin/scripts/classes/LoginManager.php 2 -
+/ATutor/documentation/common/vitals.inc.php 2 -
+/administrator/components/com_frontpage/toolbar.frontpage.php 1 -
+/administrator/components/com_chronocontact/excelwriter/Writer/Worksheet.php 1 -
+/components/com_alphacontent/assets/phpthumb/phpThumb.php 10 -
+/DNS/RR.php 2 -
+/BetaBlockModules/ImagesMediaGalleryModule/ImagesMediaGalleryModule.php 2 -
+/phpMyAdmin-2.5.6/ 4 -
+/admin/comment.php 2 -
+/administrator/components/com_banners/toolbar.banners.html.php 2 -
+/phpMyAdmin-2.6.2-rc1/ 4 -
+/Widgets/Base/widget.BifContainer.php 2 -
+/Secc/images/Fotos/019.jpg 1 -
+/phpMyAdmin-2.6.0-rc1/ 4 -
+/phpMyAdmin-2.11.10.1/ 4 -
+/thumb/phpThumb.php 10 -
+/administrator/components/com_jcs/view/register.php 1 -
+/_friendly/core/data/yaml.inc.php 2 -
+/BetaBlockModules/NetworkResultContentModule/NetworkResultContentModule.php 2 -
+/phpMyAdmin-2.6.4-pl4/ 4 -
+/Agora_PATH//mdweb/admin/inc/organisations/form_org.inc.php 2 -
+/[inertia_dir]/inertianews_main.php 2 -
+/b2-tools/gm-2-b2.php 2 -
+/BetaBlockModules/LogoModule/LogoModule.php 2 -
+/administrator/components/com_bayesiannaivefilter/lang.php 2 -
+/admin/inc/change_action.php 2 -
+/Secc/Secc/pics/03/03.jpg 1 -
+/administrator/admin.php 2 -
+//phpmyadmin1/index.php 2 -
+/admin/tiny_mce/plugins/ibrowser/scripts/phpThumb/phpThumb.php 10 -
+/admin/themes.php 2 -
+/db.php 2 -
+/components/com_alphauserpoints/assets/phpThumb/phpThumb.php 10 -
+/DON3/applications/don3_requiem.don3app/don3_requiem.php 2 -
+/crossdomain.xml 1 -
+/phpadmin3 4 -
+/PHPDJ_v05/dj/djpage.php 2 -
+/forum/install.php 2 -
+/library/lib.php 2 -
+/WordPress_Files/All_Users/wp-content/plugins/Enigma2.php 4 -
+/admin/setup/level2.php 2 -
+//typo3/phpmyadmin/index.php 2 -
+/Flickrclient.php 2 -
+/bienesraices.gt/index_archivos/Page351.htm 1 -
+/cgi-bin/awstats/awstats.pl 41 -
+/administrator/components/com_competitions/includes/competitions/add.php 1 -
+/BetaBlockModules/ShowContentModule/ShowContentModule.php 2 -
+/admin/plugins/Online_Users/main.php 2 -
+/aMember/plugins/db/mysql/mysql.inc.php 2 -
+/OpenSiteAdmin/scripts/classes/FieldManager.php 2 -
+/phpThumb/phpThumb.php 10 -
+/wp-content/plugins/com-resize/phpthumb/phpThumb.php 10 -
+/BE_config.php 2 -
+/_msdazu_share/richtext/farbpalette.php 2 -
+/includes/include_onde.php 2 -
+/phpMyAdmin-3.3.8.1-english/ 4 -
+/phpMyAdmin-3.4.4/ 3 -
+/add.php 4 -
+/OpenSiteAdmin/scripts/classes/FormManager.php 2 -
+/no-text-646662680657322263 1 -
+//scripts/setup.php 2 -
+/admin/ST_platforms.php 2 -
+/apps/phpalbum/main.php 38 -
+/phpMyAdmin-3.4.5-english/ 3 -
+/phpMyAdmin-3.3.8/ 4 -
+/class/phpthumb/phpThumb.php 10 -
+/administrator/components/com_contact/toolbar.contact.html.php 1 -
+/bienesraices 1 -
+/phpMyAdmin-3.4.6-all-languages/ 3 -
+/Secc/no-text-1400432234121397090 1 -
+/Base/Application.php 2 -
+/BetaBlockModules/RecentCommentsModule/RecentCommentsModule.php 2 -
+/BetaBlockModules/CustomizeUIModule/desktop_image.php 2 -
+/act/act_check_access.php 2 -
+/admin/lib_action_step.php 2 -
+/Secc/no-text597638047033768033 1 -
+/allmylinks/include/info.inc.php 2 -
+/Secc/Secc/pics/04/01.jpg 1 -
+/Secc/Secc/pics/11/01.jpg 1 -
+/mysqlmanager/ 4 -
+/mysql/ 4 -
+/Gallery/displayCategory.php 4 -
+/BetaBlockModules//Module/Module.php 2 -
+/phpMyAdmin-2.6.1-pl2/ 4 -
+/pivot/modules/module_db.php 6 -
+/demo/includes/init.php 2 -
+/Secc/Secc/pics/07/02.jpg 1 -
+/modules/agendax/addevent.inc.php 6 -
+/Secc/no-text-1578978451301098486 1 -
+/phpadmin2 4 -
+/phpMyAdmin-3.3.10-all-languages/ 4 -
+/global/phpthumb/phpThumb.php 10 -
+/phpMyAdmin-3.3.7-english/ 4 -
+/Secc/Secc/pics/13/02.jpg 1 -
+/phpMyAdmin-2.6.0-beta1/ 4 -
+/phpMyAdmin-2.6.2/ 4 -
+/admin/system/modules/conf_modules.php 2 -
+/Secc/images/Fotos/002.jpg 1 -
+/phpMyAdmin-2.5.7-pl1/ 4 -
+/Secc/images/Fotos/013.jpg 1 -
+/Bcwb_PATH/dcontent/default.css.php 2 -
+/Secc/Secc/pics/01/03.jpg 1 -
+/admin/includes/spaw/spaw_control.class.php 4 -
+/phpMyAdmin-2.11.10.1-english/ 4 -
+/phpMyAdmin-2.11.11.1-all-languages/ 4 -
+/[path]/mybic_server.php 2 -
+/administrator/components/com_feederator/includes/tmsp/add_tmsp.php 1 -
+/administrator/components/com_chronocontact/excelwriter/Writer/BIFFwriter.php 2 -
+/phpMyAdmin-2.6.0-pl1 4 -
+/phpMyAdmin-2/ 4 -
+/_msdazu_share/richtext/lese_inc.php 2 -
+/FormTools1_5_0/global/templates/admin_page_open.php 2 -
+/phpMyAdmin-3.3.10.5/ 4 -
+/agendax/addevent.inc.php 2 -
+/_connect.php 2 -
+/Secc/no-text5608675013189213765 1 -
+/OpenSiteAdmin/pages/pageHeader.php 2 -
+/phpMyAdmin-3.4.8-all-languages/ 4 -
+/phpMyAdmin-2.8.0.1/ 4 -
+/Secc/no-text660859825337387572 1 -
+/phpMyAdmin-3.4.6-english/ 3 -
+/Secc/no-text-7273743077224885954 1 -
+/mya/ 4 -
+/Secc/Resources/Mapa.jpg 1 -
+/scripts/awstats.pl 40 -
+/Secc/no-text-4135427838547645978 1 -
+/phpMyAdmin-3.4.1-all-languages/ 4 -
+/phpMyAdmin-2.5.7/ 4 -
+/phpMyAdmin-2.6.1-pl1/ 4 -
+//php-my-admin/index.php 4 -
+/phpMyAdmin-3.4.9-english/ 4 -
+/Dir_phNNTP/article-raw.php 2 -
+/phpMyAdmin-3.3.9.2/ 4 -
+/phpMyAdmin-2.7.0-rc1/ 4 -
+/coppercop/theme.php 2 -
+/Secc/no-text-535854547580029877 1 -
+/muieblackcat 4 -
+/webdb/ 3 -
+/administrator/components/com_chronocontact/excelwriter/Writer/Workbook.php 2 -
+/phpopenchat/contrib/yabbse/poc.php 1 -
+/_head.php 2 -
+/phpMyAdmin-3.3.5.1-english/ 4 -
+/bienesraices.gt/index_archivos/Page413.htm 1 -
+/BetaBlockModules/SearchGroupsModule/SearchGroupsModule.php 2 -
+/A-Blog/navigation/donation.php 2 -
+/administrator/components/com_jcs/view/history.php 1 -
+/Agora_PATH//mdweb/admin/inc/organisations/country_insert.php 2 -
+/calendar/events/header.inc.php 1 -
+/BetaBlockModules/GroupForumPermalinkModule/GroupForumPermalinkModule.php 2 -
+/phpMyAdmin-2.6.2-beta1/ 4 -
+/administrator/components/com_frontpage/admin.frontpage.php 1 -
+/gnu3/index.php 2 -
+/BetaBlockModules/FlickrModule/FlickrModule.php 2 -
+/admin/list_artists.php 4 -
+/Secc/no-text4288890990258697856 1 -
+/Secc/Secc/pics/10/03.jpg 1 -
+//phpMyAdmin-2.5.5-rc2/index.php 2 -
+/phpMyAdmin-2.6.3-rc1/ 4 -
+/ATutor/include/classes/phpmailer/class.phpmailer.php 2 -
+/BetaBlockModules/RecentPostModule/RecentPostModule.php 2 -
+/admin/common.inc.php 2 -
+/phpMyAdmin-3.4.7-english/ 4 -
+//phpMyAdmin-2.2.6/index.php 2 -
+/phpMyAdmin-3.3.9.2-english/ 4 -
+/phpMyAdmin-3.3.9-english/ 4 -
+/photoalbum/main.php 4 -
+/BetaBlockModules/MediaFullViewModule/MediaFullViewModule.php 2 -
+/admin/admin.php 4 -
+/index.php 78 -
+//mysql/scripts/setup.php 2 -
+/admin1/ 4 -
+/phpMyAdmin-2.5.5/ 4 -
+/admin/common-menu.php 2 -
+/BetaBlockModules/ProfileFeedModule/ProfileFeedModule.php 2 -
+/nphp/nphpd.php 2 -
+/administrator/components/com_extended_registration/admin.extended_registration.php 1 -
+/admin/config.php 4 -
+/admin_modules/admin_module_edit.inc.php 2 -
+/Widgets/Base/widget.BifWarning.php 2 -
+/admin.php 16 -
+/Secc/no-text5257483609619686400 1 -
+/bienesraices.gt/index_archivos/Page397.htm 1 -
+/Widgets/Base/Footer.php 2 -
+/admin/admin_forum_prune.php 4 -
+/Secc/images/Fotos/009.jpg 1 -
+/Secc/no-text-1769036382966514669 1 -
+/CubeCart/includes/orderSuccess.inc.php 2 -
+/modules/xoopsgallery/upgrade_album.php 2 -
+/administrator/components/com_googlebase/admin.googlebase.php 1 -
+/calendar/functions/popup.php 1 -
+/admin/catagory.php 2 -
+/admin/code/index.php 2 -
+/phpMyAdmin-2.11.11.1/ 4 -
+/Widgets/Base/widget.BifRoot2.php 2 -
+/adminhead.php 2 -
+/phpMyAdmin-3.3.5.1/ 4 -
+/includes/include_once.php 2 -
+/123flashchat.php 2 -
+/mysql-admin//mysql-admin/ 4 -
+/Secc/no-text5032762402867749285 1 -
+/admin/PLUGINs/NP_UserSharing.php 2 -
+/phpMyAdmin-3.3.6-all-languages/ 4 -
+/_friendly/core/display/_load.php 2 -
+/phpMyAdmin-2.11.11/ 4 -
+/Secc/images/Fotos/020.jpg 1 -
+/phpMyAdmin-2.8.0.3/ 4 -
+/phpMyAdmin-3.3.8-all-languages/ 4 -
+/phpMyAdmin-3.4.7.1-english/ 3 -
+/phpMyAdmin-3.4.8-english/ 4 -
+/administrator/components/com_config/toolbar.config.php 1 -
+/admin/system/menu/item.php 2 -
+/images/fondo_tabla_tierra.jpg 606 http://www.tierrasegura.com/app/index.php
+//phpadmin/index.php 2 -
+/phpMyAdmin-2.6.4-pl3/ 4 -
+/photo/main.php 4 -
+/images/main.php 4 -
+/myadmin/ 4 -
+/phpMyAdmin-2.11.11-english/ 4 -
+/phpMyAdmin-3.4.0/ 4 -
+/GradeMap/index.php 3 -
+/Secc/images/Fotos/012.jpg 1 -
+/phpMyAdmin-2.0.5-english/ 4 -
+/phpMyAdmin-2.6.1-pl1 4 -
+/admin/configset.php 2 -
+/ATutor/documentation/common/search.php 2 -
+/BetaBlockModules/MediaManagementModule/MediaManagementModule.php 2 -
+/phpMyAdmin-1.3.0/ 4 -
+/apple-touch-icon-72x72-precomposed.png 13 -
+/phpMyAdmin-3.4.7.1-all-languages/ 3 -
+/Secc/images/Fotos/004.jpg 1 -
+/admin/admin_extensions.php 4 -
+/Secc/no-text2728217460325766140 1 -
+/modules/coppermine/themes/coppercop/theme.php 2 -
+/phpMyAdmin-3.3.10.1-english/ 4 -
+/includes/calendar.php 2 -
+/Bcwb_PATH/include/startup.inc.php 2 -
+/administrator/components/com_clickheat/Recly/common/GlobalVariables.php 1 -
+/BPNEWS/bn_smrep1.php 2 -
+/aWebNews/visview.php 2 -
+/phpMyAdmin-2.6.0-rc2 4 -
+/gnu/index.php 2 -
+/admin/admin_forgotten_password.php 2 -
+/phpMyAdmin-2.6.0/ 4 -
+/administrator/components/com_feederator/includes/tmsp/tmsp.php 1 -
+/phpMyAdmin-3.4.7/ 3 -
+/BetaBlockModules/PostContentModule/PostContentModule.php 2 -
+/ashnews.php 4 -
+/PMA/ 4 -
+/admin/admin_spam.php 2 -
+/Secc/Secc/pics/02/02.jpg 1 -
+/admin_modules/admin_module_captions.inc.php 2 -
+/apple-touch-icon-72x72.png 13 -
+/BetaBlockModules/ImagesModule/ImagesModule.php 2 -
+/administrator/components/com_chronocontact/excelwriter/PPS/File.php 2 -
+/awstats/awstatstotals.php 38 -
+/wp-content/themes/fama/scripts/phpThumb/phpThumb.php 10 -
+/admin/lang.php 2 -
+/admin/auth/checklogin.php 2 -
+/admin/inc/lib/tools.lib.php 2 -
+/accsess/login.php 2 -
+/phpMyAdmin-3.3.9.1-all-languages/ 4 -
+/phpMyAdmin-2.11.11.1-english/ 4 -
+/admin/admin_news_bot.php 2 -
+/admin/edit_artist.php 4 -
+/PHP/includes/header.inc.php 2 -
+/phpMyAdmin-2.6.1-rc1/ 4 -
+/admin/bin/patch.php 2 -
+/phpMyAdmin-3.3.10.2-all-languages/ 4 -
+/administrator/components/com_clickheat/includes/overview/main.php 1 -
+//mysql/index.php 2 -
+/BetaBlockModules/AddMessageModule/AddMessageModule.php 2 -
+/AdaptCMS_Lite_1.4_2/plugins/rss_importer_functions.php 2 -
+/admin/tools/trackback/index.php 2 -
+/Secc/no-text-4632165249100834458 1 -
+/robots.txt 180 -
+/admin/classes/pear/Spreadsheet/Excel/Writer.php 2 -
+/admin/header.php 2 -
+/calendar/setup/header.inc.php 1 -
+/phpMyAdmin-3.4.3.2/ 3 -
+/SazCart/layouts/default/header.saz.php 2 -
+/admin/include/common.php 2 -
+/Secc/no-text-1680207088647520428 1 -
+/phpMyAdmin-3.4.2/ 4 -
+/phpMyAdmin-3.3.10.3/ 4 -
+/zentrack/index.php 3 -
+/cpcommerce/_functions.php 2 -
+/addressbook.php 2 -
+/adm/my_statistics.php 2 -
+/BetaBlockModules/PopularTagsModule/PopularTagsModule.php 2 -
+/BetaBlockModules/UserMessagesModule/UserMessagesModule.php 2 -
+/phpMyAdmin-2.6.3-pl1/ 4 -
+/_msdazu_share/richtext/newfile.php 2 -
+/phpMyAdmin-3.3.10/ 4 -
+/Secc/no-text-1579572651250202730 1 -
+/admin/classes/pear/Spreadsheet/Excel/Writer/Format.php 2 -
+/addcode.php 2 -
+/administrator/components/com_competitions/includes/settings/settings.php 1 -
+/achievo/atk/javascript/class.atkdateattribute.js.php 2 -
+/phpMyAdmin-2.6.0-beta2/ 4 -
+/Contenido_4.8.4/contenido/cronjobs/optimize_database.php 2 -
+/phpMyAdmin-2.7.0-beta1/ 4 -
+/about.php 4 -
+//phpMyAdmin-2.5.6/index.php 2 -
+/includes/setup.php 2 -
+/Secc/no-text-6148644464514348837 1 -
+/administrator/components/com_jcs/jcs.function.php 1 -
+/phpmyadmin2/ 4 -
+/phpgwapi/setup/tables_update.inc.php 2 -
+/phpMyAdmin-3.4.1/ 4 -
+//phpMyAdmin-2.5.5-rc1/index.php 2 -
+/administrator/components/com_banners/toolbar.banners.php 2 -
+/phpMyAdmin-3.3.6-english/ 4 -
+/Secc/no-text-3459910121322915241 1 -
+/mwchat/libs/start_lobby.php 1 -
+/Administration/Includes/contentHome.php 2 -
+/account.php 2 -
+/administrator/components/com_dadamail/config.dadamail.php 1 -
+/phpMyAdmin-3.4.7-all-languages/ 3 -
+/include/livre_include.php 2 -
+/Secc/images/Fotos/014.jpg 1 -
+/Secc/images/Fotos/011.jpg 1 -
+/_friendly/core/data/_load.php 2 -
+/Secc/no-text-7094846625111524271 1 -
+/phpMyAdmin-2.6.1-rc2/ 4 -
+/poll/admin/common.inc.php 2 -
+/awstats/awstats.pl 41 -
+/BetaBlockModules/ShowAnnouncementModule/ShowAnnouncementModule.php 2 -
+/Contenido_4.8.4/contenido/cronjobs/setfrontenduserstate.php 2 -
+/Secc/no-text-1263921026493307786 1 -
+/administrator/components/com_extcalendar/admin_settings.php 1 -
+/BetaBlockModules/NetworkAnnouncementModule/NetworkAnnouncementModule.php 2 -
+/admin/ 3 -
+/administrator/components/com_competitions/includes/competitions/competitions.php 1 -
+/BetaBlockModules/UploadMediaModule/UploadMediaModule.php 2 -
+/php-my-admin/ 4 -
+/phpMyAdmin-2.11.11-all-languages/ 4 -
+/awstatstotals/awstatstotals.php 38 -
+/Secc/no-text9054702913299488517 1 -
+/Secc/no-text-3938076213483873488 1 -
+/Contenido_4.8.4/contenido/includes/include.newsletter_jobs_subnav.php 6 -
+/BetaBlockModules/ExternalFeedModule/ExternalFeedModule.php 2 -
+/bienesraices.gt/index.htm 1 -
+/Secc/images/Fotos/007.jpg 1 -
+/active/components/xmlrpc/client.php 2 -
+/admin/objects.inc.php4 2 -
+/phpMyAdmin-3.4.9-all-languages/ 4 -
+/BetaBlockModules/GroupsCategoryModule/GroupsCategoryModule.php 2 -
+/Secc/no-text7735312402141061177 1 -
+/administartor/ 4 -
+/Secc/no-text-2660411420540202945 1 -
+/_administration/securite.php 2 -
+/phpMyAdmin-3.4.0-all-languages/ 4 -
+/coppermine/themes/maze/theme.php 2 -
+/admin/scripts/tinymce/jscripts/tiny_mce/plugins/ibrowser/scripts/phpThumb/phpThumb.php 10 -
+/myPHPCalendar/admin.php 4 -
+/phpMyAdmin-2.6.0-rc3 4 -
+//phpMyAdmin-2.2.3/index.php 2 -
+/RR.php 2 -
+/Secc/images/Fotos/008.jpg 1 -
+/phpMyAdmin-2.11.11.2/ 4 -
+/Secc/no-text-5156873696868305435 1 -
+/Secc/no-text1580036244418985019 1 -
+/cms/plugins/content/jthumbs/includes/phpThumb.php 10 -
+/DFF_PHP_FrameworkAPI-latest/include/DFF_sku.func.php 4 -
+/Secc/no-text3683214287302476374 1 -
+/admin/auth/secure.php 4 -
+/phpMyAdmin/ 4 -
+/_friendly/core/support/_load.php 2 -
+/_msdazu_share/richtext/addtort.php 2 -
+/BetaBlockModules/EditProfileModule/DynamicProfile.php 2 -
+/components/com_flexicontent/librairies/phpthumb/phpThumb.php 10 -
+/wp-content/themes/victore/phpthumb/phpThumb.php 10 -
+/catalog/ 9 -
+/administrator/components/com_contact/toolbar.contact.php 1 -
+/Bcwb_PATH/system/default.css.php 2 -
+/BetaBlockModules/GroupsDirectoryModule/GroupsDirectoryModule.php 2 -
+/BetaBlockModules/NetworkResultUserModule/NetworkResultUserModule.php 2 -
+/Secc/images/Fotos/010.jpg 1 -
+//web/phpMyAdmin/index.php 2 -
+/phpadmin 4 -
+/admin/sendmsg.php 2 -
+/Shared/controller/text.ctrl.php 2 -
+/modules/coppermine/include/init.inc.php 2 -
+/_msdazu_share/share/insert1.php 2 -
+/include/write.php 2 -
+//myadmin/index.php 2 -
+/4images/index.php 2 -
+/Secc/Secc/pics/14/03.jpg 1 -
+/phpMyAdmin-3.4.6/ 3 -
+/_conf/core/common-tpl-vars.php 2 -
+/administrator/components/com_config/toolbar.config.html.php 1 -
+/phpMyAdmin-2.11.11.2-english/ 4 -
+/Secc/images/Fotos/005.jpg 1 -
+/zadmin/tiny_mce/plugins/ibrowser/scripts/phpThumb/phpThumb.php 10 -
+/index2.php 4 -
+/Secc/no-text-2150704543215858395 1 -
+//phpMyAdmin/index.php 4 -
+/OpenSiteAdmin/indexFooter.php 2 -
+/shoutbox/expanded.php 5 -
+/admin/classes/pear/OLE/PPS/File.php 2 -
+//admin/pma/index.php 2 -
+/admincp/auth/checklogin.php 2 -
+//index.php 2 -
+/include/new-visitor.inc.php 6 -
+/Administration/Includes/configureText.php 2 -
+/Secc/Secc/pics/08/03.jpg 1 -
+/pma/ 4 -
+/administrator/components/com_clickheat/includes/heatmap/main.php 1 -
+/phpMyAdmin2/ 4 -
+/wp-content/plugins/allwebmenus-wordpress-menu-plugin/actions.php 1 -
+//pma/index.php 2 -
+/_wk/wk_lang.php 4 -
+/phpMyAdmin-2.5.6-rc1/ 4 -
+/pics/main.php 4 -
+/admin/admin_status.php 4 -
+/inc/authform.inc.php 2 -
+/phpMyAdmin-2.8.1/ 4 -
+/inc/pipe.php 4 -
+/Mamblog/admin.mamblog.php 2 -
+/A-Blog/navigation/search.php 2 -
+/BetaBlockModules/GroupForumModule/GroupForumModule.php 2 -
+/phpMyAdmin-2.5.5-pl1/ 4 -
+/phpMyAdmin-3.3.7-all-languages/ 4 -
+/BetaBlockModules/GroupModerateUserModule/GroupModerateUserModule.php 2 -
+/A-Blog/navigation/links.php 2 -
+/BetaBlockModules/NewestGroupsModule/NewestGroupsModule.php 2 -
+/_msdazu_share/richtext/extras_menu.php 2 -
+/Lorev1/third_party/phpmailer/class.phpmailer.php 2 -
+/phpMyAdmin-2.8.0.2/ 4 -
+/catalog/shopping_cart.php 2 -
+/helpcenter/inc/pipe.php 2 -
+/support/faq/inc/pipe.php 2 -
+/gallery/phpThumb/phpThumb.php 10 -
+//pma/scripts/setup.php 2 -
+/BetaBlockModules/MyLinksModule/MyLinksModule.php 2 -
+/phpAlbum/main.php 39 -
+/phpMyAdmin-3.4.2-english/ 4 -
+/phpMyAdmin-3.4.4-english/ 3 -
+//phpmyadmin/scripts/setup.php 2 -
+/BetaBlockModules/GroupModerationModule/GroupModerationModule.php 2 -
+/Secc/Secc/pics/05/03.jpg 1 -
+/stat/awstatstotals.php 38 -
+/phpMyAdmin-3.3.5.1-all-languages/ 4 -
+/common/scripts/phpThumb/phpThumb.php 10 -
+/Secc/no-text-2701018887297012567 1 -
+/Secc/images/Fotos/016.jpg 1 -
+/SPIP-v1-7-2/inc-calcul.php3 2 -
+/admin/includes/author_panel_header.php 2 -
+/data/admin/ver.txt 1 -
+/inc/shows.inc.php 2 -
+/22_ultimate/templates/header.php 4 -
+/admin/admin_attachments.php 4 -
+/no-text782360258936018041 1 -
+/Secc/no-text-1699092662474392919 1 -
+//mysqladmin/index.php 2 -
+/phpMyAdmin-3.3.10.3-english/ 4 -
+/pma2005/ 4 -
+/administrator/components/com_checkin/admin.checkin.php 2 -
+/album/main.php 4 -
+/wp-content/themes/max/scripts/phpThumb/phpThumb.php 10 -
+/administrator/components/com_chronocontact/excelwriter/PPS.php 2 -
+/BetaBlockModules/NetworkDefaultLinksModule/NetworkDefaultLinksModule.php 2 -
+/admin/admin_board.php 4 -
+/admin/includes/classes/spaw/spaw_control.class.php 2 -
+/support/mailling/maillist/inc/initdb.php 2 -
+/admin.loudmouth.php 2 -
+/_functions.php 4 -
+/manager/phpThumb/phpThumb.php 10 -
+/phpMyAdmin-2.0.5/ 4 -
+/phpMyAdmin-3.3.10.5-english/ 4 -
+/bb_lib/checkdb.inc.php 2 -
+/calendar/calendar.php 1 -
+/admin/frontpage_right.php 2 -
+/scgi-bin/awstats/awstats.pl 41 -
+/admin/inc/add.php 2 -
+/Popper/index.php 2 -
+/phpMyAdmin-2.2.3/ 4 -
+/phpMyAdmin-2.11.11.3-all-languages/ 4 -
+/PATH/admin/plog-admin-functions.php 2 -
+/phpMyAdmin-3.4.5/ 2 -
+/administrator/components/com_config/admin.config.php 1 -
+//phpmyadmin2/index.php 2 -
+/php-myadmin/ 4 -
+/wp-content/themes/Comfy/scripts/phpThumb/phpThumb.php 10 -
+/cgi-bin/stats/awstats.pl 41 -
+//phpMyAdmin-2.5.6-rc1/index.php 2 -
+/phpMyAdmin-2.5.5-rc1/ 4 -
+//phpMyAdmin-2/index.php 2 -
+/phpMyAdmin-2.8.1-rc1/ 4 -
+/livehelp/inc/pipe.php 2 -
+/administrator/components/com_contact/admin.contact.php 1 -
+/BetaBlockModules/MessageModule/MessageModule.php 2 -
+/phpMyAdmin-3.3.6/ 4 -
+/library/editor/editor.php 2 -
+/Secc/images/Fotos/018.jpg 1 -
+/phpMyAdmin-2.6.4-pl1 4 -
+/phpMyAdmin-2.8.0-beta1/ 4 -
+/wp-content/themes/redcarpet/scripts/phpthumb/phpthumb.php 20 -
+/phpMyAdmin-2.6.0-rc2/ 4 -
+/Secc/no-text1648171955936799881 1 -
+/admin/index_sitios.php 2 -
+/lib/phpThumb/phpThumb.php 10 -
+/admin/ST_countries.php 2 -
+/Secc/no-text-2615666080624441613 1 -
+//admin/index.php 2 -
+/template.php 2 -
+/administrator/components/com_feederator/includes/tmsp/edit_tmsp.php 1 -
+/phpMyAdmin-3.3.10-english/ 4 -
+/phpMyAdmin-3.3.8.1-all-languages/ 4 -
+/ashheadlines.php 2 -
+/NuclearBB/tasks/send_queued_emails.php 2 -
+/index.inc.php 2 -
+/ATutor/documentation/common/frame_toc.php 2 -
+/phpMyAdmin-3.4.3.1-all-languages/ 3 -
+/PMA2005/ 4 -
+/Contenido_4.8.4/contenido/cronjobs/send_reminder.php 2 -
+/DFF_PHP_FrameworkAPI-latest/include/DFF_featured_prdt.func.php 2 -
+/Secc/images/Fotos/022.jpg 1 -
+/admin/login.php 2 -
+/BetaBlockModules/InvitationStatusModule/InvitationStatusModule.php 2 -
+/phpMyAdmin-2.5.6-rc2/ 4 -
+/BetaBlockModules/ModuleSelectorModule/ModuleSelectorModule.php 2 -
+/Index.php 2 -
+/admin/tools/utf8conversion/index.php 4 -
+/phpMyAdmin-1.1.0/ 4 -
+/phpMyAdmin-2.6.0-alpha2/ 4 -
+/admin/index.php 14 -
+/BetaBlockModules/TakerATourModule/TakerATourModule.php 2 -
+/phpMyAdmin-2.11.11.2-all-languages/ 4 -
+/Secc/no-text3749699965195450682 1 -
+/administrator/components/com_jcs/view/add.php 1 -
+/Path_Script/createurl.php 2 -
+/Scripts/app_and_readme/navigator/index.php 2 -
+/PaTh/index.php 2 -
+/_msdazu_share/richtext/colorpik3.php 2 -
+/phpmy-admin/ 4 -
+/add_link.php 2 -
+/Contenido_4.8.4/contenido/backend_search.php 2 -
+/phpMyAdmin-2.6.0-alpha/ 4 -
+/administrator/components/com_color/admin.color.php 1 -
+/Secc/no-text5061261208975894713 1 -
+/administrator/components/com_cropimage/admin.cropcanvas.php 1 -
+/phpmyadmin/ 4 -
+/admin_modules/admin_module_delcomments.inc.php 2 -
+/scgi-bin/awstats.pl 41 -
+/admin/phpThumb/phpThumb.php 10 -
+/administrator/components/com_events/admin.events.php 1 -
+/Secc/no-text-6941432253621328143 1 -
+/Administration/Includes/userHome.php 2 -
+/BetaBlockModules/AboutUserModule/AboutUserModule.php 2 -
+/Administration/Includes/deleteContent.php 2 -
+/admin/system/config/conf-activation.php 2 -
+/Widgets/Base/widget.BifRoot.php 2 -
+/Secc/Secc/pics/09/03.jpg 1 -
+/OpenSiteAdmin/scripts/classes/Filters/SingleFilter.php 2 -
+/phpMyAdmin-3.4.3-english/ 3 -
+/admin/upload/phpThumb.php 10 -
+/phpMyAdmin-2.1.0-all-languages/ 4 -
+/jaf/index.php 2 -
+/BetaBlockModules/MyNetworksModule.php 2 -
+/include/authform.inc.php 2 -
+//phpMyAdmin-2.5.7/index.php 2 -
+/admin/classes/pear/Spreadsheet/Excel/Writer/Workbook.php 2 -
+/Secc/no-text-3794083523830135904 1 -
+/eblog/blog.inc.php 2 -
+/BetaBlockModules/NetworksDirectoryModule/NetworksDirectoryModule.php 2 -
+/components/com_hotornot2/phpthumb/phpThumb.php 20 -
+/phpMyAdmin-3.3.10.3-all-languages/ 4 -
+/BetaBlockModules/LargestGroupsModule/LargestGroupsModule.php 2 -
+/Secc/no-text-7338601461270351158 1 -
+/Widgets/Base/widget.BifRoot3.php 2 -
+/wp-content/plugins/ione-core/phpthumb/phpThumb.php 10 -
+/DFF_PHP_FrameworkAPI-latest/include/DFF_mer.func.php 2 -
+//dbadmin/index.php 2 -
+/admin/main.php 4 -
+/SazCart/admin/alayouts/default/pages/login.php 2 -
+/BetaBlockModules/NetworkModerateUserModule/NetworkModerateUserModule.php 2 -
+/admin/includes/admin_header.php 2 -
+/PhotoCart/adminprint.php 4 -
+/phpMyAdmin-3.3.10.1-all-languages/ 4 -
+/_msdazu_share/richtext/colorpik2.php 2 -
+/DynaTracker_v151/action.php 2 -
+/calendar/setup/setupSQL.php 1 -
+/phpMyAdmin-2.8.0-rc2/ 4 -
+/DFF_PHP_FrameworkAPI-latest/include/DFF_mer_prdt.func.php 2 -
+/phpMyAdmin-3.3.10.2/ 4 -
+/modules/mod_mainmenu.php 8 -
+/admin/classes/pear/Spreadsheet/Excel/Writer/Parser.php 2 -
+/phpMyAdmin-2.8.0.4/ 4 -
+/js/tiny_mce/plugins/ibrowser/scripts/phpThumb/phpThumb.php 10 -
+/install/index.php 2 -
+//phpMyAdmin-2.5.4/index.php 2 -
+/BetaBlockModules/UserPhotoModule/UserPhotoModule.php 2 -
+/help/faq/inc/pipe.php 2 -
+/phpMyAdmin-2.5.1/ 4 -
+/Secc/no-text5691725826733179597 1 -
+/phpMyAdmin-3.3.10.4/ 4 -
+/becommunity/community/index.php 2 -
+/admin/doeditconfig.php 2 -
+/admin/classes/pear/Spreadsheet/Excel/Writer/BIFFwriter.php 2 -
+/ACalendar/embed/day.php 2 -
+/calendar/events/datePicker.php 1 -
+/admincp/auth/secure.php 2 -
+/bienesraices.gt/index_archivos/Page461.htm 1 -
+/sqlmanager/ 3 -
+/sqladmin/ 3 -
+/BetaBlockModules/AddGroupModule/AddGroupModule.php 2 -
+/admin/classes/pear/OLE/PPS.php 2 -
+/admin/directory.php 2 -
+/Contenido_4.8.4/contenido/cronjobs/session_cleanup.php 2 -
+/Contenido_4.8.4/contenido/cronjobs/move_articles.php 2 -
+/p/m/a/ 4 -
+/admin_modules/admin_module_delimage.inc.php 2 -
+/A-Blog/sources/myaccount.php 2 -
+/admin/autoprompter.php 2 -
+/phpMyAdmin-3.3.10.4-english/ 4 -
+/DynaTracker_v151/includes_handler.php 2 -
+//phpMyAdmin/scripts/setup.php 2 -
+/acc.php 2 -
+/phpMyAdmin-2.7.0/ 4 -
+/administrator/components/com_frontpage/admin.frontpage.html.php 1 -
+/addon_keywordreplacer.php 2 -
+/access/login.php 2 -
+/dbadmin/ 4 -
+/admin/classes/pear/OLE/PPS/Root.php 2 -
+/scgi/awstats/awstats.pl 40 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 146
+190.143.190.219 68 119 1688239 20111207164705
+190.143.185.67 57 58 1148348 20111204183055
+200.119.176.72 43 43 1082656 20111218141258
+200.119.171.51 39 39 1109000 20111219070355
+190.143.186.73 35 35 1234326 20111218183406
+200.119.157.162 34 41 969911 20111220203247
+190.143.188.132 33 55 704346 20111202084214
+190.143.182.228 30 37 1341001 20111214115139
+190.143.188.235 29 29 833935 20111207172949
+190.143.189.133 28 28 843146 20111217074136
+200.119.160.50 28 28 797733 20111224150210
+190.143.188.253 26 39 746007 20111216080349
+200.119.187.117 26 59 813238 20111212163030
+200.119.167.32 24 27 861015 20111228111434
+200.119.162.99 24 24 596460 20111209221113
+200.119.186.37 23 31 805176 20111223080015
+71.43.127.242 23 31 1219403 20111229220611
+190.143.186.51 22 60 558258 20111228085102
+200.119.170.31 22 22 719082 20111221185538
+200.119.169.55 20 20 592129 20111222175604
+200.119.189.102 19 19 637757 20111222071518
+200.119.159.69 19 20 544719 20111217165603
+189.133.187.174 19 57 5063945 20111215085929
+89.208.95.130 18 18 89388 20111218133831
+208.45.127.20 18 71 137851307 20111228085625
+107.22.73.230 1 1 4966 20111201170928
+200.119.191.182 2 2 113212 20111218182936
+208.80.194.30 6 6 29796 20111231105509
+207.46.204.166 1 1 1121 20111228145628
+75.253.237.42 1 1 77044 20111207064719
+190.56.95.24 7 16 16125538 20111207132216
+200.49.162.61 4 18 1320961 20111217082524
+204.58.233.6 1 7 405763 20111214082414
+200.119.159.146 15 42 800791 20111216062427
+71.252.123.204 2 2 2242 20111219100504
+161.139.195.191 10 10 49660 20111217105950
+190.56.253.184 7 7 151172 20111221065202
+208.80.194.62 1 1 4966 20111227093440
+207.46.195.210 2 3 909355 20111201080139
+190.143.191.18 14 16 480382 20111220113746
+190.143.182.229 8 12 212468 20111209101836
+69.171.178.76 1 5 378805 20111228061442
+190.56.51.225 3 3 102764 20111222114511
+208.80.194.27 2 2 9932 20111230015153
+190.143.179.105 0 4 373839 
+200.119.179.187 7 7 149491 20111216192147
+109.206.181.132 1 1 4966 20111202031315
+190.56.106.94 10 33 4334528 20111202144401
+189.191.46.148 1 1 24599 20111205161249
+190.143.163.162 3 9 1301697 20111201105624
+38.229.70.44 1 1 4966 20111205150520
+184.107.155.35 13 31 2718566 20111203081004
+108.67.5.167 10 27 2135469 20111211184552
+69.162.70.2 10 10 49660 20111217024504
+201.216.146.87 10 25 2032187 20111202131058
+190.56.253.148 5 13 1903011 20111208130232
+107.22.18.221 1 1 4965 20111229011003
+219.240.36.108 5 5 24830 20111216131438
+207.46.199.13 2 3 317645 20111229144538
+205.203.134.197 1 1 4966 20111205174131
+216.230.147.224 6 10 575789 20111201091640
+200.49.190.28 4 21 678738 20111215193801
+88.198.66.216 2 2 9932 20111214135249
+62.225.155.90 6 6 29796 20111211180824
+190.56.110.153 10 25 523632 20111215150912
+200.49.162.52 15 62 2422499 20111225182252
+190.149.104.47 12 49 2773651 20111221130243
+200.119.167.137 1 1 4965 20111218193120
+8.28.16.254 2 2 6087 20111214082414
+69.58.178.57 11 11 51923 20111201063824
+186.52.241.208 3 3 102764 20111225123923
+190.56.21.75 5 27 1044424 20111202103933
+190.148.218.136 6 32 1290645 20111206091407
+157.55.112.206 1 1 1121 20111202043022
+190.143.188.181 14 14 428158 20111226203018
+69.162.119.162 9 9 44694 20111215193912
+200.49.190.38 1 1 85272 20111219100755
+190.149.241.85 11 27 2103648 20111214133717
+186.88.157.127 4 5 146231 20111204105140
+190.149.174.240 3 3 102764 20111227173638
+207.46.12.74 1 1 1121 20111207122326
+207.46.12.66 2 3 317646 20111215025155
+190.149.18.253 6 17 2086857 20111218215648
+207.46.204.215 1 1 1121 20111223045204
+190.148.67.254 10 23 3767762 20111229050157
+157.55.112.200 1 1 1121 20111217231757
+68.78.199.247 6 6 29796 20111212053606
+67.21.207.21 1 1 4966 20111203111651
+200.119.164.127 1 1 4965 20111214213018
+207.46.204.211 1 1 1121 20111212121824
+200.49.162.54 1 5 378805 20111223181052
+189.163.71.135 9 31 4552902 20111204170758
+200.119.189.7 15 15 433072 20111219202641
+202.202.43.121 6 6 29796 20111211134615
+200.49.190.121 4 8 481569 20111201115109
+38.100.21.12 13 15 528192 20111218130849
+64.202.161.41 1 1 4966 20111207035823
+208.80.194.28 1 1 4966 20111222002356
+88.173.34.144 6 6 29796 20111211093420
+46.4.221.189 1 1 4966 20111202230623
+88.190.11.232 8 8 36103 20111207152806
+221.7.84.99 6 15 2376403 20111219221511
+212.252.120.11 6 6 29796 20111211105538
+211.144.82.8 6 6 29796 20111213172700
+190.56.254.116 3 3 102764 20111215203418
+217.79.182.38 6 6 29796 20111211172352
+67.55.95.132 10 10 49660 20111217223030
+208.80.194.26 4 4 19864 20111225000316
+200.30.147.86 3 3 102764 20111202123544
+68.119.62.254 3 3 102764 20111224113938
+69.171.178.94 1 1 1121 20111228061524
+190.56.253.248 12 16 267750 20111221064737
+200.35.178.243 1 1 1121 20111201104030
+190.14.130.166 9 34 1892472 20111201161526
+200.119.161.163 17 18 601708 20111216193037
+190.149.114.14 12 53 8184959 20111202121321
+208.80.194.29 3 3 14898 20111228160505
+117.201.17.9 1 1 4966 20111221210952
+50.16.235.76 1 1 4966 20111220015105
+208.80.194.35 1 1 4966 20111212022330
+200.119.172.82 7 7 128373 20111204181530
+200.49.167.18 10 10 49660 20111231182659
+201.231.110.7 4 4 188036 20111218052952
+200.119.151.17 5 8 163191 20111212065230
+210.21.117.13 6 6 29796 20111211164443
+50.23.239.14 8 8 39728 20111230060727
+190.143.184.45 5 5 80805 20111222174352
+201.216.142.12 6 15 2376403 20111207065137
+190.143.187.154 17 17 497199 20111212173957
+200.119.184.113 3 3 152414 20111221184928
+71.38.242.89 12 33 2330005 20111218074635
+190.148.57.214 3 3 102764 20111213093725
+190.148.207.214 5 5 428613 20111203082822
+64.202.161.47 1 1 4966 20111207035817
+72.252.1.18 3 6 176899 20111201113930
+200.119.139.4 1 1 64813 20111221184918
+190.143.177.189 12 16 356597 20111222113433
+201.216.146.47 13 35 1577096 20111215154820
+201.216.244.65 1 1 316901 20111206084747
+207.46.12.169 1 2 7720 20111205192036
+24.171.195.189 4 4 419665 20111229073012
+12.35.16.121 6 25 54799919 20111230180628
+85.88.195.35 6 6 29796 20111213063456
+190.148.46.115 6 19 594731 20111214091439
+66.197.139.197 1 1 4966 20111225070232
+200.12.55.201 18 75 76969078 20111222184415
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20111201 44 89 5428836 12
+20111202 75 194 16407684 10
+20111203 21 39 3162077 5
+20111204 78 102 5980820 5
+20111205 37 60 813425 7
+20111206 22 56 1944170 5
+20111207 77 116 20055415 13
+20111208 5 13 1903011 1
+20111209 41 60 1464340 7
+20111210 1 1 4966 1
+20111211 47 64 2319211 8
+20111212 58 94 1519443 8
+20111213 18 18 177254 4
+20111214 54 96 4474938 10
+20111215 53 131 7663035 9
+20111216 70 111 2322827 5
+20111217 94 109 2918519 10
+20111218 124 158 7607977 9
+20111219 74 87 4362586 7
+20111220 50 59 1460225 4
+20111221 58 99 4133848 7
+20111222 77 136 108858747 8
+20111223 16 24 879919 4
+20111224 31 31 900497 2
+20111225 21 72 2914000 5
+20111226 15 15 433124 2
+20111227 18 48 418945 5
+20111228 56 124 139355310 9
+20111229 40 62 5729440 5
+20111230 8 27 54809851 3
+20111231 2 2 9932 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 25
+2mn-5mn 16
+30s-2mn 20
+15mn-30mn 12
+0s-30s 115
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 32
+/app/index.php 523 22644044 4 28
+/ 251 1047826 127 91
+/app/templates/abc_proyectos_addComments.php 136 368199 2 1
+/app/templates/abc_proyectos_editComments.php 89 297376 1 0
+/app/login.php 62 308122 17 8
+/Home.html 54 58292 28 11
+/Secc/000.swf 40 934762 2 11
+/Home.swf 39 2850628 1 1
+/bienesraices.gt/ 24 97543 6 4
+/Secc/005.swf 18 111316 0 5
+/bienesraices.gt/intro/intro.swf 16 13251270 0 2
+/Secc/001a.swf 16 1279080 1 8
+/bienesraices.gt/indexa.html 14 70213 0 0
+/bienesraices.gt/banner_top/banner.swf 13 3488556 0 4
+/Secc/006.swf 10 1077550 0 1
+/Secc/003.swf 9 2852109 1 3
+/Secc/004.swf 8 71584 0 1
+/Secc/002.swf 7 481180 0 3
+/bienesraices.gt/propiedades/terrenos.html 6 31416 0 2
+/bienesraices.gt/propiedades/ofibodegas.html 6 31416 1 1
+/bienesraices.gt/propiedades/oficinas.html 5 26180 0 1
+/bienesraices.gt/propiedades/contactenos.html 5 26180 0 1
+/bienesraices.gt/propiedades/fincas.html 5 26180 0 3
+/Secc/001e.swf 4 133912 0 1
+/bienesraices.gt/propiedades/apartamentos.html 4 21276 0 0
+/Secc/001c.swf 4 143568 0 0
+/Secc/001e1.swf 1 41490 0 0
+/bienesraices.gt/propiedades/vacacionales.html 3 15711 1 0
+/Secc/001b.swf 4 100688 0 0
+/Secc/001d.swf 4 22596 0 0
+/bienesraices.gt/propiedades/casas.html 2 10318 0 1
+/Secc/001b1.swf 3 126876 0 0
+END_SIDER

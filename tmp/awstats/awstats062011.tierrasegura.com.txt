@@ -1,0 +1,693 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201106 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2524                
+POS_VISITOR 13149               
+POS_DAY 18705               
+POS_DOMAIN 3336                
+POS_LOGIN 3792                
+POS_ROBOT 3947                
+POS_WORMS 4381                
+POS_EMAILSENDER 4512                
+POS_EMAILRECEIVER 4655                
+POS_SESSION 19518               
+POS_SIDER 19728               
+POS_FILETYPES 4790                
+POS_OS 5052                
+POS_BROWSER 5218                
+POS_SCREENSIZE 5542                
+POS_UNKNOWNREFERER 5616                
+POS_UNKNOWNREFERERBROWSER 6154                
+POS_ORIGIN 6688                
+POS_SEREFERRALS 6831                
+POS_PAGEREFS 7010                
+POS_SEARCHWORDS 7543                
+POS_KEYWORDS 8813                
+POS_MISC 2187                
+POS_ERRORS 9654                
+POS_CLUSTER 3648                
+POS_SIDER_404 9782                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20110701065609 1 0 11862946170618
+FirstTime 0
+LastTime 20110630205058
+LastUpdate 20110702051515 1 0 0 0 0
+TotalVisits 197                 
+TotalUnique 134                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 137                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 35 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 26 36 2525681 18 21 902
+1 0 0 0 4 6 0
+2 3 3 14424 9 12 796546
+3 2 2 9458 12 14 883581
+4 14 18 1005542 8 12 728294
+5 0 0 0 18 21 968188
+6 37 95 2511733 13 20 158048
+7 91 202 10090882 18 36 72868
+8 49 118 7210953 27 36 1931488
+9 76 172 12783676 73 84 1609623
+10 157 306 23694324 37 66 716863
+11 77 179 24811742 39 45 1506268
+12 59 119 8907431 38 38 1031784
+13 8 17 508651 26 30 948076
+14 50 88 2013835 9 20 1003471
+15 76 184 7702237 31 63 65008
+16 127 230 22601554 38 52 4150270
+17 173 318 19078626 62 83 4860049
+18 60 97 7183672 20 21 150165
+19 130 328 33446961 38 52 588739
+20 60 120 10681860 20 21 330012
+21 24 41 5388085 24 26 169796
+22 2 2 90238 6 9 4966
+23 7 15 2226023 3 4 1353
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 16
+gt 1123 2410 186500327
+us 103 138 8136605
+jp 17 19 1514127
+cr 16 34 3190514
+mx 11 16 714622
+ro 9 13 122278
+co 9 25 2201090
+ar 6 6 209722
+ca 3 16 428192
+ve 3 3 196673
+ru 2 4 922892
+bo 2 2 170544
+do 1 1 85272
+ec 1 1 85272
+de 1 1 4966
+se 1 1 4492
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+bot[+:,\.\;\/\\-] 105 1437339 20110630154705 0
+googlebot 76 9288274 20110630101108 0
+spider 21 28123 20110630053430 0
+slurp 18 145282 20110629094714 0
+no_user_agent 11 14424 20110630103305 0
+[+:,\.\;\/\\-]bot 2 0 20110624101639 0
+msnbot\-media 2 40441 20110621212816 0
+netcraft 1 4492 20110606200200 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 64 49590 0 0
+png 264 2524610 0 0
+pdf 2 30829 0 0
+swf 307 69186159 0 0
+php 184 7608762 0 0
+flv 6 35667197 0 0
+html 777 1478251 0 0
+js 163 1354136 0 0
+jpg 642 77912851 0 0
+gif 249 5479811 0 0
+xls 32 3195392 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 12
+winxp 976
+winlong 4
+win2000 3
+winnt 1
+win98 4
+linux 6
+linuxfedora 5
+macosx 4
+winunknown 24
+win2003 16
+Unknown 35
+win2008 1612
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 20
+msie6.0 114
+firefox5.0 6
+firefox4.0.1 768
+microsoft\-webdav\-miniredir 6
+chrome 215
+opera 14
+firefox4.0 1
+firefox3.6.17 22
+msie5.5 2
+firefox3.5.3 5
+msie8.0 1349
+firefox1.0 1
+msie7.0 46
+firefox3.5.8 2
+firefox3.6.18 1
+firefox3.6.3 4
+msie5.0 4
+msie9.0 38
+Unknown 52
+safari 40
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+FreeNutch/Nutch-1.2 20110604003158
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20110629072222
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20110601065906
+BlackBerry9300/5.0.0.845_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/353 20110627154951
+Java/1.6.0_04 20110605091519
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/4.2.18154/24.899;_U;_es)_Presto/2.5.25_Version/10.54 20110619204549
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+FreeNutch/Nutch-1.2 20110604003158
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20110629072222
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20110601065906
+BlackBerry9300/5.0.0.845_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/353 20110627154951
+Microsoft_Office_Existence_Discovery 20110613171620
+Java/1.6.0_04 20110605091519
+Microsoft_Office_Protocol_Discovery 20110613171433
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 359 482
+From1 0 0
+From2 42 43
+From3 18 18
+From4 889 2147
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 36 37
+search 4 4
+yandex 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+http://www.facebook.com/l.php 9 9
+http://www.directoriolibre.com.gt/empresas/construccion/bienes_raices/775_bienes-raices-tierra-segura 4 4
+http://www.paginasamarillas.com/pozos-de-agua/guatemala/1-2.aspx 1 1
+http://e1.mc362.mail.yahoo.com/mc/welcome 1 1
+http://e1.mg4.mail.yahoo.com/dc/launch 1 1
+http://www.youtube.com/user/TierraSegura 1 1
+http://www.connect.facebook.com/l.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 29
+tierra+segura 6
+condado+filadelfia+fraijanes 2
+tierra+segura+pozos 2
+tierrasegura.com 2
+como+hace+una+perforacion+de+pozo+mecanico 2
+contaminantes+fluidos+de+perforacion 1
+tipos+de+brocas+de+perforacion+utilizadas+en+muestreos 1
+inomobiliari+tierra+segura 1
+maquinas+para+perforar+poso+mecanico 1
+formato+de+ingreso+de+ventas 1
+medicion+de+caudales+-estimacion+de+caudales+de+bombeo+y+duracion+de+los+mismos 1
+ca%c3%b1a+de+azucar+agua+de+pozo 1
+contaminacion+con+lodo+de+perforacion+aguas+dulces 1
+brocas+de+percusion+para+perforacion+de+pozos 1
+brocas+para+pozos+mecanicos 1
+inmobiliaria+tierra+segura 1
+olga+de+torrebiarte+bienes+raices 1
+inmobiliaria+tierra+segura+guatemala 1
+imagenes+del+edificio+verdever+guatemala 1
+alamedas+de+conacaste 1
+imagenes+de+tuberia+de+perforacion+vertical+de+pozo 1
+cual+es+la+profundidad+de+las+perforaciones+para+encontrar+agua%3f 1
+destapaciones+con+maquina+para+pozos+en+guatemala 1
+imagen+de+un+pozo+de+agua+tierra 1
+medir+los+lodos+de+perforacion 1
+perforacion+de+pozos+guatemala 1
+tierra+segura+pozos+guatemala 1
+www.tierrasegura.com 1
+inmobilia+guatemala+olga+torrebiarte 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 77
+de 26
+tierra 13
+segura 12
+perforacion 9
+pozos 7
+guatemala 6
+para 5
+pozo 5
+mecanico 3
+brocas 3
+fraijanes 2
+filadelfia 2
+torrebiarte 2
+como 2
+hace 2
+agua 2
+caudales 2
+inmobiliaria 2
+una 2
+con 2
+olga 2
+imagenes 2
+tierrasegura.com 2
+condado 2
+en 2
+encontrar 1
+bienes 1
+destapaciones 1
+-estimacion 1
+y 1
+inomobiliari 1
+bombeo 1
+lodo 1
+tipos 1
+ventas 1
+azucar 1
+ingreso 1
+poso 1
+alamedas 1
+aguas 1
+formato 1
+utilizadas 1
+edificio 1
+maquinas 1
+la 1
+lodos 1
+tuberia 1
+del 1
+agua%3f 1
+cual 1
+raices 1
+percusion 1
+contaminacion 1
+ca%c3%b1a 1
+es 1
+fluidos 1
+maquina 1
+mismos 1
+contaminantes 1
+medicion 1
+dulces 1
+verdever 1
+vertical 1
+un 1
+www.tierrasegura.com 1
+perforaciones 1
+conacaste 1
+muestreos 1
+mecanicos 1
+medir 1
+duracion 1
+las 1
+imagen 1
+profundidad 1
+perforar 1
+inmobilia 1
+los 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 19 58655
+206 49 11602265
+404 362 0
+301 126 57063
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 67
+/Secc/Secc/pics/14/01.jpg 2 http://www.tierrasegura.com/Secc/000.swf
+/ 4 -
+/robots.txt 123 -
+/no-text-646662680657322263 1 -
+/bienesraices.gt/ingresovirtual/ 13 -
+/bienesraices.gt/index_archivos/Page445.htm 5 http://www.google.com/url
+/no-text-8754368730142349344 1 -
+/no-text-2012822389979751379 1 -
+/bienesraices.gt/index_archivos/Page397.htm 2 -
+/Secc/Secc/pics/05/02.jpg 1 http://www.tierrasegura.com/Secc/000.swf
+/bienesraices.gt/index_archivos/image363.gif 1 -
+/bienesraices.gt/index_archivos/image528.gif 2 -
+/no-text-5818563298245983098 1 -
+/Secc/Secc/pics/14/03.jpg 2 http://www.tierrasegura.com/Secc/000.swf
+/no-text-2448244919962738309 1 -
+/bienesraices.gt/index_archivos/image364.gif 1 -
+/bienesraices.gt/index_archivos/filelist.xml 1 -
+/bienesraices.gt/index_archivos/Page466.htm 3 -
+/bienesraices.gt/index_archivos/image603.gif 1 -
+/bienesraices.gt/index_archivos/Page429.htm 3 -
+/bienesraices.gt/index_archivos/image724.gif 2 -
+/bienesraices.gt/index_archivos/image535.jpg 2 -
+/bienesraices.gt/f2a.swf 5 -
+/no-text-5095875083014645826 1 -
+/images/fondo_tabla_tierra.jpg 95 http://www.tierrasegura.com/app/index.php
+/Secc/Secc/pics/13/02.jpg 1 http://www.tierrasegura.com/Secc/000.swf
+/bienesraices.gt/index_archivos/image4341.gif 3 -
+/no-text-6306774919069228186 1 -
+/Secc/Secc/pics/05/01.jpg 1 http://www.tierrasegura.com/Secc/000.swf
+/bienesraices.gt/index_archivos/image703.gif 2 -
+/no-text-6620635184958052128 1 -
+/bienesraices.gt/ 21 -
+/bienesraices.gt/index_archivos/image758.gif 2 -
+/bienesraices.gt/index_archivos/image5131.gif 1 -
+/no-text-5511658285310165964 1 -
+/bienesraices.gt/index_archivos/Page293.htm 5 -
+/no-text-6878318483487125378 1 -
+/Secc/Secc/pics/05/03.jpg 1 http://www.tierrasegura.com/Secc/000.swf
+/no-text2614913569114938381 1 -
+/Scripts/swfobject_modified.js 2 -
+/Secc/Secc/pics/14/02.jpg 2 http://www.tierrasegura.com/Secc/000.swf
+/no-text782360258936018041 1 -
+/bienesraices.gt/index_archivos/image692.gif 2 -
+/bienesraices.gt/index.htm 1 -
+/no-text9065764845527531215 1 -
+/bienesraices.gt/index_archivos/Page413.htm 2 -
+/bienesraices.gt/index_archivos/image560.gif 2 -
+/Secc/Secc/pics/13/01.jpg 1 http://www.tierrasegura.com/Secc/000.swf
+/crossdomain.xml 3 http://s.nsdsvc.com/App/DddWrapper.swf
+/bienesraices.gt/index_archivos/image3261.gif 1 -
+/bienesraices.gt/index_archivos/Page381.htm 2 -
+/bienesraices.gt/index_archivos/Page477.htm 2 -
+/bienesraices.gt/index_archivos/image669.gif 2 -
+/indexa.html 2 -
+/bienesraices.gt/index_archivos/Page461.htm 1 -
+/bienesraices.gt/index_archivos/image593.gif 2 -
+/bienesraices.gt/index_archivos/Page335.htm 1 -
+/bienesraices.gt/index_archivos/image4691.gif 2 -
+/bienesraices.gt/index_archivos/Page351.htm 2 -
+/no-text-574535269658815736 1 -
+/bienesraices.gt/index_archivos/image525.jpg 2 -
+/bienesraices.gt/index_archivos/image3286.jpg 1 -
+/bienesraices.gt/index_archivos/image359.gif 1 -
+/bienesraices.gt/index_archivos/image4021.gif 1 -
+/no-text-5404620665614931931 1 -
+/bienesraices.gt/index_archivos/image321.jpg 3 -
+/bienesraices.gt/index_archivos/image572.gif 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 137
+201.216.146.47 506 935 60828879 20110628185728
+200.119.174.167 56 111 8058262 20110622104456
+200.12.55.201 53 114 13222043 20110613115728
+200.119.180.37 37 55 1011589 20110629172038
+200.119.171.47 29 62 6245624 20110607124735
+200.119.168.4 29 56 5462308 20110606120029
+200.119.163.44 28 88 1222949 20110630074218
+190.148.137.211 26 44 938619 20110630141748
+200.119.174.95 21 36 4085387 20110603165616
+190.111.9.28 18 56 3037430 20110623083225
+200.119.159.102 18 50 15376499 20110601114015
+200.119.152.167 17 33 318441 20110628101607
+200.119.164.93 17 67 1217364 20110628193046
+200.119.168.135 16 32 276285 20110627151654
+201.200.41.142 16 34 3190514 20110619171246
+38.100.21.14 15 16 505371 20110616000709
+200.119.183.51 15 36 2542341 20110606095255
+200.119.173.254 15 36 3688081 20110601194337
+200.12.52.161 13 33 3382365 20110626115111
+216.106.167.197 12 21 2549222 20110623072710
+200.6.250.74 10 14 1761579 20110601091932
+200.119.178.187 10 32 256544 20110608155457
+200.119.152.251 10 54 631810 20110629064553
+200.12.32.51 10 23 3177689 20110622100536
+190.149.118.133 10 18 2011948 20110624000828
+200.119.159.203 3 11 0 20110606151759
+188.72.230.156 1 1 4966 20110626195442
+69.58.178.56 7 7 26750 20110601065906
+208.80.194.37 1 1 4966 20110628111825
+200.119.160.172 5 21 0 20110608102057
+201.242.164.43 1 1 85272 20110615220543
+46.73.152.181 5 7 932936 20110620045739
+200.88.224.204 1 1 85272 20110627160057
+216.104.15.134 1 1 4966 20110621202156
+200.119.157.25 2 6 0 20110626204245
+200.12.42.146 7 18 1973187 20110629072345
+200.119.155.124 2 10 0 20110607084529
+208.80.194.60 1 1 4492 20110603020505
+189.243.236.7 1 1 85272 20110621183033
+200.49.162.237 1 1 85272 20110624172012
+93.80.103.56 2 4 922892 20110620121117
+208.80.194.32 3 3 14898 20110622043358
+190.56.60.27 1 7 405763 20110619194827
+200.49.191.26 1 5 378805 20110618190712
+173.212.204.226 4 4 16349 20110627113203
+190.186.124.240 1 1 85272 20110624070133
+200.6.193.90 0 1 0 
+207.46.204.171 1 1 1121 20110626182112
+208.80.194.27 1 1 4966 20110626114013
+206.53.144.160 2 5 70507 20110627154951
+200.119.183.4 6 6 0 20110616155037
+200.119.164.237 6 15 95681 20110606170408
+50.16.64.83 1 1 4966 20110608204355
+200.119.160.232 8 17 2172819 20110606093847
+64.255.180.121 1 1 26129 20110619204549
+190.148.200.112 8 16 2699516 20110610072858
+200.49.162.234 1 8 418768 20110602170250
+201.164.247.145 2 2 9932 20110630104339
+207.226.183.119 1 1 72192 20110607060709
+190.148.231.237 9 21 2856730 20110623100815
+190.118.26.106 3 3 72192 20110608100321
+201.216.146.51 3 11 1328655 20110623110154
+174.129.117.237 9 9 0 20110628063341
+216.230.147.224 7 20 1423455 20110624100748
+190.143.168.186 9 25 2201090 20110615150534
+200.119.154.120 7 18 17474070 20110606195904
+66.220.149.251 1 1 0 20110608190353
+190.142.249.163 1 1 26129 20110623115055
+208.54.36.142 1 7 405763 20110620232310
+200.12.45.79 5 30 488149 20110630094256
+72.252.1.139 6 6 452024 20110629092329
+72.252.101.192 1 6 392284 20110624174000
+201.216.149.138 2 2 26129 20110606133403
+208.80.194.31 1 1 4966 20110619213654
+201.216.150.97 8 14 3819285 20110629162320
+208.54.36.145 3 5 1806310 20110620232325
+206.53.144.163 0 3 340221 
+206.53.144.162 1 8 17464 20110627154950
+74.52.245.146 1 1 4966 20110608234658
+199.80.52.5 3 3 14172 20110625214907
+190.148.222.86 1 7 405763 20110622112019
+92.82.234.112 4 6 58656 20110603042415
+200.49.187.2 9 20 2867064 20110627163319
+200.119.173.77 2 2 0 20110615093514
+200.119.169.79 2 6 0 20110617171119
+201.216.146.27 2 5 936371 20110613150652
+70.59.126.252 1 5 378805 20110630081101
+184.173.109.2 0 1 8362 
+200.8.38.238 1 1 85272 20110630205058
+64.202.161.46 1 1 4492 20110607042437
+190.149.160.111 3 7 456970 20110612185604
+190.229.183.55 1 1 85272 20110624133127
+200.119.154.195 1 5 0 20110610122452
+208.80.194.36 2 2 9458 20110614024040
+190.118.115.64 1 1 26129 20110620155247
+64.202.161.41 1 1 4492 20110607042434
+208.80.194.28 3 3 13950 20110610150445
+190.148.6.82 2 4 922892 20110615141328
+200.49.162.244 8 14 1776015 20110603063741
+190.149.31.216 1 1 26129 20110627090236
+98.110.241.62 1 1 26129 20110627165818
+46.73.168.51 3 3 10044 20110620121136
+208.80.194.26 1 1 4966 20110625024855
+69.63.181.250 1 1 0 20110629072222
+150.70.75.38 8 8 266624 20110623083750
+208.80.194.35 1 1 4966 20110630132456
+208.80.194.29 3 3 14424 20110612065217
+200.49.191.59 1 1 26129 20110621171804
+67.202.19.207 1 1 4966 20110612070141
+150.70.64.194 2 2 1174131 20110623083242
+200.49.167.18 1 1 4492 20110603181138
+83.103.212.250 1 1 4966 20110616034839
+200.119.187.3 3 15 4966 20110609142144
+190.148.153.188 2 2 52258 20110619164203
+200.119.181.73 3 17 26958 20110613172929
+190.149.65.94 1 5 378805 20110624091946
+200.119.150.201 2 2 0 20110615183622
+190.30.84.198 1 1 26129 20110627114131
+195.54.163.122 1 1 4492 20110607070605
+190.131.89.41 1 1 85272 20110628073311
+150.70.172.102 7 9 73372 20110623083824
+69.140.112.189 1 6 392284 20110621202016
+190.104.7.11 1 1 85272 20110616185619
+216.230.133.69 1 4 4966 20110629104012
+200.119.151.159 1 1 0 20110616202746
+201.216.146.50 6 11 1495457 20110613200144
+208.80.194.33 1 1 4966 20110624121226
+200.119.191.219 2 4 26958 20110620205801
+200.119.180.196 1 2 13479 20110629205034
+190.149.229.82 9 26 2254462 20110603085749
+189.132.118.125 8 13 619418 20110614191913
+190.149.15.140 1 1 26129 20110629082439
+200.119.139.4 1 2 380265 20110607124043
+65.52.210.97 1 1 4492 20110605232635
+89.123.10.73 4 6 58656 20110605091517
+200.119.163.93 1 2 13479 20110630135523
+66.220.146.245 1 1 0 20110619194826
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20110601 110 206 29487648 9
+20110602 23 47 3348347 3
+20110603 71 129 10333677 9
+20110604 33 57 3239619 3
+20110605 26 47 4587043 4
+20110606 137 298 42523660 15
+20110607 69 140 13041400 11
+20110608 83 207 7978724 11
+20110609 16 40 2354659 4
+20110610 10 22 2704482 3
+20110611 1 1 0 1
+20110612 5 9 466902 3
+20110613 50 107 6621788 9
+20110614 18 30 1076338 4
+20110615 23 45 4708648 7
+20110616 58 82 4831755 8
+20110617 57 96 4169594 3
+20110618 51 89 6630167 4
+20110619 22 46 3679630 6
+20110620 25 46 4903821 8
+20110621 43 88 4226506 7
+20110622 37 75 7928825 4
+20110623 68 143 11317259 10
+20110624 23 53 4467274 8
+20110625 7 9 19138 4
+20110626 26 56 3393418 7
+20110627 36 76 3751549 9
+20110628 44 118 1626043 6
+20110629 72 156 7932469 9
+20110630 64 172 3137205 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 5
+5mn-15mn 21
+2mn-5mn 15
+30s-2mn 18
+15mn-30mn 9
+0s-30s 121
+30mn-1h 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 41
+/ 184 452110 133 84
+/app/index.php 121 7360366 0 3
+/bienesraices.gt/top.html 111 254934 0 1
+/bienesraices.gt/ 98 262942 30 2
+/bienesraices.gt/indexa.html 95 108698 1 1
+/bienesraices.gt/propiedades/casas.html 95 118998 0 4
+/bienesraices.gt/banner_top/banner.swf 91 13302273 1 18
+/bienesraices.gt/intro/intro.swf 86 49471954 0 9
+/Secc/000.swf 43 862257 13 15
+/bienesraices.gt/propiedades/apartamentos.html 37 64644 0 6
+/app/login.php 32 158880 1 6
+/Home.html 32 29146 3 1
+/Home.swf 29 1694968 0 1
+/bienesraices.gt/ingresovirtual/ingresosts.xls 29 3051008 0 6
+/bienesraices.gt/propiedades/terrenos.html 25 35280 1 4
+/app/templates/abc_proyectos_addComments.php 24 66215 0 1
+/bienesraices.gt/propiedades/fincas.html 22 31496 0 1
+/bienesraices.gt/propiedades/contactenos.html 19 31277 1 6
+/bienesraices.gt/propiedades/ofibodegas.html 18 35454 0 0
+/bienesraices.gt/propiedades/oficinas.html 14 27596 0 2
+/bienesraices.gt/ingresovirtual/ 13 0 2 1
+/bienesraices.gt/propiedades/vacacionales.html 13 25676 0 3
+/Secc/001a.swf 12 1023264 9 9
+/Secc/002.swf 9 618660 0 0
+/Secc/005.swf 9 58932 0 4
+/Secc/005.flv 1 9090217 0 1
+/Secc/001c.swf 1 35892 0 0
+/Secc/006.flv 1 13925188 0 1
+/Resources/DesinfeccionDePozos.pdf 1 20742 0 1
+/Resources/ElFiltroDeGravaNoEsUnfiltro.pdf 1 10087 0 0
+/Secc/003.swf 4 1267604 0 0
+/Secc/006.swf 5 536720 0 0
+/ingreso/ingresosts.xls 3 144384 2 2
+/Secc/001b.swf 1 25172 0 0
+/ingreso/ 1 0 0 0
+/Secc/001.flv 4 12651792 0 1
+/Secc/001e.swf 5 167390 0 1
+/Secc/001e1.swf 1 41490 0 0
+/app/templates/abc_proyectos_editComments.php 7 23301 0 0
+/Secc/001d.swf 3 16947 0 1
+/Secc/004.swf 8 62636 0 1
+END_SIDER

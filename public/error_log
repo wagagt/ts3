@@ -1,0 +1,68 @@
+[11-Feb-2016 20:07:54 UTC] PHP Warning:  require(/home/tierra/public_html/proyectos/../bootstrap/autoload.php): failed to open stream: No such file or directory in /home/tierra/public_html/proyectos/index.php on line 21
+[11-Feb-2016 20:07:54 UTC] PHP Fatal error:  require(): Failed opening required '/home/tierra/public_html/proyectos/../bootstrap/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tierra/public_html/proyectos/index.php on line 21
+[11-Feb-2016 20:07:59 UTC] PHP Warning:  require(/home/tierra/public_html/proyectos/../bootstrap/autoload.php): failed to open stream: No such file or directory in /home/tierra/public_html/proyectos/index.php on line 21
+[11-Feb-2016 20:07:59 UTC] PHP Fatal error:  require(): Failed opening required '/home/tierra/public_html/proyectos/../bootstrap/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tierra/public_html/proyectos/index.php on line 21
+[11-Feb-2016 20:09:29 UTC] PHP Warning:  require(/home/tierra/public_html/proyectos/../bootstrap/autoload.php): failed to open stream: No such file or directory in /home/tierra/public_html/proyectos/index.php on line 21
+[11-Feb-2016 20:09:29 UTC] PHP Fatal error:  require(): Failed opening required '/home/tierra/public_html/proyectos/../bootstrap/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tierra/public_html/proyectos/index.php on line 21
+[11-Feb-2016 20:09:32 UTC] PHP Warning:  require(/home/tierra/public_html/proyectos/../bootstrap/autoload.php): failed to open stream: No such file or directory in /home/tierra/public_html/proyectos/index.php on line 21
+[11-Feb-2016 20:09:32 UTC] PHP Fatal error:  require(): Failed opening required '/home/tierra/public_html/proyectos/../bootstrap/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tierra/public_html/proyectos/index.php on line 21
+[11-Feb-2016 20:10:01 UTC] PHP Warning:  require(/home/tierra/public_html/proyectos/../bootstrap/autoload.php): failed to open stream: No such file or directory in /home/tierra/public_html/proyectos/index.php on line 21
+[11-Feb-2016 20:10:01 UTC] PHP Fatal error:  require(): Failed opening required '/home/tierra/public_html/proyectos/../bootstrap/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tierra/public_html/proyectos/index.php on line 21
+[11-Feb-2016 20:11:38 UTC] PHP Warning:  require(/home/tierra/public_html/proyectos/public/../bootstrap/autoload.php): failed to open stream: No such file or directory in /home/tierra/public_html/proyectos/public/index.php on line 21
+[11-Feb-2016 20:11:38 UTC] PHP Fatal error:  require(): Failed opening required '/home/tierra/public_html/proyectos/public/../bootstrap/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tierra/public_html/proyectos/public/index.php on line 21
+[11-Feb-2016 20:12:43 UTC] PHP Warning:  require(/home/tierra/public_html/proyectos/public/../bootstrap/autoload.php): failed to open stream: No such file or directory in /home/tierra/public_html/proyectos/public/index.php on line 21
+[11-Feb-2016 20:12:43 UTC] PHP Fatal error:  require(): Failed opening required '/home/tierra/public_html/proyectos/public/../bootstrap/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tierra/public_html/proyectos/public/index.php on line 21
+[11-Feb-2016 20:12:45 UTC] PHP Warning:  require(/home/tierra/public_html/proyectos/public/../bootstrap/autoload.php): failed to open stream: No such file or directory in /home/tierra/public_html/proyectos/public/index.php on line 21
+[11-Feb-2016 20:12:45 UTC] PHP Fatal error:  require(): Failed opening required '/home/tierra/public_html/proyectos/public/../bootstrap/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tierra/public_html/proyectos/public/index.php on line 21
+[11-Feb-2016 20:12:46 UTC] PHP Warning:  require(/home/tierra/public_html/proyectos/public/../bootstrap/autoload.php): failed to open stream: No such file or directory in /home/tierra/public_html/proyectos/public/index.php on line 21
+[11-Feb-2016 20:12:46 UTC] PHP Fatal error:  require(): Failed opening required '/home/tierra/public_html/proyectos/public/../bootstrap/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tierra/public_html/proyectos/public/index.php on line 21
+[11-Feb-2016 20:12:48 UTC] PHP Warning:  require(/home/tierra/public_html/proyectos/public/../bootstrap/autoload.php): failed to open stream: No such file or directory in /home/tierra/public_html/proyectos/public/index.php on line 21
+[11-Feb-2016 20:12:48 UTC] PHP Fatal error:  require(): Failed opening required '/home/tierra/public_html/proyectos/public/../bootstrap/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tierra/public_html/proyectos/public/index.php on line 21
+[11-Feb-2016 20:12:51 UTC] PHP Warning:  require(/home/tierra/public_html/proyectos/public/../bootstrap/autoload.php): failed to open stream: No such file or directory in /home/tierra/public_html/proyectos/public/index.php on line 21
+[11-Feb-2016 20:12:51 UTC] PHP Fatal error:  require(): Failed opening required '/home/tierra/public_html/proyectos/public/../bootstrap/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tierra/public_html/proyectos/public/index.php on line 21
+[11-Feb-2016 20:12:54 UTC] PHP Warning:  require(/home/tierra/public_html/proyectos/public/../bootstrap/autoload.php): failed to open stream: No such file or directory in /home/tierra/public_html/proyectos/public/index.php on line 21
+[11-Feb-2016 20:12:54 UTC] PHP Fatal error:  require(): Failed opening required '/home/tierra/public_html/proyectos/public/../bootstrap/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tierra/public_html/proyectos/public/index.php on line 21
+[11-Feb-2016 20:12:57 UTC] PHP Warning:  require(/home/tierra/public_html/proyectos/public/../bootstrap/autoload.php): failed to open stream: No such file or directory in /home/tierra/public_html/proyectos/public/index.php on line 21
+[11-Feb-2016 20:12:57 UTC] PHP Fatal error:  require(): Failed opening required '/home/tierra/public_html/proyectos/public/../bootstrap/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tierra/public_html/proyectos/public/index.php on line 21
+[11-Feb-2016 20:12:57 UTC] PHP Warning:  require(/home/tierra/public_html/proyectos/public/../bootstrap/autoload.php): failed to open stream: No such file or directory in /home/tierra/public_html/proyectos/public/index.php on line 21
+[11-Feb-2016 20:12:57 UTC] PHP Fatal error:  require(): Failed opening required '/home/tierra/public_html/proyectos/public/../bootstrap/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tierra/public_html/proyectos/public/index.php on line 21
+[11-Feb-2016 21:05:50 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class log does not exist' in /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('log')
+#1 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php(659): Illuminate\Container\Container->build('log', Array)
+#2 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(644): Illuminate\Container\Container->make('log', Array)
+#3 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php(890): Illuminate\Foundation\Application->make('Psr\\Log\\LoggerI...')
+#4 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php(851): Illuminate\Container\Container->resolveClass(Object(ReflectionParameter))
+#5 / in /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[11-Feb-2016 21:06:02 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class log does not exist' in /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('log')
+#1 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php(659): Illuminate\Container\Container->build('log', Array)
+#2 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(644): Illuminate\Container\Container->make('log', Array)
+#3 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php(890): Illuminate\Foundation\Application->make('Psr\\Log\\LoggerI...')
+#4 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php(851): Illuminate\Container\Container->resolveClass(Object(ReflectionParameter))
+#5 / in /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[11-Feb-2016 21:06:16 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class log does not exist' in /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('log')
+#1 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php(659): Illuminate\Container\Container->build('log', Array)
+#2 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(644): Illuminate\Container\Container->make('log', Array)
+#3 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php(890): Illuminate\Foundation\Application->make('Psr\\Log\\LoggerI...')
+#4 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php(851): Illuminate\Container\Container->resolveClass(Object(ReflectionParameter))
+#5 / in /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[11-Feb-2016 21:06:17 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class log does not exist' in /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('log')
+#1 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php(659): Illuminate\Container\Container->build('log', Array)
+#2 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(644): Illuminate\Container\Container->make('log', Array)
+#3 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php(890): Illuminate\Foundation\Application->make('Psr\\Log\\LoggerI...')
+#4 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php(851): Illuminate\Container\Container->resolveClass(Object(ReflectionParameter))
+#5 / in /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[11-Feb-2016 21:06:22 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class log does not exist' in /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('log')
+#1 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php(659): Illuminate\Container\Container->build('log', Array)
+#2 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(644): Illuminate\Container\Container->make('log', Array)
+#3 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php(890): Illuminate\Foundation\Application->make('Psr\\Log\\LoggerI...')
+#4 /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php(851): Illuminate\Container\Container->resolveClass(Object(ReflectionParameter))
+#5 / in /home/tierra/public_html/proyectos/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
