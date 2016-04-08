@@ -27,7 +27,7 @@
                         <h4><a href="#" class="btn btn-final"> Terminado  <i class="fa fa-stop"></i></a></h4>
                     </div>
             </div>
-            <table class="table table-striped table-bordered">
+            <table class="table table-bordered">
                 <thead>
                     <th class="text-center">Nombre</th>
                     <th class="text-center">Profundidad</th>
@@ -41,10 +41,8 @@
                 </thead>
 
                 <tbody>
-
                     @foreach($proyectos as $proyectos)
-                    <tr>
-                        <?php
+                    <?php
                           $status = $proyectos->id_estado;
                           switch($status)
                           {
@@ -62,9 +60,9 @@
                                     break;
                           }
                             
-                        ?>
-                        
-                        <td class="{!! $colors !!} td-style-proy"><a href="proyectos/{!! $proyectos->id !!}">{!! $proyectos->nombre !!} </a></td>
+                    ?>
+                    <tr>
+                        <td class="{!! $colors !!} td-style-proy"><a href="proyectos/{!! $proyectos->id !!}"><strong>{!! $proyectos->nombre !!}</strong> </a></td>
                         <td class="text-center {!! $colors !!}">{!! $proyectos->profundidad !!}(pies)</td>
                         <td class="{!! $colors !!}">{!! $proyectos->perforado !!}</td>
                         <td class="{!! $colors !!}">{!! $proyectos->maquina !!}</td>
@@ -72,18 +70,24 @@
                         <td class="text-center {!! $colors !!}">{!! $proyectos->diametro !!} pulg.</td>
                         <td class="{!! $colors !!}">{!! $proyectos->cliente->nombre !!}</td>
                         <td class="text-justify {!! $colors !!}">{!! $proyectos->estado->descripcion !!}</td>
-                        <td class="td-style-projects text-center">
-                            <a href="proyectos/{!! $proyectos->id !!}" class="btn btn-info"> <i class="fa fa-comments-o"> Comentarios </i></a>
-                            <a href="{!! route('proyectos.edit', [$proyectos->id]) !!}" class="btn btn-warning"><i class="fa fa-pencil-square-o"> Editar</i></a>
-                            <a href="{!! route('proyectos.delete', [$proyectos->id]) !!}" class="btn btn-danger" onclick="return confirm('Está seguro de eliminar éste registro - Proyectos?')"><i class="fa fa-trash"> Elimiar</i></a>
+                        <td rowspan="2" class="text-center" style="vertical-align:middle">
+                            <a href="proyectos/{!! $proyectos->id !!}" class="btn btn-info"> 
+                                <i class="fa fa-comments-o fa-2x"></i>
+                            </a>
+                            <a href="{!! route('proyectos.edit', [$proyectos->id]) !!}" class="btn btn-warning">
+                                <i class="fa fa-pencil-square-o fa-2x"></i>
+                            </a>
+                            <a href="{!! route('proyectos.delete', [$proyectos->id]) !!}" class="btn btn-danger" onclick="return confirm('Está seguro de eliminar éste registro - Proyectos?')">
+                                <i class="fa fa-trash fa-2x"></i>
+                            </a>
                         </td>
                     </tr>
                     <tr>
                         <td class="text-right {!! $colors !!}" >Observaciones</td>
                         <td class="text-left {!! $colors !!}" colspan="7" >{!! $proyectos->observaciones !!}</td>
+                        <td></td>
                     </tr>
-                    <tr><td colspan="9"><td></tr>
-                        
+                    <tr><td class="project-separator"></td>
                     @endforeach
                 </tbody>
             </table>

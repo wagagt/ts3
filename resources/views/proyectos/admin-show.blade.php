@@ -28,7 +28,7 @@
     </div>
 </div>
 
-    <!-- MODAL -->
+    <!-- MODAL ADD-->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -38,7 +38,7 @@
           </div>
           <div class="modal-body"> 
             {!! Form::open(['route' => 'comentarios.store']) !!}
-                            <div class="row">
+                <div class="row">
                     <div class="form-group col-sm-4 col-lg-6">
                      {!! Form::label('fecha', 'Fecha (mm-dd-yy):') !!}
                         {!! Form::input('date', 'fecha', date('m-d-Y'), ['class' => 'form-control', 'id' => 'fecha']) !!}
@@ -86,11 +86,12 @@
         </div>
       </div>
     </div>
-    <!-- MODAL -->       
+    <!-- MODAL ADD-->       
     
     
-    <!-- MODAL EDIT -->
-    <div class="modal fade" id="myModalEdit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <!-- MODAL DELETE -->
+    
+    <div class="modal fade" id="myModalDelete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -98,7 +99,6 @@
             <h4 class="modal-title" id="myModalLabel"> <p class=></p> <i class="fa fa-trash"></i> Eliminar Comentario:  <strong></strong></h4>
           </div>
           <div class="modal-body"> 
-            {!! Form::open(['route' => 'comentarios.destroy', 'method' => 'delete']) !!}
                 <!--- Comentario Field --->
                 <div class="row">
                     <div class="form-group col-sm-6 col-lg-12">
@@ -109,35 +109,39 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
-            <button type="submit" class="btn btn-danger">Eliminar Comentario</button>
+            <button type="submit" class="btn btn-danger" id="deleteButton">Eliminar Comentario</button>
           </div>
-          {!! Form::hidden('comentario_id', '', array('id' => 'comentario_id')) !!}
           {!! Form::hidden('proyecto_id', $proyecto->id, array('id' => 'proyecto_id')) !!}
-          {!! Form::close() !!}
+          {!! Form::hidden('comentario_id_del', '', array('id' => 'comentario_id_del')) !!}
         </div>
       </div>
     </div>
-    <!-- MODAL EDIT-->  
+    {!! Form::open(['route' => ['comentarios.destroy', ':COMENTARIO_ID'], 'method' => 'delete', 'id' => 'deleteComment']) !!}
+    {!! Form::close() !!}
+    <!-- MODAL DELETE--> 
+        
 @endsection
 
 @section('script')
 
 <script>
 $(document).ready(function () {
-    $('.btn-app').click(function (){
-        $('#myModalEdit').modal('toggle');
-        
-        // get id
-        comentario_id = $(this).attr("data-id");
 
-        //get text
-        texto = $("#comentario_"+comentario_id).text();
-
-        // load in hidden form fields
-        $('#comentario_id').val(comentario_id);
-        $('#texto_todel').val(texto);
-        
-        }); 
+    $('.btn-danger').click(function (e){
+        e.preventDefault();
+            var row = $(this).parents('tr');
+            var comentario_id = row.data("id");
+            texto = $("#comentario_"+comentario_id).text(); // + " || id: "+comentario_id;
+           if (confirm('Seguro que desea eliminar el comentario "'+texto+'" ?')) {
+            var form = $('#deleteComment');
+            var url = form.attr('action').replace(':COMENTARIO_ID', comentario_id);
+            var data = form.serialize();
+            row.fadeOut();               
+            $.post(url, data, function (result) {
+               alert(result);
+            });
+        }
+    }); 
 });
 </script>
 @endsection

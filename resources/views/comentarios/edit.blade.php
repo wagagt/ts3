@@ -12,3 +12,19 @@
     {!! Form::close() !!}
 </div>
 @endsection
+
+
+@section('script')
+
+<script>
+$(document).ready(function () {
+
+    $('#editBack').click(function (e){
+        e.preventDefault();
+        history.back(1);
+    }); 
+});
+</script>
+@endsection
+
+

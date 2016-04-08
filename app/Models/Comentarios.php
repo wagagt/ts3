@@ -37,5 +37,10 @@ class Comentarios extends Model
 		$this->attributes['fecha'] =  Carbon::createFromFormat('Y-m-d', $date);
 	}
 
+	public function getFechaAttribute($date){
+		return date('d-m-Y', strtotime($this->attributes['fecha']));
+		//return date('Y-m-d', strtotime($this->attributes['fecha']));
+	}
+
 	
 }
