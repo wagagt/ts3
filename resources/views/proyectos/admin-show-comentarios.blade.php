@@ -23,18 +23,23 @@
                     <?php 
                         $profundidad_final=$profundidad_final+$comentario->avance;
                     ?>
-                    <tr>
-                        <td>
-                        {{ date('d/m/Y',strtotime($comentario->fecha)) }}
-                        </td>
+                    <tr data-id="{{$comentario->id}}">
+                        <td>{{ date('d/m/Y',strtotime($comentario->fecha)) }}</td>
                         <td>{{$comentario->horas}}</td>
                         <td>{{$comentario->avance}}</td>
                         <td>{{$profundidad_inicial}}</td>
                         <td>{{$profundidad_final}}</td>
                         <td id="comentario_{{$comentario->id}}">{{$comentario->comentario}}</td>
-                        <td>
-                            <a id="modalDel" class="btn btn-app" data-id="{{$comentario->id}}">
-                            <i class="fa fa-trash"></i></a>
+                        <td width="100px" style="align:center" >
+                            
+                                    <a href="/comentarios/{{$comentario->id}}/edit" class="btn btn-warning">
+                                        <i class="fa fa-pencil-square-o fa-1x"></i>
+                                    </a>
+                            
+                                    <a id="modalDel" class="btn btn-danger" href="#" style="float:right">
+                                        <i class="fa fa-trash fa-1x"></i>
+                                    </a>
+                            
                         </td>
                     </tr>
                     <?php 
