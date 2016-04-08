@@ -150,6 +150,7 @@ return [
 		'Laracasts\Flash\FlashServiceProvider',
 		'Mitul\Generator\GeneratorServiceProvider',
 		'Acacha\AdminLTETemplateLaravel\app\Providers\AdminLTETemplateServiceProvider',
+		'Barryvdh\DomPDF\ServiceProvider'
 
 	],
 
@@ -198,9 +199,10 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
-		'Form'  => 'Illuminate\Html\FormFacade',
-		'HTML'  => 'Illuminate\Html\HtmlFacade',
-		'Flash' => 'Laracasts\Flash\Flash'
+		'Form'  	=> 'Illuminate\Html\FormFacade',
+		'HTML'		=> 'Illuminate\Html\HtmlFacade',
+		'Flash'		=> 'Laracasts\Flash\Flash',
+		'PDF'		=> 'Barryvdh\DomPDF\Facade',
 
 	],
 
