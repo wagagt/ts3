@@ -23,9 +23,8 @@ Route::controllers([
 ]);
 
 Route::group(['middleware' => 'auth'], function() {
-
+  
     Route::resource('clientes', 'ClientesController');
-
     Route::get('clientes/{id}/delete', [
         'as' => 'clientes.delete',
         'uses' => 'ClientesController@destroy',
@@ -33,7 +32,6 @@ Route::group(['middleware' => 'auth'], function() {
 
 
     Route::resource('roles', 'RolesController');
-
     Route::get('roles/{id}/delete', [
         'as' => 'roles.delete',
         'uses' => 'RolesController@destroy',
@@ -41,21 +39,18 @@ Route::group(['middleware' => 'auth'], function() {
 
 
     Route::resource('estados', 'EstadosController');
-
     Route::get('estados/{id}/delete', [
         'as' => 'estados.delete',
         'uses' => 'EstadosController@destroy',
     ]);
 
     Route::resource('usuarios', 'UsuariosController');
-
     Route::get('usuarios/{id}/delete', [
         'as' => 'usuarios.delete',
         'uses' => 'UsuariosController@destroy',
     ]);
 
     Route::resource('users', 'UsersController');
-
     Route::get('users/{id}/delete', [
         'as' => 'users.delete',
         'uses' => 'UsersController@destroy',
@@ -63,7 +58,10 @@ Route::group(['middleware' => 'auth'], function() {
 
 
     Route::resource('proyectos', 'ProyectosController');
-
+    Route::get('proyectos/{id}/pdf', [
+        'as' => 'proyectos.pdf',
+        'uses'=> 'PdfController@proyecto',
+        ]);
     Route::get('proyectos/{id}/delete', [
         'as' => 'proyectos.delete',
         'uses' => 'ProyectosController@destroy',
@@ -71,7 +69,6 @@ Route::group(['middleware' => 'auth'], function() {
 
 
     Route::resource('comentarios', 'ComentariosController');
-
     Route::get('comentarios/{id}/delete', [
         'as' => 'comentarios.delete',
         'uses' => 'ComentariosController@destroy',
@@ -79,7 +76,6 @@ Route::group(['middleware' => 'auth'], function() {
 
 
     Route::resource('bitacoras', 'BitacoraController');
-
     Route::get('bitacoras/{id}/delete', [
         'as' => 'bitacoras.delete',
         'uses' => 'BitacoraController@destroy',

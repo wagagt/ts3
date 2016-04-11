@@ -72,13 +72,16 @@
                         <td class="text-justify {!! $colors !!}">{!! $proyectos->estado->descripcion !!}</td>
                         <td rowspan="2" class="text-center" style="vertical-align:middle">
                             <a href="proyectos/{!! $proyectos->id !!}" class="btn btn-info"> 
-                                <i class="fa fa-comments-o fa-2x"></i>
+                                <i class="fa fa-comments-o fa-1x"></i>
                             </a>
                             <a href="{!! route('proyectos.edit', [$proyectos->id]) !!}" class="btn btn-warning">
-                                <i class="fa fa-pencil-square-o fa-2x"></i>
+                                <i class="fa fa-pencil-square-o fa-1x"></i>
                             </a>
                             <a href="{!! route('proyectos.delete', [$proyectos->id]) !!}" class="btn btn-danger" onclick="return confirm('Está seguro de eliminar éste registro - Proyectos?')">
-                                <i class="fa fa-trash fa-2x"></i>
+                                <i class="fa fa-trash fa-1x"></i>
+                            </a>
+                            <a href="{!! route('proyectos.pdf', [$proyectos->id]) !!}" class="btn btn-success" >
+                                <i class="fa fa-file-pdf-o fa-1x"></i>
                             </a>
                         </td>
                     </tr>

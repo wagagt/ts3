@@ -132,13 +132,14 @@ $(document).ready(function () {
             var row = $(this).parents('tr');
             var comentario_id = row.data("id");
             texto = $("#comentario_"+comentario_id).text(); // + " || id: "+comentario_id;
-           if (confirm('Seguro que desea eliminar el comentario "'+texto+'" ?')) {
+            if (confirm('Seguro que desea eliminar el comentario "'+texto+'" ?')) {
             var form = $('#deleteComment');
             var url = form.attr('action').replace(':COMENTARIO_ID', comentario_id);
             var data = form.serialize();
+            //alert(url + ' - ' + data);
             row.fadeOut();               
             $.post(url, data, function (result) {
-               alert(result);
+               //alert(result);
             });
         }
     }); 

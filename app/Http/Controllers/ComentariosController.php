@@ -95,8 +95,10 @@ class ComentariosController extends AppBaseController
 
 	public function destroy($id, Request $request)
 	{
-		 $comentarios = $this->comentariosRepository->findComentariosById($id);
-		$message='Comentario ['.id.'] borrado exitosamente.';
+		//dd($id);
+		$comentarios = $this->comentariosRepository->findComentariosById($id);
+		$message='Comentario ['.$id.'] borrado exitosamente.';
+		$comentarios->delete();
 		return $message;
 	}
 }
